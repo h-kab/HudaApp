@@ -4,7 +4,8 @@ import MainNavigation from "./route/nav";
 
 
 
-const App = () => { 
+const App = () => {
+
   return (
     <View style={styles.container} >
       <MainNavigation />
@@ -19,10 +20,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'white',
-    // justifyContent: 'center',
-    // alignItems: 'center' , 
   },
 
 })
 
-export default App; 
+export default App;

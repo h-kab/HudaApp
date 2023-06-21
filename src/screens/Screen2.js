@@ -1,10 +1,13 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
-import React from 'react'
+import React, { useContext } from 'react'
 import Screen1 from './Screen1'
+import HudaAppContext from '../../store/hudaAppContext'
 
 const Screen2 = (props) => {
+    const { setScreen2_c, scree2_c } = useContext(HudaAppContext)
 
-    const goback = ()=> {
+    const goback = () => {
+        setScreen2_c(scree2_c + 1)
         props.navigation.goBack()
     }
 

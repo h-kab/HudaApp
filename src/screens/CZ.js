@@ -19,11 +19,12 @@ const CZ = () => {
                 <Text style={styles.title}>CODE ZONE</Text>
                 <Text style={styles.text2}> "مرحبا يا اصدقاء! هل تحبون البرمجه؟</Text>
                 <Text style={styles.text2} > لدي بعض المهام لكم!"</Text>
-                <View style={{ flexDirection: "row-reverse" }}>
+                <View style={{ flexDirection: "row-reverse" , alignItems:'center' }}>
                     < Image source={Images.robot()} style={styles.robot} />
-                    <Text style={styles.border1} >غيروا لون الشاشه الى اللون الازرق. </Text>
+                    
+                    <Text style={styles.taskBubble} >اسم الكليه غير مرئي!اجعلوه مرئياً. </Text>
                 </View>
-                <Text style={styles.taskBubble} >اسم الكليه غير مرئي!اجعلوه مرئياً.</Text>
+                <Text style={styles.taskBubble} >غيروا لون الشاشه الى اللون الازرق.</Text>
                 <Text style={styles.taskBubble} >غيرو لون النص الذي تقرئوه الان الى اللون الازرق.</Text>
                 <Text style={styles.taskBubble} >لونو خلفيه بند المهمه التي تنهيها باللون الاخضر.</Text>
                 <Text style={styles.taskBubble} >لونو خلفيه بند المهمه التي تنهيها باللون الاخضر.</Text>
@@ -44,18 +45,14 @@ export default CZ
 const styles = StyleSheet.create({
     View: {
         flex: 1,
-        backgroundColor: "#1e90ff",
-
-
+        backgroundColor:'#ffff'
     },
     title: {
         fontSize: 40,
         marginLeft: 60,
         marginTop: 20,
         fontFamily: "Arial Rounded MT Bold",
-        color: "blue",
-
-
+        color: "#ffff",
     },
     img: {
         height: "50%",
@@ -80,30 +77,13 @@ const styles = StyleSheet.create({
         textAlign: 'right'
     },
 
-    border1: {
-        backgroundColor: 'lightgreen',
-        fontSize: 15,
-        borderWidth: 1,
-        height: 110,
-        width: 110,
-        marginLeft: 25,
-        color: 'blue',
-        borderColor: "white",
-        marginTop: 50,
-        marginRight: 15,
-        padding: 20,
-        borderRadius: 40,
-        overflow: 'hidden',
 
-    },
     taskBubble: {
-        backgroundColor: 'lightgreen',
         fontSize: 15,
         borderWidth: 2,
         height: 110,
         width: 130,
-        marginLeft: 70,
-        color: 'blue',
+        marginLeft: 60,
         borderColor: "white",
         marginTop: 10,
         marginRight: 15,

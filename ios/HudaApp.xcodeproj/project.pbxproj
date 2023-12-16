@@ -12,6 +12,367 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		51DCABEC2A7C299700686B4F /* AppleSDGothicNeo.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA822A7C299600686B4F /* AppleSDGothicNeo.ttc */; };
+		51DCABED2A7C299700686B4F /* Menlo.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA832A7C299600686B4F /* Menlo.ttc */; };
+		51DCABEE2A7C299700686B4F /* STHeiti Medium.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA842A7C299600686B4F /* STHeiti Medium.ttc */; };
+		51DCABEF2A7C299700686B4F /* Symbol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA852A7C299600686B4F /* Symbol.ttf */; };
+		51DCABF02A7C299700686B4F /* Geneva.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA862A7C299600686B4F /* Geneva.ttf */; };
+		51DCABF12A7C299700686B4F /* Hiragino Sans GB.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA872A7C299600686B4F /* Hiragino Sans GB.ttc */; };
+		51DCABF22A7C299700686B4F /* LastResort.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA882A7C299600686B4F /* LastResort.otf */; };
+		51DCABF32A7C299700686B4F /* NotoSerifMyanmar.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA892A7C299600686B4F /* NotoSerifMyanmar.ttc */; };
+		51DCABF42A7C299700686B4F /* HelveticaNeue.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA8A2A7C299600686B4F /* HelveticaNeue.ttc */; };
+		51DCABF52A7C299700686B4F /* SFNSMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA8B2A7C299600686B4F /* SFNSMono.ttf */; };
+		51DCABF62A7C299700686B4F /* ヒラギノ角ゴシック W8.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA8C2A7C299600686B4F /* ヒラギノ角ゴシック W8.ttc */; };
+		51DCABF72A7C299700686B4F /* PingFang.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA8D2A7C299600686B4F /* PingFang.ttc */; };
+		51DCABF82A7C299700686B4F /* Noteworthy.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA8E2A7C299600686B4F /* Noteworthy.ttc */; };
+		51DCABF92A7C299700686B4F /* NotoSansOriya.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA8F2A7C299600686B4F /* NotoSansOriya.ttc */; };
+		51DCABFA2A7C299700686B4F /* ヒラギノ角ゴシック W9.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA902A7C299600686B4F /* ヒラギノ角ゴシック W9.ttc */; };
+		51DCABFB2A7C299700686B4F /* ThonburiUI.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA912A7C299600686B4F /* ThonburiUI.ttc */; };
+		51DCABFC2A7C299700686B4F /* Optima.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA922A7C299600686B4F /* Optima.ttc */; };
+		51DCABFD2A7C299700686B4F /* ZapfDingbats.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA932A7C299600686B4F /* ZapfDingbats.ttf */; };
+		51DCABFE2A7C299700686B4F /* Apple Braille.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA942A7C299600686B4F /* Apple Braille.ttf */; };
+		51DCABFF2A7C299700686B4F /* Avenir Next Condensed.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA952A7C299600686B4F /* Avenir Next Condensed.ttc */; };
+		51DCAC002A7C299700686B4F /* LucidaGrande.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA962A7C299600686B4F /* LucidaGrande.ttc */; };
+		51DCAC012A7C299700686B4F /* Courier.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA972A7C299600686B4F /* Courier.ttc */; };
+		51DCAC022A7C299700686B4F /* SFCompact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA982A7C299600686B4F /* SFCompact.ttf */; };
+		51DCAC032A7C299700686B4F /* Apple Braille Outline 6 Dot.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA992A7C299600686B4F /* Apple Braille Outline 6 Dot.ttf */; };
+		51DCAC042A7C299700686B4F /* KohinoorTelugu.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA9A2A7C299600686B4F /* KohinoorTelugu.ttc */; };
+		51DCAC052A7C299700686B4F /* Apple Braille Pinpoint 6 Dot.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA9B2A7C299600686B4F /* Apple Braille Pinpoint 6 Dot.ttf */; };
+		51DCAC062A7C299700686B4F /* MuktaMahee.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA9C2A7C299600686B4F /* MuktaMahee.ttc */; };
+		51DCAC072A7C299700686B4F /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA9D2A7C299600686B4F /* NewYork.ttf */; };
+		51DCAC082A7C299700686B4F /* SFNSMonoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA9E2A7C299600686B4F /* SFNSMonoItalic.ttf */; };
+		51DCAC092A7C299700686B4F /* SFNS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAA9F2A7C299600686B4F /* SFNS.ttf */; };
+		51DCAC0A2A7C299700686B4F /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA02A7C299600686B4F /* Avenir.ttc */; };
+		51DCAC0B2A7C299700686B4F /* Kohinoor.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA12A7C299600686B4F /* Kohinoor.ttc */; };
+		51DCAC0C2A7C299700686B4F /* NotoSansMyanmar.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA22A7C299600686B4F /* NotoSansMyanmar.ttc */; };
+		51DCAC0D2A7C299700686B4F /* ヒラギノ明朝 ProN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA32A7C299600686B4F /* ヒラギノ明朝 ProN.ttc */; };
+		51DCAC0E2A7C299700686B4F /* NotoSansLepcha-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA52A7C299600686B4F /* NotoSansLepcha-Regular.ttf */; };
+		51DCAC0F2A7C299700686B4F /* AlBayan.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA62A7C299600686B4F /* AlBayan.ttc */; };
+		51DCAC102A7C299700686B4F /* Webdings.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA72A7C299600686B4F /* Webdings.ttf */; };
+		51DCAC112A7C299700686B4F /* NotoSansMandaic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA82A7C299600686B4F /* NotoSansMandaic-Regular.ttf */; };
+		51DCAC122A7C299700686B4F /* Rockwell.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAA92A7C299600686B4F /* Rockwell.ttc */; };
+		51DCAC132A7C299700686B4F /* Zapfino.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAAA2A7C299600686B4F /* Zapfino.ttf */; };
+		51DCAC142A7C299700686B4F /* NotoSansCaucasianAlbanian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAAB2A7C299600686B4F /* NotoSansCaucasianAlbanian-Regular.ttf */; };
+		51DCAC152A7C299700686B4F /* Trebuchet MS Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAAC2A7C299600686B4F /* Trebuchet MS Italic.ttf */; };
+		51DCAC162A7C299700686B4F /* NotoSansOldHungarian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAAD2A7C299600686B4F /* NotoSansOldHungarian-Regular.ttf */; };
+		51DCAC172A7C299700686B4F /* Georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAAE2A7C299600686B4F /* Georgia.ttf */; };
+		51DCAC182A7C299700686B4F /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAAF2A7C299600686B4F /* Savoye LET.ttc */; };
+		51DCAC192A7C299700686B4F /* PTSans.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB02A7C299600686B4F /* PTSans.ttc */; };
+		51DCAC1A2A7C299700686B4F /* NotoSansSaurashtra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB12A7C299600686B4F /* NotoSansSaurashtra-Regular.ttf */; };
+		51DCAC1B2A7C299700686B4F /* NotoSansMultani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB22A7C299600686B4F /* NotoSansMultani-Regular.ttf */; };
+		51DCAC1C2A7C299700686B4F /* NotoSansHatran-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB32A7C299600686B4F /* NotoSansHatran-Regular.ttf */; };
+		51DCAC1D2A7C299700686B4F /* Verdana Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB42A7C299600686B4F /* Verdana Bold.ttf */; };
+		51DCAC1E2A7C299700686B4F /* Bodoni 72 Smallcaps Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB52A7C299600686B4F /* Bodoni 72 Smallcaps Book.ttf */; };
+		51DCAC1F2A7C299700686B4F /* NotoSansInscriptionalPahlavi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB62A7C299600686B4F /* NotoSansInscriptionalPahlavi-Regular.ttf */; };
+		51DCAC202A7C299700686B4F /* NotoSansHanunoo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB72A7C299600686B4F /* NotoSansHanunoo-Regular.ttf */; };
+		51DCAC212A7C299700686B4F /* Times New Roman Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB82A7C299600686B4F /* Times New Roman Bold Italic.ttf */; };
+		51DCAC222A7C299700686B4F /* SukhumvitSet.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAB92A7C299600686B4F /* SukhumvitSet.ttc */; };
+		51DCAC232A7C299700686B4F /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAABA2A7C299600686B4F /* Silom.ttf */; };
+		51DCAC242A7C299700686B4F /* NotoSansBhaiksuki-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAABB2A7C299600686B4F /* NotoSansBhaiksuki-Regular.ttf */; };
+		51DCAC252A7C299700686B4F /* NotoSansCham-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAABC2A7C299600686B4F /* NotoSansCham-Regular.ttf */; };
+		51DCAC262A7C299700686B4F /* NotoSansManichaean-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAABD2A7C299600686B4F /* NotoSansManichaean-Regular.ttf */; };
+		51DCAC272A7C299700686B4F /* NotoSansSiddham-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAABE2A7C299600686B4F /* NotoSansSiddham-Regular.ttf */; };
+		51DCAC282A7C299700686B4F /* NotoSansNKo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAABF2A7C299600686B4F /* NotoSansNKo-Regular.ttf */; };
+		51DCAC292A7C299700686B4F /* Kefa.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC02A7C299600686B4F /* Kefa.ttc */; };
+		51DCAC2A2A7C299700686B4F /* Verdana Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC12A7C299600686B4F /* Verdana Italic.ttf */; };
+		51DCAC2B2A7C299700686B4F /* NotoSansKayahLi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC22A7C299600686B4F /* NotoSansKayahLi-Regular.ttf */; };
+		51DCAC2C2A7C299700686B4F /* NotoSansOsage-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC32A7C299600686B4F /* NotoSansOsage-Regular.ttf */; };
+		51DCAC2D2A7C299700686B4F /* Nadeem.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC42A7C299600686B4F /* Nadeem.ttc */; };
+		51DCAC2E2A7C299700686B4F /* NotoSansAdlam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC52A7C299600686B4F /* NotoSansAdlam-Regular.ttf */; };
+		51DCAC2F2A7C299700686B4F /* KufiStandardGK.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC62A7C299600686B4F /* KufiStandardGK.ttc */; };
+		51DCAC302A7C299700686B4F /* NotoSansPahawhHmong-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC72A7C299600686B4F /* NotoSansPahawhHmong-Regular.ttf */; };
+		51DCAC312A7C299700686B4F /* Times New Roman Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC82A7C299600686B4F /* Times New Roman Italic.ttf */; };
+		51DCAC322A7C299700686B4F /* NotoSansMro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAC92A7C299600686B4F /* NotoSansMro-Regular.ttf */; };
+		51DCAC332A7C299700686B4F /* NotoSansCanadianAboriginal-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAACA2A7C299600686B4F /* NotoSansCanadianAboriginal-Regular.otf */; };
+		51DCAC342A7C299700686B4F /* NotoSansAvestan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAACB2A7C299600686B4F /* NotoSansAvestan-Regular.ttf */; };
+		51DCAC352A7C299700686B4F /* Bradley Hand Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAACC2A7C299600686B4F /* Bradley Hand Bold.ttf */; };
+		51DCAC362A7C299700686B4F /* NotoSansMiao-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAACD2A7C299600686B4F /* NotoSansMiao-Regular.ttf */; };
+		51DCAC372A7C299700686B4F /* Arial Narrow Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAACE2A7C299600686B4F /* Arial Narrow Italic.ttf */; };
+		51DCAC382A7C299700686B4F /* NotoSansBassaVah-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAACF2A7C299600686B4F /* NotoSansBassaVah-Regular.ttf */; };
+		51DCAC392A7C299700686B4F /* STIXGeneralItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD02A7C299600686B4F /* STIXGeneralItalic.otf */; };
+		51DCAC3A2A7C299700686B4F /* NotoSansSyriac-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD12A7C299600686B4F /* NotoSansSyriac-Regular.ttf */; };
+		51DCAC3B2A7C299700686B4F /* NotoSansMendeKikakui-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD22A7C299600686B4F /* NotoSansMendeKikakui-Regular.ttf */; };
+		51DCAC3C2A7C299700686B4F /* Kannada Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD32A7C299600686B4F /* Kannada Sangam MN.ttc */; };
+		51DCAC3D2A7C299700686B4F /* Papyrus.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD42A7C299600686B4F /* Papyrus.ttc */; };
+		51DCAC3E2A7C299700686B4F /* Seravek.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD52A7C299600686B4F /* Seravek.ttc */; };
+		51DCAC3F2A7C299700686B4F /* AppleGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD62A7C299600686B4F /* AppleGothic.ttf */; };
+		51DCAC402A7C299700686B4F /* Iowan Old Style.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD72A7C299600686B4F /* Iowan Old Style.ttc */; };
+		51DCAC412A7C299700686B4F /* STIXTwoText-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD82A7C299600686B4F /* STIXTwoText-Italic.ttf */; };
+		51DCAC422A7C299700686B4F /* NotoSansLydian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAD92A7C299600686B4F /* NotoSansLydian-Regular.ttf */; };
+		51DCAC432A7C299700686B4F /* DIN Condensed Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAADA2A7C299600686B4F /* DIN Condensed Bold.ttf */; };
+		51DCAC442A7C299700686B4F /* NotoSansChakma-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAADB2A7C299600686B4F /* NotoSansChakma-Regular.ttf */; };
+		51DCAC452A7C299700686B4F /* NotoSansNabataean-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAADC2A7C299600686B4F /* NotoSansNabataean-Regular.ttf */; };
+		51DCAC462A7C299700686B4F /* Kailasa.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAADD2A7C299600686B4F /* Kailasa.ttc */; };
+		51DCAC472A7C299700686B4F /* Charter.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAADE2A7C299600686B4F /* Charter.ttc */; };
+		51DCAC482A7C299700686B4F /* NotoSerifNyiakengPuachueHmong-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAADF2A7C299600686B4F /* NotoSerifNyiakengPuachueHmong-Regular.ttf */; };
+		51DCAC492A7C299700686B4F /* Farisi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE02A7C299600686B4F /* Farisi.ttf */; };
+		51DCAC4A2A7C299700686B4F /* Arial Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE12A7C299600686B4F /* Arial Bold.ttf */; };
+		51DCAC4B2A7C299700686B4F /* Trebuchet MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE22A7C299600686B4F /* Trebuchet MS.ttf */; };
+		51DCAC4C2A7C299700686B4F /* Mishafi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE32A7C299600686B4F /* Mishafi.ttf */; };
+		51DCAC4D2A7C299700686B4F /* NotoSansDuployan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE42A7C299600686B4F /* NotoSansDuployan-Regular.ttf */; };
+		51DCAC4E2A7C299700686B4F /* Academy Engraved LET Fonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE52A7C299600686B4F /* Academy Engraved LET Fonts.ttf */; };
+		51DCAC4F2A7C299700686B4F /* NotoSansSoraSompeng-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE62A7C299600686B4F /* NotoSansSoraSompeng-Regular.ttf */; };
+		51DCAC502A7C299700686B4F /* Marion.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE72A7C299600686B4F /* Marion.ttc */; };
+		51DCAC512A7C299700686B4F /* Trattatello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE82A7C299600686B4F /* Trattatello.ttf */; };
+		51DCAC522A7C299700686B4F /* Sinhala MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAE92A7C299600686B4F /* Sinhala MN.ttc */; };
+		51DCAC532A7C299700686B4F /* NotoSansRejang-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAEA2A7C299600686B4F /* NotoSansRejang-Regular.ttf */; };
+		51DCAC542A7C299700686B4F /* NotoSansUgaritic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAEB2A7C299600686B4F /* NotoSansUgaritic-Regular.ttf */; };
+		51DCAC552A7C299700686B4F /* Corsiva.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAEC2A7C299600686B4F /* Corsiva.ttc */; };
+		51DCAC562A7C299700686B4F /* NotoSansLycian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAED2A7C299600686B4F /* NotoSansLycian-Regular.ttf */; };
+		51DCAC572A7C299700686B4F /* BigCaslon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAEE2A7C299600686B4F /* BigCaslon.ttf */; };
+		51DCAC582A7C299700686B4F /* NotoSansWarangCiti-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAEF2A7C299600686B4F /* NotoSansWarangCiti-Regular.ttf */; };
+		51DCAC592A7C299700686B4F /* Courier New Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF02A7C299600686B4F /* Courier New Bold.ttf */; };
+		51DCAC5A2A7C299700686B4F /* NISC18030.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF12A7C299600686B4F /* NISC18030.ttf */; };
+		51DCAC5B2A7C299700686B4F /* NotoSansHanifiRohingya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF22A7C299600686B4F /* NotoSansHanifiRohingya-Regular.ttf */; };
+		51DCAC5C2A7C299700686B4F /* NotoSansTirhuta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF32A7C299600686B4F /* NotoSansTirhuta-Regular.ttf */; };
+		51DCAC5D2A7C299700686B4F /* Al Nile.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF42A7C299600686B4F /* Al Nile.ttc */; };
+		51DCAC5E2A7C299700686B4F /* STIXIntUpSmReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF52A7C299600686B4F /* STIXIntUpSmReg.otf */; };
+		51DCAC5F2A7C299700686B4F /* SuperClarendon.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF62A7C299600686B4F /* SuperClarendon.ttc */; };
+		51DCAC602A7C299700686B4F /* Baghdad.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF72A7C299600686B4F /* Baghdad.ttc */; };
+		51DCAC612A7C299700686B4F /* STIXGeneral.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF82A7C299600686B4F /* STIXGeneral.otf */; };
+		51DCAC622A7C299700686B4F /* Athelas.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAF92A7C299600686B4F /* Athelas.ttc */; };
+		51DCAC632A7C299700686B4F /* STIXIntUpDBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAFA2A7C299600686B4F /* STIXIntUpDBol.otf */; };
+		51DCAC642A7C299700686B4F /* AmericanTypewriter.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAFB2A7C299600686B4F /* AmericanTypewriter.ttc */; };
+		51DCAC652A7C299700686B4F /* Lao Sangam MN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAFC2A7C299600686B4F /* Lao Sangam MN.ttf */; };
+		51DCAC662A7C299700686B4F /* NotoSansTaiLe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAFD2A7C299600686B4F /* NotoSansTaiLe-Regular.ttf */; };
+		51DCAC672A7C299700686B4F /* NotoSansThaana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAFE2A7C299600686B4F /* NotoSansThaana-Regular.ttf */; };
+		51DCAC682A7C299700686B4F /* Luminari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAAFF2A7C299600686B4F /* Luminari.ttf */; };
+		51DCAC692A7C299700686B4F /* STIXVar.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB002A7C299600686B4F /* STIXVar.otf */; };
+		51DCAC6A2A7C299700686B4F /* Malayalam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB012A7C299600686B4F /* Malayalam MN.ttc */; };
+		51DCAC6B2A7C299700686B4F /* STIXSizOneSymBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB022A7C299600686B4F /* STIXSizOneSymBol.otf */; };
+		51DCAC6C2A7C299700686B4F /* Muna.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB032A7C299600686B4F /* Muna.ttc */; };
+		51DCAC6D2A7C299700686B4F /* Times New Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB042A7C299600686B4F /* Times New Roman.ttf */; };
+		51DCAC6E2A7C299700686B4F /* Brush Script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB052A7C299600686B4F /* Brush Script.ttf */; };
+		51DCAC6F2A7C299700686B4F /* Bodoni 72 OS.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB062A7C299600686B4F /* Bodoni 72 OS.ttc */; };
+		51DCAC702A7C299700686B4F /* Myanmar MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB072A7C299600686B4F /* Myanmar MN.ttc */; };
+		51DCAC712A7C299700686B4F /* NotoSansJavanese-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB082A7C299600686B4F /* NotoSansJavanese-Regular.otf */; };
+		51DCAC722A7C299700686B4F /* Georgia Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB092A7C299600686B4F /* Georgia Italic.ttf */; };
+		51DCAC732A7C299700686B4F /* Courier New Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB0A2A7C299600686B4F /* Courier New Italic.ttf */; };
+		51DCAC742A7C299700686B4F /* Arial Unicode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB0B2A7C299600686B4F /* Arial Unicode.ttf */; };
+		51DCAC752A7C299700686B4F /* Telugu MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB0C2A7C299600686B4F /* Telugu MN.ttc */; };
+		51DCAC762A7C299700686B4F /* Myanmar Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB0D2A7C299600686B4F /* Myanmar Sangam MN.ttc */; };
+		51DCAC772A7C299700686B4F /* Chalkduster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB0E2A7C299600686B4F /* Chalkduster.ttf */; };
+		51DCAC782A7C299700686B4F /* STIXIntUpSmBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB0F2A7C299600686B4F /* STIXIntUpSmBol.otf */; };
+		51DCAC792A7C299700686B4F /* STIXIntUpDReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB102A7C299600686B4F /* STIXIntUpDReg.otf */; };
+		51DCAC7A2A7C299700686B4F /* NotoSansSundanese-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB112A7C299600686B4F /* NotoSansSundanese-Regular.ttf */; };
+		51DCAC7B2A7C299700686B4F /* Devanagari Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB122A7C299600686B4F /* Devanagari Sangam MN.ttc */; };
+		51DCAC7C2A7C299700686B4F /* Phosphate.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB132A7C299600686B4F /* Phosphate.ttc */; };
+		51DCAC7D2A7C299700686B4F /* Apple Chancery.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB142A7C299600686B4F /* Apple Chancery.ttf */; };
+		51DCAC7E2A7C299700686B4F /* AppleMyungjo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB152A7C299600686B4F /* AppleMyungjo.ttf */; };
+		51DCAC7F2A7C299700686B4F /* STIXSizOneSymReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB162A7C299600686B4F /* STIXSizOneSymReg.otf */; };
+		51DCAC802A7C299700686B4F /* NotoSansOlChiki-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB172A7C299600686B4F /* NotoSansOlChiki-Regular.ttf */; };
+		51DCAC812A7C299700686B4F /* NotoSansGunjalaGondi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB182A7C299600686B4F /* NotoSansGunjalaGondi-Regular.otf */; };
+		51DCAC822A7C299700686B4F /* Futura.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB192A7C299600686B4F /* Futura.ttc */; };
+		51DCAC832A7C299700686B4F /* NotoSansCarian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB1A2A7C299600686B4F /* NotoSansCarian-Regular.ttf */; };
+		51DCAC842A7C299700686B4F /* Copperplate.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB1B2A7C299600686B4F /* Copperplate.ttc */; };
+		51DCAC852A7C299700686B4F /* PTMono.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB1C2A7C299600686B4F /* PTMono.ttc */; };
+		51DCAC862A7C299700686B4F /* Thonburi.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB1D2A7C299600686B4F /* Thonburi.ttc */; };
+		51DCAC872A7C299700686B4F /* Farah.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB1E2A7C299600686B4F /* Farah.ttc */; };
+		51DCAC882A7C299700686B4F /* Arial Narrow Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB1F2A7C299600686B4F /* Arial Narrow Bold Italic.ttf */; };
+		51DCAC892A7C299700686B4F /* Malayalam Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB202A7C299600686B4F /* Malayalam Sangam MN.ttc */; };
+		51DCAC8A2A7C299700686B4F /* NotoSansModi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB212A7C299600686B4F /* NotoSansModi-Regular.ttf */; };
+		51DCAC8B2A7C299700686B4F /* ChalkboardSE.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB222A7C299600686B4F /* ChalkboardSE.ttc */; };
+		51DCAC8C2A7C299700686B4F /* ITFDevanagari.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB232A7C299600686B4F /* ITFDevanagari.ttc */; };
+		51DCAC8D2A7C299700686B4F /* NotoSansMeroitic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB242A7C299600686B4F /* NotoSansMeroitic-Regular.ttf */; };
+		51DCAC8E2A7C299700686B4F /* Bangla MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB252A7C299600686B4F /* Bangla MN.ttc */; };
+		51DCAC8F2A7C299700686B4F /* STIXNonUniBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB262A7C299600686B4F /* STIXNonUniBol.otf */; };
+		51DCAC902A7C299700686B4F /* NotoSansPalmyrene-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB272A7C299600686B4F /* NotoSansPalmyrene-Regular.ttf */; };
+		51DCAC912A7C299700686B4F /* NotoSansPhagsPa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB282A7C299600686B4F /* NotoSansPhagsPa-Regular.ttf */; };
+		51DCAC922A7C299700686B4F /* Arial Narrow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB292A7C299600686B4F /* Arial Narrow.ttf */; };
+		51DCAC932A7C299700686B4F /* NotoSansYi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB2A2A7C299600686B4F /* NotoSansYi-Regular.ttf */; };
+		51DCAC942A7C299700686B4F /* Bangla Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB2B2A7C299600686B4F /* Bangla Sangam MN.ttc */; };
+		51DCAC952A7C299700686B4F /* NotoSansPsalterPahlavi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB2C2A7C299600686B4F /* NotoSansPsalterPahlavi-Regular.ttf */; };
+		51DCAC962A7C299700686B4F /* Tamil MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB2D2A7C299600686B4F /* Tamil MN.ttc */; };
+		51DCAC972A7C299700686B4F /* NotoSansLimbu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB2E2A7C299600686B4F /* NotoSansLimbu-Regular.ttf */; };
+		51DCAC982A7C299700686B4F /* NotoSansCypriot-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB2F2A7C299600686B4F /* NotoSansCypriot-Regular.ttf */; };
+		51DCAC992A7C299700686B4F /* Gurmukhi Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB302A7C299600686B4F /* Gurmukhi Sangam MN.ttc */; };
+		51DCAC9A2A7C299700686B4F /* GujaratiMT.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB312A7C299600686B4F /* GujaratiMT.ttc */; };
+		51DCAC9B2A7C299700686B4F /* Diwan Kufi.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB322A7C299600686B4F /* Diwan Kufi.ttc */; };
+		51DCAC9C2A7C299700686B4F /* NotoSansBamum-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB332A7C299600686B4F /* NotoSansBamum-Regular.ttf */; };
+		51DCAC9D2A7C299700686B4F /* NotoSansLisu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB342A7C299600686B4F /* NotoSansLisu-Regular.ttf */; };
+		51DCAC9E2A7C299700686B4F /* Courier New.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB352A7C299600686B4F /* Courier New.ttf */; };
+		51DCAC9F2A7C299700686B4F /* Wingdings 3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB362A7C299600686B4F /* Wingdings 3.ttf */; };
+		51DCACA02A7C299700686B4F /* NotoSansMahajani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB372A7C299600686B4F /* NotoSansMahajani-Regular.ttf */; };
+		51DCACA12A7C299700686B4F /* Wingdings 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB382A7C299600686B4F /* Wingdings 2.ttf */; };
+		51DCACA22A7C299700686B4F /* NotoSansGlagolitic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB392A7C299600686B4F /* NotoSansGlagolitic-Regular.ttf */; };
+		51DCACA32A7C299700686B4F /* Hoefler Text Ornaments.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB3A2A7C299600686B4F /* Hoefler Text Ornaments.ttf */; };
+		51DCACA42A7C299700686B4F /* Tamil Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB3B2A7C299600686B4F /* Tamil Sangam MN.ttc */; };
+		51DCACA52A7C299700686B4F /* NotoSerifAhom-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB3C2A7C299600686B4F /* NotoSerifAhom-Regular.ttf */; };
+		51DCACA62A7C299700686B4F /* Bodoni Ornaments.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB3D2A7C299600686B4F /* Bodoni Ornaments.ttf */; };
+		51DCACA72A7C299700686B4F /* NotoSansVai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB3E2A7C299600686B4F /* NotoSansVai-Regular.ttf */; };
+		51DCACA82A7C299700686B4F /* NotoSansTagbanwa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB3F2A7C299600686B4F /* NotoSansTagbanwa-Regular.ttf */; };
+		51DCACA92A7C299700686B4F /* Cochin.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB402A7C299600686B4F /* Cochin.ttc */; };
+		51DCACAA2A7C299700686B4F /* STIXTwoText.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB412A7C299600686B4F /* STIXTwoText.ttf */; };
+		51DCACAB2A7C299700686B4F /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB422A7C299600686B4F /* Skia.ttf */; };
+		51DCACAC2A7C299700686B4F /* NotoSansPhoenician-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB432A7C299600686B4F /* NotoSansPhoenician-Regular.ttf */; };
+		51DCACAD2A7C299700686B4F /* Trebuchet MS Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB442A7C299600686B4F /* Trebuchet MS Bold Italic.ttf */; };
+		51DCACAE2A7C299700686B4F /* DevanagariMT.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB452A7C299600686B4F /* DevanagariMT.ttc */; };
+		51DCACAF2A7C299700686B4F /* Kannada MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB462A7C299600686B4F /* Kannada MN.ttc */; };
+		51DCACB02A7C299700686B4F /* STIXTwoMath.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB472A7C299600686B4F /* STIXTwoMath.otf */; };
+		51DCACB12A7C299700686B4F /* Beirut.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB482A7C299600686B4F /* Beirut.ttc */; };
+		51DCACB22A7C299700686B4F /* Impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB492A7C299600686B4F /* Impact.ttf */; };
+		51DCACB32A7C299700686B4F /* NotoSansTifinagh-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB4A2A7C299600686B4F /* NotoSansTifinagh-Regular.ttf */; };
+		51DCACB42A7C299700686B4F /* Kokonor.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB4B2A7C299600686B4F /* Kokonor.ttf */; };
+		51DCACB52A7C299700686B4F /* NotoSansKaithi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB4C2A7C299600686B4F /* NotoSansKaithi-Regular.ttf */; };
+		51DCACB62A7C299700686B4F /* NewPeninimMT.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB4D2A7C299600686B4F /* NewPeninimMT.ttc */; };
+		51DCACB72A7C299700686B4F /* STIXIntUpBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB4E2A7C299600686B4F /* STIXIntUpBol.otf */; };
+		51DCACB82A7C299700686B4F /* NotoSerifBalinese-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB4F2A7C299600686B4F /* NotoSerifBalinese-Regular.ttf */; };
+		51DCACB92A7C299700686B4F /* NotoSansTakri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB502A7C299600686B4F /* NotoSansTakri-Regular.ttf */; };
+		51DCACBA2A7C299700686B4F /* NotoSansMasaramGondi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB512A7C299600686B4F /* NotoSansMasaramGondi-Regular.otf */; };
+		51DCACBB2A7C299700686B4F /* Gurmukhi MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB522A7C299600686B4F /* Gurmukhi MN.ttc */; };
+		51DCACBC2A7C299700686B4F /* STIXSizThreeSymBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB532A7C299600686B4F /* STIXSizThreeSymBol.otf */; };
+		51DCACBD2A7C299700686B4F /* NotoSansEgyptianHieroglyphs-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB542A7C299600686B4F /* NotoSansEgyptianHieroglyphs-Regular.ttf */; };
+		51DCACBE2A7C299700686B4F /* NotoSansSamaritan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB552A7C299600686B4F /* NotoSansSamaritan-Regular.ttf */; };
+		51DCACBF2A7C299700686B4F /* NotoSansElbasan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB562A7C299600686B4F /* NotoSansElbasan-Regular.ttf */; };
+		51DCACC02A7C299700686B4F /* PartyLET-plain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB572A7C299600686B4F /* PartyLET-plain.ttf */; };
+		51DCACC12A7C299700686B4F /* NotoSansKharoshthi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB582A7C299600686B4F /* NotoSansKharoshthi-Regular.ttf */; };
+		51DCACC22A7C299700686B4F /* Tahoma Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB592A7C299600686B4F /* Tahoma Bold.ttf */; };
+		51DCACC32A7C299700686B4F /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB5A2A7C299600686B4F /* Arial.ttf */; };
+		51DCACC42A7C299700686B4F /* Diwan Thuluth.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB5B2A7C299600686B4F /* Diwan Thuluth.ttf */; };
+		51DCACC52A7C299700686B4F /* NotoSansTagalog-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB5C2A7C299600686B4F /* NotoSansTagalog-Regular.ttf */; };
+		51DCACC62A7C299700686B4F /* Ayuthaya.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB5D2A7C299600686B4F /* Ayuthaya.ttf */; };
+		51DCACC72A7C299700686B4F /* STIXIntUpReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB5E2A7C299600686B4F /* STIXIntUpReg.otf */; };
+		51DCACC82A7C299700686B4F /* Sinhala Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB5F2A7C299600686B4F /* Sinhala Sangam MN.ttc */; };
+		51DCACC92A7C299700686B4F /* Khmer Sangam MN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB602A7C299600686B4F /* Khmer Sangam MN.ttf */; };
+		51DCACCA2A7C299700686B4F /* PTSerif.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB612A7C299600686B4F /* PTSerif.ttc */; };
+		51DCACCB2A7C299700686B4F /* STIXSizThreeSymReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB622A7C299600686B4F /* STIXSizThreeSymReg.otf */; };
+		51DCACCC2A7C299700686B4F /* SnellRoundhand.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB632A7C299600686B4F /* SnellRoundhand.ttc */; };
+		51DCACCD2A7C299700686B4F /* NotoSansSharada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB642A7C299600686B4F /* NotoSansSharada-Regular.ttf */; };
+		51DCACCE2A7C299700686B4F /* Chalkboard.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB652A7C299600686B4F /* Chalkboard.ttc */; };
+		51DCACCF2A7C299700686B4F /* NotoSansKhojki-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB662A7C299600686B4F /* NotoSansKhojki-Regular.ttf */; };
+		51DCACD02A7C299700686B4F /* Bodoni 72.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB672A7C299600686B4F /* Bodoni 72.ttc */; };
+		51DCACD12A7C299700686B4F /* NotoSansNewTaiLue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB682A7C299600686B4F /* NotoSansNewTaiLue-Regular.ttf */; };
+		51DCACD22A7C299700686B4F /* NotoSansInscriptionalParthian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB692A7C299600686B4F /* NotoSansInscriptionalParthian-Regular.ttf */; };
+		51DCACD32A7C299700686B4F /* STIXNonUni.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB6A2A7C299600686B4F /* STIXNonUni.otf */; };
+		51DCACD42A7C299700686B4F /* Mshtakan.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB6B2A7C299600686B4F /* Mshtakan.ttc */; };
+		51DCACD52A7C299700686B4F /* Trebuchet MS Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB6C2A7C299600686B4F /* Trebuchet MS Bold.ttf */; };
+		51DCACD62A7C299700686B4F /* NotoSansBuhid-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB6D2A7C299600686B4F /* NotoSansBuhid-Regular.ttf */; };
+		51DCACD72A7C299700686B4F /* Lao MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB6E2A7C299600686B4F /* Lao MN.ttc */; };
+		51DCACD82A7C299700686B4F /* Sana.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB6F2A7C299600686B4F /* Sana.ttc */; };
+		51DCACD92A7C299700686B4F /* Arial Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB702A7C299600686B4F /* Arial Black.ttf */; };
+		51DCACDA2A7C299700686B4F /* Baskerville.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB712A7C299600686B4F /* Baskerville.ttc */; };
+		51DCACDB2A7C299700686B4F /* Courier New Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB722A7C299600686B4F /* Courier New Bold Italic.ttf */; };
+		51DCACDC2A7C299700686B4F /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB732A7C299600686B4F /* Comic Sans MS.ttf */; };
+		51DCACDD2A7C299700686B4F /* NotoSansKhudawadi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB742A7C299600686B4F /* NotoSansKhudawadi-Regular.ttf */; };
+		51DCACDE2A7C299700686B4F /* InaiMathi-MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB752A7C299600686B4F /* InaiMathi-MN.ttc */; };
+		51DCACDF2A7C299700686B4F /* NotoSerifYezidi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB762A7C299600686B4F /* NotoSerifYezidi-Regular.otf */; };
+		51DCACE02A7C299700686B4F /* NotoSansBuginese-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB772A7C299600686B4F /* NotoSansBuginese-Regular.ttf */; };
+		51DCACE12A7C299700686B4F /* Telugu Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB782A7C299600686B4F /* Telugu Sangam MN.ttc */; };
+		51DCACE22A7C299700686B4F /* Hoefler Text.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB792A7C299600686B4F /* Hoefler Text.ttc */; };
+		51DCACE32A7C299700686B4F /* NotoSansLinearB-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB7A2A7C299600686B4F /* NotoSansLinearB-Regular.ttf */; };
+		51DCACE42A7C299700686B4F /* DIN Alternate Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB7B2A7C299600686B4F /* DIN Alternate Bold.ttf */; };
+		51DCACE52A7C299700686B4F /* Wingdings.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB7C2A7C299600686B4F /* Wingdings.ttf */; };
+		51DCACE62A7C299700686B4F /* NotoSansNewa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB7D2A7C299600686B4F /* NotoSansNewa-Regular.ttf */; };
+		51DCACE72A7C299700686B4F /* Sathu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB7E2A7C299600686B4F /* Sathu.ttf */; };
+		51DCACE82A7C299700686B4F /* Gujarati Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB7F2A7C299600686B4F /* Gujarati Sangam MN.ttc */; };
+		51DCACE92A7C299700686B4F /* NotoSansSylotiNagri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB802A7C299600686B4F /* NotoSansSylotiNagri-Regular.ttf */; };
+		51DCACEA2A7C299700686B4F /* Arial Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB812A7C299600686B4F /* Arial Bold Italic.ttf */; };
+		51DCACEB2A7C299700686B4F /* STIXSizTwoSymBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB822A7C299600686B4F /* STIXSizTwoSymBol.otf */; };
+		51DCACEC2A7C299700686B4F /* Galvji.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB832A7C299600686B4F /* Galvji.ttc */; };
+		51DCACED2A7C299700686B4F /* NotoSansOldPersian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB842A7C299600686B4F /* NotoSansOldPersian-Regular.ttf */; };
+		51DCACEE2A7C299700686B4F /* Tahoma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB852A7C299600686B4F /* Tahoma.ttf */; };
+		51DCACEF2A7C299700686B4F /* EuphemiaCAS.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB862A7C299600686B4F /* EuphemiaCAS.ttc */; };
+		51DCACF02A7C299700686B4F /* PlantagenetCherokee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB872A7C299600686B4F /* PlantagenetCherokee.ttf */; };
+		51DCACF12A7C299700686B4F /* Didot.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB882A7C299600686B4F /* Didot.ttc */; };
+		51DCACF22A7C299700686B4F /* Georgia Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB892A7C299600686B4F /* Georgia Bold.ttf */; };
+		51DCACF32A7C299700686B4F /* NotoSansLinearA-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB8A2A7C299600686B4F /* NotoSansLinearA-Regular.ttf */; };
+		51DCACF42A7C299700686B4F /* STIXIntSmReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB8B2A7C299600686B4F /* STIXIntSmReg.otf */; };
+		51DCACF52A7C299700686B4F /* STIXNonUniIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB8C2A7C299600686B4F /* STIXNonUniIta.otf */; };
+		51DCACF62A7C299700686B4F /* STIXSizFourSymReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB8D2A7C299600686B4F /* STIXSizFourSymReg.otf */; };
+		51DCACF72A7C299700686B4F /* Verdana Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB8E2A7C299600686B4F /* Verdana Bold Italic.ttf */; };
+		51DCACF82A7C299700686B4F /* Microsoft Sans Serif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB8F2A7C299600686B4F /* Microsoft Sans Serif.ttf */; };
+		51DCACF92A7C299700686B4F /* NotoSansCuneiform-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB902A7C299600686B4F /* NotoSansCuneiform-Regular.ttf */; };
+		51DCACFA2A7C299700686B4F /* Georgia Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB912A7C299600686B4F /* Georgia Bold Italic.ttf */; };
+		51DCACFB2A7C299700686B4F /* NotoSansBatak-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB922A7C299600686B4F /* NotoSansBatak-Regular.ttf */; };
+		51DCACFC2A7C299700686B4F /* Arial Rounded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB932A7C299600686B4F /* Arial Rounded Bold.ttf */; };
+		51DCACFD2A7C299700686B4F /* Times New Roman Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB942A7C299600686B4F /* Times New Roman Bold.ttf */; };
+		51DCACFE2A7C299700686B4F /* STIXSizTwoSymReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB952A7C299600686B4F /* STIXSizTwoSymReg.otf */; };
+		51DCACFF2A7C299700686B4F /* Khmer MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB962A7C299600686B4F /* Khmer MN.ttc */; };
+		51DCAD002A7C299700686B4F /* NotoSansWancho-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB972A7C299600686B4F /* NotoSansWancho-Regular.ttf */; };
+		51DCAD012A7C299700686B4F /* STIXGeneralBolIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB982A7C299600686B4F /* STIXGeneralBolIta.otf */; };
+		51DCAD022A7C299700686B4F /* Krungthep.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB992A7C299600686B4F /* Krungthep.ttf */; };
+		51DCAD032A7C299700686B4F /* NotoSansOldSouthArabian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB9A2A7C299600686B4F /* NotoSansOldSouthArabian-Regular.ttf */; };
+		51DCAD042A7C299700686B4F /* Oriya MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB9B2A7C299600686B4F /* Oriya MN.ttc */; };
+		51DCAD052A7C299700686B4F /* STIXSizFourSymBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB9C2A7C299600686B4F /* STIXSizFourSymBol.otf */; };
+		51DCAD062A7C299700686B4F /* STIXIntSmBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB9D2A7C299600686B4F /* STIXIntSmBol.otf */; };
+		51DCAD072A7C299700686B4F /* NotoSansPauCinHau-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB9E2A7C299600686B4F /* NotoSansPauCinHau-Regular.ttf */; };
+		51DCAD082A7C299700686B4F /* NotoSansMarchen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCAB9F2A7C299600686B4F /* NotoSansMarchen-Regular.ttf */; };
+		51DCAD092A7C299700686B4F /* NotoSansOldItalic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA02A7C299600686B4F /* NotoSansOldItalic-Regular.ttf */; };
+		51DCAD0A2A7C299700686B4F /* NotoSansGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA12A7C299600686B4F /* NotoSansGothic-Regular.ttf */; };
+		51DCAD0B2A7C299700686B4F /* Gurmukhi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA22A7C299600686B4F /* Gurmukhi.ttf */; };
+		51DCAD0C2A7C299700686B4F /* Al Tarikh.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA32A7C299600686B4F /* Al Tarikh.ttc */; };
+		51DCAD0D2A7C299700686B4F /* STIXNonUniBolIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA42A7C299600686B4F /* STIXNonUniBolIta.otf */; };
+		51DCAD0E2A7C299700686B4F /* Raanana.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA52A7C299600686B4F /* Raanana.ttc */; };
+		51DCAD0F2A7C299700686B4F /* Andale Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA62A7C299600686B4F /* Andale Mono.ttf */; };
+		51DCAD102A7C299700686B4F /* GillSans.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA72A7C299600686B4F /* GillSans.ttc */; };
+		51DCAD112A7C299700686B4F /* Mishafi Gold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA82A7C299600686B4F /* Mishafi Gold.ttf */; };
+		51DCAD122A7C299700686B4F /* Herculanum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABA92A7C299600686B4F /* Herculanum.ttf */; };
+		51DCAD132A7C299700686B4F /* NotoSansTaiViet-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABAA2A7C299600686B4F /* NotoSansTaiViet-Regular.ttf */; };
+		51DCAD142A7C299700686B4F /* Damascus.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABAB2A7C299600686B4F /* Damascus.ttc */; };
+		51DCAD152A7C299700686B4F /* Waseem.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABAC2A7C299600686B4F /* Waseem.ttc */; };
+		51DCAD162A7C299700686B4F /* NotoSansImperialAramaic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABAD2A7C299600686B4F /* NotoSansImperialAramaic-Regular.ttf */; };
+		51DCAD172A7C299700686B4F /* STIXIntDReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABAE2A7C299600686B4F /* STIXIntDReg.otf */; };
+		51DCAD182A7C299700686B4F /* PTSerifCaption.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABAF2A7C299600686B4F /* PTSerifCaption.ttc */; };
+		51DCAD192A7C299700686B4F /* NotoSansBrahmi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB02A7C299600686B4F /* NotoSansBrahmi-Regular.ttf */; };
+		51DCAD1A2A7C299700686B4F /* STIXVarBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB12A7C299600686B4F /* STIXVarBol.otf */; };
+		51DCAD1B2A7C299700686B4F /* Comic Sans MS Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB22A7C299600686B4F /* Comic Sans MS Bold.ttf */; };
+		51DCAD1C2A7C299700686B4F /* NotoSansCoptic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB32A7C299600686B4F /* NotoSansCoptic-Regular.ttf */; };
+		51DCAD1D2A7C299700686B4F /* STIXSizFiveSymReg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB42A7C299600686B4F /* STIXSizFiveSymReg.otf */; };
+		51DCAD1E2A7C299700686B4F /* Arial Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB52A7C299600686B4F /* Arial Italic.ttf */; };
+		51DCAD1F2A7C299700686B4F /* NotoSansOldTurkic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB62A7C299600686B4F /* NotoSansOldTurkic-Regular.ttf */; };
+		51DCAD202A7C299700686B4F /* SignPainter.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB72A7C299600686B4F /* SignPainter.ttc */; };
+		51DCAD212A7C299700686B4F /* Oriya Sangam MN.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB82A7C299600686B4F /* Oriya Sangam MN.ttc */; };
+		51DCAD222A7C299700686B4F /* STIXGeneralBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABB92A7C299600686B4F /* STIXGeneralBol.otf */; };
+		51DCAD232A7C299700686B4F /* NotoSansMongolian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABBA2A7C299600686B4F /* NotoSansMongolian-Regular.ttf */; };
+		51DCAD242A7C299700686B4F /* Verdana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABBB2A7C299600686B4F /* Verdana.ttf */; };
+		51DCAD252A7C299700686B4F /* Shree714.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABBC2A7C299600686B4F /* Shree714.ttc */; };
+		51DCAD262A7C299700686B4F /* NotoSansOldPermic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABBD2A7C299600686B4F /* NotoSansOldPermic-Regular.ttf */; };
+		51DCAD272A7C299700686B4F /* STIXIntDBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABBE2A7C299600686B4F /* STIXIntDBol.otf */; };
+		51DCAD282A7C299700686B4F /* Songti.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABBF2A7C299600686B4F /* Songti.ttc */; };
+		51DCAD292A7C299700686B4F /* NotoSansTaiTham-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC02A7C299600686B4F /* NotoSansTaiTham-Regular.ttf */; };
+		51DCAD2A2A7C299700686B4F /* NotoSansMeeteiMayek-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC12A7C299600686B4F /* NotoSansMeeteiMayek-Regular.ttf */; };
+		51DCAD2B2A7C299700686B4F /* NotoSansOldNorthArabian-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC22A7C299600686B4F /* NotoSansOldNorthArabian-Regular.ttf */; };
+		51DCAD2C2A7C299700686B4F /* DecoTypeNaskh.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC32A7C299600686B4F /* DecoTypeNaskh.ttc */; };
+		51DCAD2D2A7C299700686B4F /* NotoSansOsmanya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC42A7C299600686B4F /* NotoSansOsmanya-Regular.ttf */; };
+		51DCAD2E2A7C299700686B4F /* Arial Narrow Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC52A7C299600686B4F /* Arial Narrow Bold.ttf */; };
+		51DCAD2F2A7C299700686B4F /* Avenir Next.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC62A7C299600686B4F /* Avenir Next.ttc */; };
+		51DCAD302A7C299700686B4F /* KohinoorGujarati.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC72A7C299600686B4F /* KohinoorGujarati.ttc */; };
+		51DCAD312A7C299700686B4F /* AquaKana.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC82A7C299600686B4F /* AquaKana.ttc */; };
+		51DCAD322A7C299700686B4F /* Palatino.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABC92A7C299600686B4F /* Palatino.ttc */; };
+		51DCAD332A7C299700686B4F /* Monaco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABCA2A7C299600686B4F /* Monaco.ttf */; };
+		51DCAD342A7C299700686B4F /* Apple Symbols.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABCB2A7C299600686B4F /* Apple Symbols.ttf */; };
+		51DCAD352A7C299700686B4F /* NotoNastaliq.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABCC2A7C299600686B4F /* NotoNastaliq.ttc */; };
+		51DCAD362A7C299700686B4F /* STHeiti Light.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABCD2A7C299600686B4F /* STHeiti Light.ttc */; };
+		51DCAD372A7C299700686B4F /* NewYorkItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABCE2A7C299600686B4F /* NewYorkItalic.ttf */; };
+		51DCAD382A7C299700686B4F /* HelveLTMM in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABCF2A7C299600686B4F /* HelveLTMM */; };
+		51DCAD392A7C299700686B4F /* GeezaPro.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD02A7C299600686B4F /* GeezaPro.ttc */; };
+		51DCAD3A2A7C299700686B4F /* TimesLTMM in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD12A7C299600686B4F /* TimesLTMM */; };
+		51DCAD3B2A7C299700686B4F /* SFCompactItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD22A7C299600686B4F /* SFCompactItalic.ttf */; };
+		51DCAD3C2A7C299700686B4F /* ヒラギノ角ゴシック W7.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD32A7C299600686B4F /* ヒラギノ角ゴシック W7.ttc */; };
+		51DCAD3D2A7C299700686B4F /* Times.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD42A7C299600686B4F /* Times.ttc */; };
+		51DCAD3E2A7C299700686B4F /* ヒラギノ丸ゴ ProN W4.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD52A7C299600686B4F /* ヒラギノ丸ゴ ProN W4.ttc */; };
+		51DCAD3F2A7C299700686B4F /* ヒラギノ角ゴシック W6.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD62A7C299600686B4F /* ヒラギノ角ゴシック W6.ttc */; };
+		51DCAD402A7C299700686B4F /* ヒラギノ角ゴシック W4.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD72A7C299600686B4F /* ヒラギノ角ゴシック W4.ttc */; };
+		51DCAD412A7C299700686B4F /* NotoSansKannada.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD82A7C299600686B4F /* NotoSansKannada.ttc */; };
+		51DCAD422A7C299700686B4F /* SFArabic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABD92A7C299600686B4F /* SFArabic.ttf */; };
+		51DCAD432A7C299700686B4F /* SFNSRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABDA2A7C299600686B4F /* SFNSRounded.ttf */; };
+		51DCAD442A7C299700686B4F /* ヒラギノ角ゴシック W5.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABDB2A7C299600686B4F /* ヒラギノ角ゴシック W5.ttc */; };
+		51DCAD452A7C299700686B4F /* MarkerFelt.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABDC2A7C299600686B4F /* MarkerFelt.ttc */; };
+		51DCAD462A7C299700686B4F /* Apple Braille Pinpoint 8 Dot.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABDD2A7C299600686B4F /* Apple Braille Pinpoint 8 Dot.ttf */; };
+		51DCAD472A7C299700686B4F /* Keyboard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABDE2A7C299600686B4F /* Keyboard.ttf */; };
+		51DCAD482A7C299700686B4F /* ヒラギノ角ゴシック W1.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABDF2A7C299600686B4F /* ヒラギノ角ゴシック W1.ttc */; };
+		51DCAD492A7C299700686B4F /* SFCompactRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE02A7C299600686B4F /* SFCompactRounded.ttf */; };
+		51DCAD4A2A7C299700686B4F /* ArialHB.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE12A7C299600686B4F /* ArialHB.ttc */; };
+		51DCAD4B2A7C299700686B4F /* Apple Braille Outline 8 Dot.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE22A7C299600686B4F /* Apple Braille Outline 8 Dot.ttf */; };
+		51DCAD4C2A7C299700686B4F /* ヒラギノ角ゴシック W0.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE32A7C299600686B4F /* ヒラギノ角ゴシック W0.ttc */; };
+		51DCAD4D2A7C299700686B4F /* Apple Color Emoji.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE42A7C299600686B4F /* Apple Color Emoji.ttc */; };
+		51DCAD4E2A7C299700686B4F /* ヒラギノ角ゴシック W2.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE52A7C299600686B4F /* ヒラギノ角ゴシック W2.ttc */; };
+		51DCAD4F2A7C299700686B4F /* SFNSItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE62A7C299600686B4F /* SFNSItalic.ttf */; };
+		51DCAD502A7C299700686B4F /* Helvetica.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE72A7C299600686B4F /* Helvetica.ttc */; };
+		51DCAD512A7C299700686B4F /* KohinoorBangla.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE82A7C299600686B4F /* KohinoorBangla.ttc */; };
+		51DCAD522A7C299700686B4F /* SFArabicRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABE92A7C299600686B4F /* SFArabicRounded.ttf */; };
+		51DCAD532A7C299700686B4F /* NotoSansArmenian.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABEA2A7C299600686B4F /* NotoSansArmenian.ttc */; };
+		51DCAD542A7C299700686B4F /* ヒラギノ角ゴシック W3.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 51DCABEB2A7C299600686B4F /* ヒラギノ角ゴシック W3.ttc */; };
 		7699B88040F8A987B510C191 /* libPods-HudaApp-HudaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-HudaApp-HudaAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +399,367 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HudaApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-HudaApp-HudaAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HudaApp-HudaAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-HudaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HudaApp.debug.xcconfig"; path = "Target Support Files/Pods-HudaApp/Pods-HudaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		51DCAA822A7C299600686B4F /* AppleSDGothicNeo.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeo.ttc; sourceTree = "<group>"; };
+		51DCAA832A7C299600686B4F /* Menlo.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Menlo.ttc; sourceTree = "<group>"; };
+		51DCAA842A7C299600686B4F /* STHeiti Medium.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti Medium.ttc"; sourceTree = "<group>"; };
+		51DCAA852A7C299600686B4F /* Symbol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbol.ttf; sourceTree = "<group>"; };
+		51DCAA862A7C299600686B4F /* Geneva.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Geneva.ttf; sourceTree = "<group>"; };
+		51DCAA872A7C299600686B4F /* Hiragino Sans GB.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hiragino Sans GB.ttc"; sourceTree = "<group>"; };
+		51DCAA882A7C299600686B4F /* LastResort.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LastResort.otf; sourceTree = "<group>"; };
+		51DCAA892A7C299600686B4F /* NotoSerifMyanmar.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NotoSerifMyanmar.ttc; sourceTree = "<group>"; };
+		51DCAA8A2A7C299600686B4F /* HelveticaNeue.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.ttc; sourceTree = "<group>"; };
+		51DCAA8B2A7C299600686B4F /* SFNSMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFNSMono.ttf; sourceTree = "<group>"; };
+		51DCAA8C2A7C299600686B4F /* ヒラギノ角ゴシック W8.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W8.ttc"; sourceTree = "<group>"; };
+		51DCAA8D2A7C299600686B4F /* PingFang.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PingFang.ttc; sourceTree = "<group>"; };
+		51DCAA8E2A7C299600686B4F /* Noteworthy.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Noteworthy.ttc; sourceTree = "<group>"; };
+		51DCAA8F2A7C299600686B4F /* NotoSansOriya.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NotoSansOriya.ttc; sourceTree = "<group>"; };
+		51DCAA902A7C299600686B4F /* ヒラギノ角ゴシック W9.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W9.ttc"; sourceTree = "<group>"; };
+		51DCAA912A7C299600686B4F /* ThonburiUI.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThonburiUI.ttc; sourceTree = "<group>"; };
+		51DCAA922A7C299600686B4F /* Optima.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Optima.ttc; sourceTree = "<group>"; };
+		51DCAA932A7C299600686B4F /* ZapfDingbats.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZapfDingbats.ttf; sourceTree = "<group>"; };
+		51DCAA942A7C299600686B4F /* Apple Braille.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Braille.ttf"; sourceTree = "<group>"; };
+		51DCAA952A7C299600686B4F /* Avenir Next Condensed.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next Condensed.ttc"; sourceTree = "<group>"; };
+		51DCAA962A7C299600686B4F /* LucidaGrande.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttc; sourceTree = "<group>"; };
+		51DCAA972A7C299600686B4F /* Courier.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Courier.ttc; sourceTree = "<group>"; };
+		51DCAA982A7C299600686B4F /* SFCompact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFCompact.ttf; sourceTree = "<group>"; };
+		51DCAA992A7C299600686B4F /* Apple Braille Outline 6 Dot.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Braille Outline 6 Dot.ttf"; sourceTree = "<group>"; };
+		51DCAA9A2A7C299600686B4F /* KohinoorTelugu.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = KohinoorTelugu.ttc; sourceTree = "<group>"; };
+		51DCAA9B2A7C299600686B4F /* Apple Braille Pinpoint 6 Dot.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Braille Pinpoint 6 Dot.ttf"; sourceTree = "<group>"; };
+		51DCAA9C2A7C299600686B4F /* MuktaMahee.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuktaMahee.ttc; sourceTree = "<group>"; };
+		51DCAA9D2A7C299600686B4F /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYork.ttf; sourceTree = "<group>"; };
+		51DCAA9E2A7C299600686B4F /* SFNSMonoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFNSMonoItalic.ttf; sourceTree = "<group>"; };
+		51DCAA9F2A7C299600686B4F /* SFNS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFNS.ttf; sourceTree = "<group>"; };
+		51DCAAA02A7C299600686B4F /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.ttc; sourceTree = "<group>"; };
+		51DCAAA12A7C299600686B4F /* Kohinoor.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kohinoor.ttc; sourceTree = "<group>"; };
+		51DCAAA22A7C299600686B4F /* NotoSansMyanmar.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NotoSansMyanmar.ttc; sourceTree = "<group>"; };
+		51DCAAA32A7C299600686B4F /* ヒラギノ明朝 ProN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ明朝 ProN.ttc"; sourceTree = "<group>"; };
+		51DCAAA52A7C299600686B4F /* NotoSansLepcha-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansLepcha-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAA62A7C299600686B4F /* AlBayan.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlBayan.ttc; sourceTree = "<group>"; };
+		51DCAAA72A7C299600686B4F /* Webdings.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Webdings.ttf; sourceTree = "<group>"; };
+		51DCAAA82A7C299600686B4F /* NotoSansMandaic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMandaic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAA92A7C299600686B4F /* Rockwell.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rockwell.ttc; sourceTree = "<group>"; };
+		51DCAAAA2A7C299600686B4F /* Zapfino.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zapfino.ttf; sourceTree = "<group>"; };
+		51DCAAAB2A7C299600686B4F /* NotoSansCaucasianAlbanian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCaucasianAlbanian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAAC2A7C299600686B4F /* Trebuchet MS Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trebuchet MS Italic.ttf"; sourceTree = "<group>"; };
+		51DCAAAD2A7C299600686B4F /* NotoSansOldHungarian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOldHungarian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAAE2A7C299600686B4F /* Georgia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Georgia.ttf; sourceTree = "<group>"; };
+		51DCAAAF2A7C299600686B4F /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		51DCAAB02A7C299600686B4F /* PTSans.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTSans.ttc; sourceTree = "<group>"; };
+		51DCAAB12A7C299600686B4F /* NotoSansSaurashtra-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSaurashtra-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAB22A7C299600686B4F /* NotoSansMultani-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMultani-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAB32A7C299600686B4F /* NotoSansHatran-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansHatran-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAB42A7C299600686B4F /* Verdana Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Verdana Bold.ttf"; sourceTree = "<group>"; };
+		51DCAAB52A7C299600686B4F /* Bodoni 72 Smallcaps Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bodoni 72 Smallcaps Book.ttf"; sourceTree = "<group>"; };
+		51DCAAB62A7C299600686B4F /* NotoSansInscriptionalPahlavi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansInscriptionalPahlavi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAB72A7C299600686B4F /* NotoSansHanunoo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansHanunoo-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAB82A7C299600686B4F /* Times New Roman Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Times New Roman Bold Italic.ttf"; sourceTree = "<group>"; };
+		51DCAAB92A7C299600686B4F /* SukhumvitSet.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SukhumvitSet.ttc; sourceTree = "<group>"; };
+		51DCAABA2A7C299600686B4F /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
+		51DCAABB2A7C299600686B4F /* NotoSansBhaiksuki-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansBhaiksuki-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAABC2A7C299600686B4F /* NotoSansCham-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCham-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAABD2A7C299600686B4F /* NotoSansManichaean-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansManichaean-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAABE2A7C299600686B4F /* NotoSansSiddham-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSiddham-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAABF2A7C299600686B4F /* NotoSansNKo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansNKo-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAC02A7C299600686B4F /* Kefa.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kefa.ttc; sourceTree = "<group>"; };
+		51DCAAC12A7C299600686B4F /* Verdana Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Verdana Italic.ttf"; sourceTree = "<group>"; };
+		51DCAAC22A7C299600686B4F /* NotoSansKayahLi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKayahLi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAC32A7C299600686B4F /* NotoSansOsage-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOsage-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAC42A7C299600686B4F /* Nadeem.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nadeem.ttc; sourceTree = "<group>"; };
+		51DCAAC52A7C299600686B4F /* NotoSansAdlam-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansAdlam-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAC62A7C299600686B4F /* KufiStandardGK.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = KufiStandardGK.ttc; sourceTree = "<group>"; };
+		51DCAAC72A7C299600686B4F /* NotoSansPahawhHmong-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansPahawhHmong-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAC82A7C299600686B4F /* Times New Roman Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Times New Roman Italic.ttf"; sourceTree = "<group>"; };
+		51DCAAC92A7C299600686B4F /* NotoSansMro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMro-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAACA2A7C299600686B4F /* NotoSansCanadianAboriginal-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCanadianAboriginal-Regular.otf"; sourceTree = "<group>"; };
+		51DCAACB2A7C299600686B4F /* NotoSansAvestan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansAvestan-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAACC2A7C299600686B4F /* Bradley Hand Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bradley Hand Bold.ttf"; sourceTree = "<group>"; };
+		51DCAACD2A7C299600686B4F /* NotoSansMiao-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMiao-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAACE2A7C299600686B4F /* Arial Narrow Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow Italic.ttf"; sourceTree = "<group>"; };
+		51DCAACF2A7C299600686B4F /* NotoSansBassaVah-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansBassaVah-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAD02A7C299600686B4F /* STIXGeneralItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneralItalic.otf; sourceTree = "<group>"; };
+		51DCAAD12A7C299600686B4F /* NotoSansSyriac-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSyriac-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAD22A7C299600686B4F /* NotoSansMendeKikakui-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMendeKikakui-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAD32A7C299600686B4F /* Kannada Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kannada Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAAD42A7C299600686B4F /* Papyrus.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Papyrus.ttc; sourceTree = "<group>"; };
+		51DCAAD52A7C299600686B4F /* Seravek.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Seravek.ttc; sourceTree = "<group>"; };
+		51DCAAD62A7C299600686B4F /* AppleGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleGothic.ttf; sourceTree = "<group>"; };
+		51DCAAD72A7C299600686B4F /* Iowan Old Style.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Iowan Old Style.ttc"; sourceTree = "<group>"; };
+		51DCAAD82A7C299600686B4F /* STIXTwoText-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STIXTwoText-Italic.ttf"; sourceTree = "<group>"; };
+		51DCAAD92A7C299600686B4F /* NotoSansLydian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansLydian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAADA2A7C299600686B4F /* DIN Condensed Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Condensed Bold.ttf"; sourceTree = "<group>"; };
+		51DCAADB2A7C299600686B4F /* NotoSansChakma-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansChakma-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAADC2A7C299600686B4F /* NotoSansNabataean-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansNabataean-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAADD2A7C299600686B4F /* Kailasa.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kailasa.ttc; sourceTree = "<group>"; };
+		51DCAADE2A7C299600686B4F /* Charter.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Charter.ttc; sourceTree = "<group>"; };
+		51DCAADF2A7C299600686B4F /* NotoSerifNyiakengPuachueHmong-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifNyiakengPuachueHmong-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAE02A7C299600686B4F /* Farisi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Farisi.ttf; sourceTree = "<group>"; };
+		51DCAAE12A7C299600686B4F /* Arial Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Bold.ttf"; sourceTree = "<group>"; };
+		51DCAAE22A7C299600686B4F /* Trebuchet MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trebuchet MS.ttf"; sourceTree = "<group>"; };
+		51DCAAE32A7C299600686B4F /* Mishafi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mishafi.ttf; sourceTree = "<group>"; };
+		51DCAAE42A7C299600686B4F /* NotoSansDuployan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansDuployan-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAE52A7C299600686B4F /* Academy Engraved LET Fonts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Academy Engraved LET Fonts.ttf"; sourceTree = "<group>"; };
+		51DCAAE62A7C299600686B4F /* NotoSansSoraSompeng-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSoraSompeng-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAE72A7C299600686B4F /* Marion.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marion.ttc; sourceTree = "<group>"; };
+		51DCAAE82A7C299600686B4F /* Trattatello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trattatello.ttf; sourceTree = "<group>"; };
+		51DCAAE92A7C299600686B4F /* Sinhala MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sinhala MN.ttc"; sourceTree = "<group>"; };
+		51DCAAEA2A7C299600686B4F /* NotoSansRejang-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansRejang-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAEB2A7C299600686B4F /* NotoSansUgaritic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansUgaritic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAEC2A7C299600686B4F /* Corsiva.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Corsiva.ttc; sourceTree = "<group>"; };
+		51DCAAED2A7C299600686B4F /* NotoSansLycian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansLycian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAEE2A7C299600686B4F /* BigCaslon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigCaslon.ttf; sourceTree = "<group>"; };
+		51DCAAEF2A7C299600686B4F /* NotoSansWarangCiti-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansWarangCiti-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAF02A7C299600686B4F /* Courier New Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courier New Bold.ttf"; sourceTree = "<group>"; };
+		51DCAAF12A7C299600686B4F /* NISC18030.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NISC18030.ttf; sourceTree = "<group>"; };
+		51DCAAF22A7C299600686B4F /* NotoSansHanifiRohingya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansHanifiRohingya-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAF32A7C299600686B4F /* NotoSansTirhuta-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTirhuta-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAF42A7C299600686B4F /* Al Nile.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Al Nile.ttc"; sourceTree = "<group>"; };
+		51DCAAF52A7C299600686B4F /* STIXIntUpSmReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntUpSmReg.otf; sourceTree = "<group>"; };
+		51DCAAF62A7C299600686B4F /* SuperClarendon.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperClarendon.ttc; sourceTree = "<group>"; };
+		51DCAAF72A7C299600686B4F /* Baghdad.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Baghdad.ttc; sourceTree = "<group>"; };
+		51DCAAF82A7C299600686B4F /* STIXGeneral.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneral.otf; sourceTree = "<group>"; };
+		51DCAAF92A7C299600686B4F /* Athelas.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Athelas.ttc; sourceTree = "<group>"; };
+		51DCAAFA2A7C299600686B4F /* STIXIntUpDBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntUpDBol.otf; sourceTree = "<group>"; };
+		51DCAAFB2A7C299600686B4F /* AmericanTypewriter.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmericanTypewriter.ttc; sourceTree = "<group>"; };
+		51DCAAFC2A7C299600686B4F /* Lao Sangam MN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lao Sangam MN.ttf"; sourceTree = "<group>"; };
+		51DCAAFD2A7C299600686B4F /* NotoSansTaiLe-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTaiLe-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAFE2A7C299600686B4F /* NotoSansThaana-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaana-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAAFF2A7C299600686B4F /* Luminari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Luminari.ttf; sourceTree = "<group>"; };
+		51DCAB002A7C299600686B4F /* STIXVar.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXVar.otf; sourceTree = "<group>"; };
+		51DCAB012A7C299600686B4F /* Malayalam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Malayalam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB022A7C299600686B4F /* STIXSizOneSymBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizOneSymBol.otf; sourceTree = "<group>"; };
+		51DCAB032A7C299600686B4F /* Muna.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muna.ttc; sourceTree = "<group>"; };
+		51DCAB042A7C299600686B4F /* Times New Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Times New Roman.ttf"; sourceTree = "<group>"; };
+		51DCAB052A7C299600686B4F /* Brush Script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brush Script.ttf"; sourceTree = "<group>"; };
+		51DCAB062A7C299600686B4F /* Bodoni 72 OS.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bodoni 72 OS.ttc"; sourceTree = "<group>"; };
+		51DCAB072A7C299600686B4F /* Myanmar MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myanmar MN.ttc"; sourceTree = "<group>"; };
+		51DCAB082A7C299600686B4F /* NotoSansJavanese-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJavanese-Regular.otf"; sourceTree = "<group>"; };
+		51DCAB092A7C299600686B4F /* Georgia Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Georgia Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB0A2A7C299600686B4F /* Courier New Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courier New Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB0B2A7C299600686B4F /* Arial Unicode.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Unicode.ttf"; sourceTree = "<group>"; };
+		51DCAB0C2A7C299600686B4F /* Telugu MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Telugu MN.ttc"; sourceTree = "<group>"; };
+		51DCAB0D2A7C299600686B4F /* Myanmar Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myanmar Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB0E2A7C299600686B4F /* Chalkduster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkduster.ttf; sourceTree = "<group>"; };
+		51DCAB0F2A7C299600686B4F /* STIXIntUpSmBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntUpSmBol.otf; sourceTree = "<group>"; };
+		51DCAB102A7C299600686B4F /* STIXIntUpDReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntUpDReg.otf; sourceTree = "<group>"; };
+		51DCAB112A7C299600686B4F /* NotoSansSundanese-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSundanese-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB122A7C299600686B4F /* Devanagari Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Devanagari Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB132A7C299600686B4F /* Phosphate.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Phosphate.ttc; sourceTree = "<group>"; };
+		51DCAB142A7C299600686B4F /* Apple Chancery.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Chancery.ttf"; sourceTree = "<group>"; };
+		51DCAB152A7C299600686B4F /* AppleMyungjo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleMyungjo.ttf; sourceTree = "<group>"; };
+		51DCAB162A7C299600686B4F /* STIXSizOneSymReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizOneSymReg.otf; sourceTree = "<group>"; };
+		51DCAB172A7C299600686B4F /* NotoSansOlChiki-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOlChiki-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB182A7C299600686B4F /* NotoSansGunjalaGondi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansGunjalaGondi-Regular.otf"; sourceTree = "<group>"; };
+		51DCAB192A7C299600686B4F /* Futura.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura.ttc; sourceTree = "<group>"; };
+		51DCAB1A2A7C299600686B4F /* NotoSansCarian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCarian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB1B2A7C299600686B4F /* Copperplate.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Copperplate.ttc; sourceTree = "<group>"; };
+		51DCAB1C2A7C299600686B4F /* PTMono.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTMono.ttc; sourceTree = "<group>"; };
+		51DCAB1D2A7C299600686B4F /* Thonburi.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thonburi.ttc; sourceTree = "<group>"; };
+		51DCAB1E2A7C299600686B4F /* Farah.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Farah.ttc; sourceTree = "<group>"; };
+		51DCAB1F2A7C299600686B4F /* Arial Narrow Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow Bold Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB202A7C299600686B4F /* Malayalam Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Malayalam Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB212A7C299600686B4F /* NotoSansModi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansModi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB222A7C299600686B4F /* ChalkboardSE.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChalkboardSE.ttc; sourceTree = "<group>"; };
+		51DCAB232A7C299600686B4F /* ITFDevanagari.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ITFDevanagari.ttc; sourceTree = "<group>"; };
+		51DCAB242A7C299600686B4F /* NotoSansMeroitic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMeroitic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB252A7C299600686B4F /* Bangla MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bangla MN.ttc"; sourceTree = "<group>"; };
+		51DCAB262A7C299600686B4F /* STIXNonUniBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXNonUniBol.otf; sourceTree = "<group>"; };
+		51DCAB272A7C299600686B4F /* NotoSansPalmyrene-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansPalmyrene-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB282A7C299600686B4F /* NotoSansPhagsPa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansPhagsPa-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB292A7C299600686B4F /* Arial Narrow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow.ttf"; sourceTree = "<group>"; };
+		51DCAB2A2A7C299600686B4F /* NotoSansYi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansYi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB2B2A7C299600686B4F /* Bangla Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bangla Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB2C2A7C299600686B4F /* NotoSansPsalterPahlavi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansPsalterPahlavi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB2D2A7C299600686B4F /* Tamil MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tamil MN.ttc"; sourceTree = "<group>"; };
+		51DCAB2E2A7C299600686B4F /* NotoSansLimbu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansLimbu-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB2F2A7C299600686B4F /* NotoSansCypriot-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCypriot-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB302A7C299600686B4F /* Gurmukhi Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gurmukhi Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB312A7C299600686B4F /* GujaratiMT.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = GujaratiMT.ttc; sourceTree = "<group>"; };
+		51DCAB322A7C299600686B4F /* Diwan Kufi.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Diwan Kufi.ttc"; sourceTree = "<group>"; };
+		51DCAB332A7C299600686B4F /* NotoSansBamum-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansBamum-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB342A7C299600686B4F /* NotoSansLisu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansLisu-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB352A7C299600686B4F /* Courier New.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courier New.ttf"; sourceTree = "<group>"; };
+		51DCAB362A7C299600686B4F /* Wingdings 3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wingdings 3.ttf"; sourceTree = "<group>"; };
+		51DCAB372A7C299600686B4F /* NotoSansMahajani-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMahajani-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB382A7C299600686B4F /* Wingdings 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wingdings 2.ttf"; sourceTree = "<group>"; };
+		51DCAB392A7C299600686B4F /* NotoSansGlagolitic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansGlagolitic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB3A2A7C299600686B4F /* Hoefler Text Ornaments.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hoefler Text Ornaments.ttf"; sourceTree = "<group>"; };
+		51DCAB3B2A7C299600686B4F /* Tamil Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tamil Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB3C2A7C299600686B4F /* NotoSerifAhom-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifAhom-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB3D2A7C299600686B4F /* Bodoni Ornaments.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bodoni Ornaments.ttf"; sourceTree = "<group>"; };
+		51DCAB3E2A7C299600686B4F /* NotoSansVai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansVai-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB3F2A7C299600686B4F /* NotoSansTagbanwa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTagbanwa-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB402A7C299600686B4F /* Cochin.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cochin.ttc; sourceTree = "<group>"; };
+		51DCAB412A7C299600686B4F /* STIXTwoText.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXTwoText.ttf; sourceTree = "<group>"; };
+		51DCAB422A7C299600686B4F /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
+		51DCAB432A7C299600686B4F /* NotoSansPhoenician-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansPhoenician-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB442A7C299600686B4F /* Trebuchet MS Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trebuchet MS Bold Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB452A7C299600686B4F /* DevanagariMT.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = DevanagariMT.ttc; sourceTree = "<group>"; };
+		51DCAB462A7C299600686B4F /* Kannada MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kannada MN.ttc"; sourceTree = "<group>"; };
+		51DCAB472A7C299600686B4F /* STIXTwoMath.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXTwoMath.otf; sourceTree = "<group>"; };
+		51DCAB482A7C299600686B4F /* Beirut.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beirut.ttc; sourceTree = "<group>"; };
+		51DCAB492A7C299600686B4F /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impact.ttf; sourceTree = "<group>"; };
+		51DCAB4A2A7C299600686B4F /* NotoSansTifinagh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTifinagh-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB4B2A7C299600686B4F /* Kokonor.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kokonor.ttf; sourceTree = "<group>"; };
+		51DCAB4C2A7C299600686B4F /* NotoSansKaithi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKaithi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB4D2A7C299600686B4F /* NewPeninimMT.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewPeninimMT.ttc; sourceTree = "<group>"; };
+		51DCAB4E2A7C299600686B4F /* STIXIntUpBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntUpBol.otf; sourceTree = "<group>"; };
+		51DCAB4F2A7C299600686B4F /* NotoSerifBalinese-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifBalinese-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB502A7C299600686B4F /* NotoSansTakri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTakri-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB512A7C299600686B4F /* NotoSansMasaramGondi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMasaramGondi-Regular.otf"; sourceTree = "<group>"; };
+		51DCAB522A7C299600686B4F /* Gurmukhi MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gurmukhi MN.ttc"; sourceTree = "<group>"; };
+		51DCAB532A7C299600686B4F /* STIXSizThreeSymBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizThreeSymBol.otf; sourceTree = "<group>"; };
+		51DCAB542A7C299600686B4F /* NotoSansEgyptianHieroglyphs-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansEgyptianHieroglyphs-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB552A7C299600686B4F /* NotoSansSamaritan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSamaritan-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB562A7C299600686B4F /* NotoSansElbasan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansElbasan-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB572A7C299600686B4F /* PartyLET-plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PartyLET-plain.ttf"; sourceTree = "<group>"; };
+		51DCAB582A7C299600686B4F /* NotoSansKharoshthi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKharoshthi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB592A7C299600686B4F /* Tahoma Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tahoma Bold.ttf"; sourceTree = "<group>"; };
+		51DCAB5A2A7C299600686B4F /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
+		51DCAB5B2A7C299600686B4F /* Diwan Thuluth.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Diwan Thuluth.ttf"; sourceTree = "<group>"; };
+		51DCAB5C2A7C299600686B4F /* NotoSansTagalog-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTagalog-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB5D2A7C299600686B4F /* Ayuthaya.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ayuthaya.ttf; sourceTree = "<group>"; };
+		51DCAB5E2A7C299600686B4F /* STIXIntUpReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntUpReg.otf; sourceTree = "<group>"; };
+		51DCAB5F2A7C299600686B4F /* Sinhala Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sinhala Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB602A7C299600686B4F /* Khmer Sangam MN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Khmer Sangam MN.ttf"; sourceTree = "<group>"; };
+		51DCAB612A7C299600686B4F /* PTSerif.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTSerif.ttc; sourceTree = "<group>"; };
+		51DCAB622A7C299600686B4F /* STIXSizThreeSymReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizThreeSymReg.otf; sourceTree = "<group>"; };
+		51DCAB632A7C299600686B4F /* SnellRoundhand.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnellRoundhand.ttc; sourceTree = "<group>"; };
+		51DCAB642A7C299600686B4F /* NotoSansSharada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSharada-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB652A7C299600686B4F /* Chalkboard.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkboard.ttc; sourceTree = "<group>"; };
+		51DCAB662A7C299600686B4F /* NotoSansKhojki-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKhojki-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB672A7C299600686B4F /* Bodoni 72.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bodoni 72.ttc"; sourceTree = "<group>"; };
+		51DCAB682A7C299600686B4F /* NotoSansNewTaiLue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansNewTaiLue-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB692A7C299600686B4F /* NotoSansInscriptionalParthian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansInscriptionalParthian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB6A2A7C299600686B4F /* STIXNonUni.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXNonUni.otf; sourceTree = "<group>"; };
+		51DCAB6B2A7C299600686B4F /* Mshtakan.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mshtakan.ttc; sourceTree = "<group>"; };
+		51DCAB6C2A7C299600686B4F /* Trebuchet MS Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trebuchet MS Bold.ttf"; sourceTree = "<group>"; };
+		51DCAB6D2A7C299600686B4F /* NotoSansBuhid-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansBuhid-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB6E2A7C299600686B4F /* Lao MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lao MN.ttc"; sourceTree = "<group>"; };
+		51DCAB6F2A7C299600686B4F /* Sana.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sana.ttc; sourceTree = "<group>"; };
+		51DCAB702A7C299600686B4F /* Arial Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Black.ttf"; sourceTree = "<group>"; };
+		51DCAB712A7C299600686B4F /* Baskerville.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Baskerville.ttc; sourceTree = "<group>"; };
+		51DCAB722A7C299600686B4F /* Courier New Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courier New Bold Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB732A7C299600686B4F /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
+		51DCAB742A7C299600686B4F /* NotoSansKhudawadi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKhudawadi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB752A7C299600686B4F /* InaiMathi-MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InaiMathi-MN.ttc"; sourceTree = "<group>"; };
+		51DCAB762A7C299600686B4F /* NotoSerifYezidi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifYezidi-Regular.otf"; sourceTree = "<group>"; };
+		51DCAB772A7C299600686B4F /* NotoSansBuginese-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansBuginese-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB782A7C299600686B4F /* Telugu Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Telugu Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB792A7C299600686B4F /* Hoefler Text.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hoefler Text.ttc"; sourceTree = "<group>"; };
+		51DCAB7A2A7C299600686B4F /* NotoSansLinearB-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansLinearB-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB7B2A7C299600686B4F /* DIN Alternate Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Alternate Bold.ttf"; sourceTree = "<group>"; };
+		51DCAB7C2A7C299600686B4F /* Wingdings.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wingdings.ttf; sourceTree = "<group>"; };
+		51DCAB7D2A7C299600686B4F /* NotoSansNewa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansNewa-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB7E2A7C299600686B4F /* Sathu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sathu.ttf; sourceTree = "<group>"; };
+		51DCAB7F2A7C299600686B4F /* Gujarati Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gujarati Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCAB802A7C299600686B4F /* NotoSansSylotiNagri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSylotiNagri-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB812A7C299600686B4F /* Arial Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Bold Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB822A7C299600686B4F /* STIXSizTwoSymBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizTwoSymBol.otf; sourceTree = "<group>"; };
+		51DCAB832A7C299600686B4F /* Galvji.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Galvji.ttc; sourceTree = "<group>"; };
+		51DCAB842A7C299600686B4F /* NotoSansOldPersian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOldPersian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB852A7C299600686B4F /* Tahoma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tahoma.ttf; sourceTree = "<group>"; };
+		51DCAB862A7C299600686B4F /* EuphemiaCAS.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = EuphemiaCAS.ttc; sourceTree = "<group>"; };
+		51DCAB872A7C299600686B4F /* PlantagenetCherokee.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlantagenetCherokee.ttf; sourceTree = "<group>"; };
+		51DCAB882A7C299600686B4F /* Didot.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Didot.ttc; sourceTree = "<group>"; };
+		51DCAB892A7C299600686B4F /* Georgia Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Georgia Bold.ttf"; sourceTree = "<group>"; };
+		51DCAB8A2A7C299600686B4F /* NotoSansLinearA-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansLinearA-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB8B2A7C299600686B4F /* STIXIntSmReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntSmReg.otf; sourceTree = "<group>"; };
+		51DCAB8C2A7C299600686B4F /* STIXNonUniIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXNonUniIta.otf; sourceTree = "<group>"; };
+		51DCAB8D2A7C299600686B4F /* STIXSizFourSymReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizFourSymReg.otf; sourceTree = "<group>"; };
+		51DCAB8E2A7C299600686B4F /* Verdana Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Verdana Bold Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB8F2A7C299600686B4F /* Microsoft Sans Serif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Microsoft Sans Serif.ttf"; sourceTree = "<group>"; };
+		51DCAB902A7C299600686B4F /* NotoSansCuneiform-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCuneiform-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB912A7C299600686B4F /* Georgia Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Georgia Bold Italic.ttf"; sourceTree = "<group>"; };
+		51DCAB922A7C299600686B4F /* NotoSansBatak-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansBatak-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB932A7C299600686B4F /* Arial Rounded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Rounded Bold.ttf"; sourceTree = "<group>"; };
+		51DCAB942A7C299600686B4F /* Times New Roman Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Times New Roman Bold.ttf"; sourceTree = "<group>"; };
+		51DCAB952A7C299600686B4F /* STIXSizTwoSymReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizTwoSymReg.otf; sourceTree = "<group>"; };
+		51DCAB962A7C299600686B4F /* Khmer MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Khmer MN.ttc"; sourceTree = "<group>"; };
+		51DCAB972A7C299600686B4F /* NotoSansWancho-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansWancho-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB982A7C299600686B4F /* STIXGeneralBolIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneralBolIta.otf; sourceTree = "<group>"; };
+		51DCAB992A7C299600686B4F /* Krungthep.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Krungthep.ttf; sourceTree = "<group>"; };
+		51DCAB9A2A7C299600686B4F /* NotoSansOldSouthArabian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOldSouthArabian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB9B2A7C299600686B4F /* Oriya MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oriya MN.ttc"; sourceTree = "<group>"; };
+		51DCAB9C2A7C299600686B4F /* STIXSizFourSymBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizFourSymBol.otf; sourceTree = "<group>"; };
+		51DCAB9D2A7C299600686B4F /* STIXIntSmBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntSmBol.otf; sourceTree = "<group>"; };
+		51DCAB9E2A7C299600686B4F /* NotoSansPauCinHau-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansPauCinHau-Regular.ttf"; sourceTree = "<group>"; };
+		51DCAB9F2A7C299600686B4F /* NotoSansMarchen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMarchen-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABA02A7C299600686B4F /* NotoSansOldItalic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOldItalic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABA12A7C299600686B4F /* NotoSansGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansGothic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABA22A7C299600686B4F /* Gurmukhi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gurmukhi.ttf; sourceTree = "<group>"; };
+		51DCABA32A7C299600686B4F /* Al Tarikh.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Al Tarikh.ttc"; sourceTree = "<group>"; };
+		51DCABA42A7C299600686B4F /* STIXNonUniBolIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXNonUniBolIta.otf; sourceTree = "<group>"; };
+		51DCABA52A7C299600686B4F /* Raanana.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Raanana.ttc; sourceTree = "<group>"; };
+		51DCABA62A7C299600686B4F /* Andale Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Andale Mono.ttf"; sourceTree = "<group>"; };
+		51DCABA72A7C299600686B4F /* GillSans.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = GillSans.ttc; sourceTree = "<group>"; };
+		51DCABA82A7C299600686B4F /* Mishafi Gold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mishafi Gold.ttf"; sourceTree = "<group>"; };
+		51DCABA92A7C299600686B4F /* Herculanum.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Herculanum.ttf; sourceTree = "<group>"; };
+		51DCABAA2A7C299600686B4F /* NotoSansTaiViet-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTaiViet-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABAB2A7C299600686B4F /* Damascus.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damascus.ttc; sourceTree = "<group>"; };
+		51DCABAC2A7C299600686B4F /* Waseem.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Waseem.ttc; sourceTree = "<group>"; };
+		51DCABAD2A7C299600686B4F /* NotoSansImperialAramaic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansImperialAramaic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABAE2A7C299600686B4F /* STIXIntDReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntDReg.otf; sourceTree = "<group>"; };
+		51DCABAF2A7C299600686B4F /* PTSerifCaption.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTSerifCaption.ttc; sourceTree = "<group>"; };
+		51DCABB02A7C299600686B4F /* NotoSansBrahmi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansBrahmi-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABB12A7C299600686B4F /* STIXVarBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXVarBol.otf; sourceTree = "<group>"; };
+		51DCABB22A7C299600686B4F /* Comic Sans MS Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS Bold.ttf"; sourceTree = "<group>"; };
+		51DCABB32A7C299600686B4F /* NotoSansCoptic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCoptic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABB42A7C299600686B4F /* STIXSizFiveSymReg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXSizFiveSymReg.otf; sourceTree = "<group>"; };
+		51DCABB52A7C299600686B4F /* Arial Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Italic.ttf"; sourceTree = "<group>"; };
+		51DCABB62A7C299600686B4F /* NotoSansOldTurkic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOldTurkic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABB72A7C299600686B4F /* SignPainter.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignPainter.ttc; sourceTree = "<group>"; };
+		51DCABB82A7C299600686B4F /* Oriya Sangam MN.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oriya Sangam MN.ttc"; sourceTree = "<group>"; };
+		51DCABB92A7C299600686B4F /* STIXGeneralBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXGeneralBol.otf; sourceTree = "<group>"; };
+		51DCABBA2A7C299600686B4F /* NotoSansMongolian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMongolian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABBB2A7C299600686B4F /* Verdana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Verdana.ttf; sourceTree = "<group>"; };
+		51DCABBC2A7C299600686B4F /* Shree714.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shree714.ttc; sourceTree = "<group>"; };
+		51DCABBD2A7C299600686B4F /* NotoSansOldPermic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOldPermic-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABBE2A7C299600686B4F /* STIXIntDBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STIXIntDBol.otf; sourceTree = "<group>"; };
+		51DCABBF2A7C299600686B4F /* Songti.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Songti.ttc; sourceTree = "<group>"; };
+		51DCABC02A7C299600686B4F /* NotoSansTaiTham-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTaiTham-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABC12A7C299600686B4F /* NotoSansMeeteiMayek-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMeeteiMayek-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABC22A7C299600686B4F /* NotoSansOldNorthArabian-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOldNorthArabian-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABC32A7C299600686B4F /* DecoTypeNaskh.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = DecoTypeNaskh.ttc; sourceTree = "<group>"; };
+		51DCABC42A7C299600686B4F /* NotoSansOsmanya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansOsmanya-Regular.ttf"; sourceTree = "<group>"; };
+		51DCABC52A7C299600686B4F /* Arial Narrow Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Narrow Bold.ttf"; sourceTree = "<group>"; };
+		51DCABC62A7C299600686B4F /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next.ttc"; sourceTree = "<group>"; };
+		51DCABC72A7C299600686B4F /* KohinoorGujarati.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = KohinoorGujarati.ttc; sourceTree = "<group>"; };
+		51DCABC82A7C299600686B4F /* AquaKana.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AquaKana.ttc; sourceTree = "<group>"; };
+		51DCABC92A7C299600686B4F /* Palatino.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Palatino.ttc; sourceTree = "<group>"; };
+		51DCABCA2A7C299600686B4F /* Monaco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Monaco.ttf; sourceTree = "<group>"; };
+		51DCABCB2A7C299600686B4F /* Apple Symbols.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Symbols.ttf"; sourceTree = "<group>"; };
+		51DCABCC2A7C299600686B4F /* NotoNastaliq.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NotoNastaliq.ttc; sourceTree = "<group>"; };
+		51DCABCD2A7C299600686B4F /* STHeiti Light.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "STHeiti Light.ttc"; sourceTree = "<group>"; };
+		51DCABCE2A7C299600686B4F /* NewYorkItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYorkItalic.ttf; sourceTree = "<group>"; };
+		51DCABCF2A7C299600686B4F /* HelveLTMM */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveLTMM; sourceTree = "<group>"; };
+		51DCABD02A7C299600686B4F /* GeezaPro.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeezaPro.ttc; sourceTree = "<group>"; };
+		51DCABD12A7C299600686B4F /* TimesLTMM */ = {isa = PBXFileReference; lastKnownFileType = file; path = TimesLTMM; sourceTree = "<group>"; };
+		51DCABD22A7C299600686B4F /* SFCompactItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFCompactItalic.ttf; sourceTree = "<group>"; };
+		51DCABD32A7C299600686B4F /* ヒラギノ角ゴシック W7.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W7.ttc"; sourceTree = "<group>"; };
+		51DCABD42A7C299600686B4F /* Times.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Times.ttc; sourceTree = "<group>"; };
+		51DCABD52A7C299600686B4F /* ヒラギノ丸ゴ ProN W4.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ丸ゴ ProN W4.ttc"; sourceTree = "<group>"; };
+		51DCABD62A7C299600686B4F /* ヒラギノ角ゴシック W6.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W6.ttc"; sourceTree = "<group>"; };
+		51DCABD72A7C299600686B4F /* ヒラギノ角ゴシック W4.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W4.ttc"; sourceTree = "<group>"; };
+		51DCABD82A7C299600686B4F /* NotoSansKannada.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NotoSansKannada.ttc; sourceTree = "<group>"; };
+		51DCABD92A7C299600686B4F /* SFArabic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFArabic.ttf; sourceTree = "<group>"; };
+		51DCABDA2A7C299600686B4F /* SFNSRounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFNSRounded.ttf; sourceTree = "<group>"; };
+		51DCABDB2A7C299600686B4F /* ヒラギノ角ゴシック W5.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W5.ttc"; sourceTree = "<group>"; };
+		51DCABDC2A7C299600686B4F /* MarkerFelt.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkerFelt.ttc; sourceTree = "<group>"; };
+		51DCABDD2A7C299600686B4F /* Apple Braille Pinpoint 8 Dot.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Braille Pinpoint 8 Dot.ttf"; sourceTree = "<group>"; };
+		51DCABDE2A7C299600686B4F /* Keyboard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Keyboard.ttf; sourceTree = "<group>"; };
+		51DCABDF2A7C299600686B4F /* ヒラギノ角ゴシック W1.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W1.ttc"; sourceTree = "<group>"; };
+		51DCABE02A7C299600686B4F /* SFCompactRounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFCompactRounded.ttf; sourceTree = "<group>"; };
+		51DCABE12A7C299600686B4F /* ArialHB.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArialHB.ttc; sourceTree = "<group>"; };
+		51DCABE22A7C299600686B4F /* Apple Braille Outline 8 Dot.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Braille Outline 8 Dot.ttf"; sourceTree = "<group>"; };
+		51DCABE32A7C299600686B4F /* ヒラギノ角ゴシック W0.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W0.ttc"; sourceTree = "<group>"; };
+		51DCABE42A7C299600686B4F /* Apple Color Emoji.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Color Emoji.ttc"; sourceTree = "<group>"; };
+		51DCABE52A7C299600686B4F /* ヒラギノ角ゴシック W2.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W2.ttc"; sourceTree = "<group>"; };
+		51DCABE62A7C299600686B4F /* SFNSItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFNSItalic.ttf; sourceTree = "<group>"; };
+		51DCABE72A7C299600686B4F /* Helvetica.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helvetica.ttc; sourceTree = "<group>"; };
+		51DCABE82A7C299600686B4F /* KohinoorBangla.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = KohinoorBangla.ttc; sourceTree = "<group>"; };
+		51DCABE92A7C299600686B4F /* SFArabicRounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFArabicRounded.ttf; sourceTree = "<group>"; };
+		51DCABEA2A7C299600686B4F /* NotoSansArmenian.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NotoSansArmenian.ttc; sourceTree = "<group>"; };
+		51DCABEB2A7C299600686B4F /* ヒラギノ角ゴシック W3.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ヒラギノ角ゴシック W3.ttc"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-HudaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HudaApp.release.xcconfig"; path = "Target Support Files/Pods-HudaApp/Pods-HudaApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-HudaApp-HudaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HudaApp-HudaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HudaApp-HudaAppTests/Pods-HudaApp-HudaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-HudaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HudaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +828,383 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		51DCAA812A7C299600686B4F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51DCAA822A7C299600686B4F /* AppleSDGothicNeo.ttc */,
+				51DCAA832A7C299600686B4F /* Menlo.ttc */,
+				51DCAA842A7C299600686B4F /* STHeiti Medium.ttc */,
+				51DCAA852A7C299600686B4F /* Symbol.ttf */,
+				51DCAA862A7C299600686B4F /* Geneva.ttf */,
+				51DCAA872A7C299600686B4F /* Hiragino Sans GB.ttc */,
+				51DCAA882A7C299600686B4F /* LastResort.otf */,
+				51DCAA892A7C299600686B4F /* NotoSerifMyanmar.ttc */,
+				51DCAA8A2A7C299600686B4F /* HelveticaNeue.ttc */,
+				51DCAA8B2A7C299600686B4F /* SFNSMono.ttf */,
+				51DCAA8C2A7C299600686B4F /* ヒラギノ角ゴシック W8.ttc */,
+				51DCAA8D2A7C299600686B4F /* PingFang.ttc */,
+				51DCAA8E2A7C299600686B4F /* Noteworthy.ttc */,
+				51DCAA8F2A7C299600686B4F /* NotoSansOriya.ttc */,
+				51DCAA902A7C299600686B4F /* ヒラギノ角ゴシック W9.ttc */,
+				51DCAA912A7C299600686B4F /* ThonburiUI.ttc */,
+				51DCAA922A7C299600686B4F /* Optima.ttc */,
+				51DCAA932A7C299600686B4F /* ZapfDingbats.ttf */,
+				51DCAA942A7C299600686B4F /* Apple Braille.ttf */,
+				51DCAA952A7C299600686B4F /* Avenir Next Condensed.ttc */,
+				51DCAA962A7C299600686B4F /* LucidaGrande.ttc */,
+				51DCAA972A7C299600686B4F /* Courier.ttc */,
+				51DCAA982A7C299600686B4F /* SFCompact.ttf */,
+				51DCAA992A7C299600686B4F /* Apple Braille Outline 6 Dot.ttf */,
+				51DCAA9A2A7C299600686B4F /* KohinoorTelugu.ttc */,
+				51DCAA9B2A7C299600686B4F /* Apple Braille Pinpoint 6 Dot.ttf */,
+				51DCAA9C2A7C299600686B4F /* MuktaMahee.ttc */,
+				51DCAA9D2A7C299600686B4F /* NewYork.ttf */,
+				51DCAA9E2A7C299600686B4F /* SFNSMonoItalic.ttf */,
+				51DCAA9F2A7C299600686B4F /* SFNS.ttf */,
+				51DCAAA02A7C299600686B4F /* Avenir.ttc */,
+				51DCAAA12A7C299600686B4F /* Kohinoor.ttc */,
+				51DCAAA22A7C299600686B4F /* NotoSansMyanmar.ttc */,
+				51DCAAA32A7C299600686B4F /* ヒラギノ明朝 ProN.ttc */,
+				51DCAAA42A7C299600686B4F /* Supplemental */,
+				51DCABC62A7C299600686B4F /* Avenir Next.ttc */,
+				51DCABC72A7C299600686B4F /* KohinoorGujarati.ttc */,
+				51DCABC82A7C299600686B4F /* AquaKana.ttc */,
+				51DCABC92A7C299600686B4F /* Palatino.ttc */,
+				51DCABCA2A7C299600686B4F /* Monaco.ttf */,
+				51DCABCB2A7C299600686B4F /* Apple Symbols.ttf */,
+				51DCABCC2A7C299600686B4F /* NotoNastaliq.ttc */,
+				51DCABCD2A7C299600686B4F /* STHeiti Light.ttc */,
+				51DCABCE2A7C299600686B4F /* NewYorkItalic.ttf */,
+				51DCABCF2A7C299600686B4F /* HelveLTMM */,
+				51DCABD02A7C299600686B4F /* GeezaPro.ttc */,
+				51DCABD12A7C299600686B4F /* TimesLTMM */,
+				51DCABD22A7C299600686B4F /* SFCompactItalic.ttf */,
+				51DCABD32A7C299600686B4F /* ヒラギノ角ゴシック W7.ttc */,
+				51DCABD42A7C299600686B4F /* Times.ttc */,
+				51DCABD52A7C299600686B4F /* ヒラギノ丸ゴ ProN W4.ttc */,
+				51DCABD62A7C299600686B4F /* ヒラギノ角ゴシック W6.ttc */,
+				51DCABD72A7C299600686B4F /* ヒラギノ角ゴシック W4.ttc */,
+				51DCABD82A7C299600686B4F /* NotoSansKannada.ttc */,
+				51DCABD92A7C299600686B4F /* SFArabic.ttf */,
+				51DCABDA2A7C299600686B4F /* SFNSRounded.ttf */,
+				51DCABDB2A7C299600686B4F /* ヒラギノ角ゴシック W5.ttc */,
+				51DCABDC2A7C299600686B4F /* MarkerFelt.ttc */,
+				51DCABDD2A7C299600686B4F /* Apple Braille Pinpoint 8 Dot.ttf */,
+				51DCABDE2A7C299600686B4F /* Keyboard.ttf */,
+				51DCABDF2A7C299600686B4F /* ヒラギノ角ゴシック W1.ttc */,
+				51DCABE02A7C299600686B4F /* SFCompactRounded.ttf */,
+				51DCABE12A7C299600686B4F /* ArialHB.ttc */,
+				51DCABE22A7C299600686B4F /* Apple Braille Outline 8 Dot.ttf */,
+				51DCABE32A7C299600686B4F /* ヒラギノ角ゴシック W0.ttc */,
+				51DCABE42A7C299600686B4F /* Apple Color Emoji.ttc */,
+				51DCABE52A7C299600686B4F /* ヒラギノ角ゴシック W2.ttc */,
+				51DCABE62A7C299600686B4F /* SFNSItalic.ttf */,
+				51DCABE72A7C299600686B4F /* Helvetica.ttc */,
+				51DCABE82A7C299600686B4F /* KohinoorBangla.ttc */,
+				51DCABE92A7C299600686B4F /* SFArabicRounded.ttf */,
+				51DCABEA2A7C299600686B4F /* NotoSansArmenian.ttc */,
+				51DCABEB2A7C299600686B4F /* ヒラギノ角ゴシック W3.ttc */,
+			);
+			name = Fonts;
+			path = ../../../../../System/Library/Fonts;
+			sourceTree = "<group>";
+		};
+		51DCAAA42A7C299600686B4F /* Supplemental */ = {
+			isa = PBXGroup;
+			children = (
+				51DCAAA52A7C299600686B4F /* NotoSansLepcha-Regular.ttf */,
+				51DCAAA62A7C299600686B4F /* AlBayan.ttc */,
+				51DCAAA72A7C299600686B4F /* Webdings.ttf */,
+				51DCAAA82A7C299600686B4F /* NotoSansMandaic-Regular.ttf */,
+				51DCAAA92A7C299600686B4F /* Rockwell.ttc */,
+				51DCAAAA2A7C299600686B4F /* Zapfino.ttf */,
+				51DCAAAB2A7C299600686B4F /* NotoSansCaucasianAlbanian-Regular.ttf */,
+				51DCAAAC2A7C299600686B4F /* Trebuchet MS Italic.ttf */,
+				51DCAAAD2A7C299600686B4F /* NotoSansOldHungarian-Regular.ttf */,
+				51DCAAAE2A7C299600686B4F /* Georgia.ttf */,
+				51DCAAAF2A7C299600686B4F /* Savoye LET.ttc */,
+				51DCAAB02A7C299600686B4F /* PTSans.ttc */,
+				51DCAAB12A7C299600686B4F /* NotoSansSaurashtra-Regular.ttf */,
+				51DCAAB22A7C299600686B4F /* NotoSansMultani-Regular.ttf */,
+				51DCAAB32A7C299600686B4F /* NotoSansHatran-Regular.ttf */,
+				51DCAAB42A7C299600686B4F /* Verdana Bold.ttf */,
+				51DCAAB52A7C299600686B4F /* Bodoni 72 Smallcaps Book.ttf */,
+				51DCAAB62A7C299600686B4F /* NotoSansInscriptionalPahlavi-Regular.ttf */,
+				51DCAAB72A7C299600686B4F /* NotoSansHanunoo-Regular.ttf */,
+				51DCAAB82A7C299600686B4F /* Times New Roman Bold Italic.ttf */,
+				51DCAAB92A7C299600686B4F /* SukhumvitSet.ttc */,
+				51DCAABA2A7C299600686B4F /* Silom.ttf */,
+				51DCAABB2A7C299600686B4F /* NotoSansBhaiksuki-Regular.ttf */,
+				51DCAABC2A7C299600686B4F /* NotoSansCham-Regular.ttf */,
+				51DCAABD2A7C299600686B4F /* NotoSansManichaean-Regular.ttf */,
+				51DCAABE2A7C299600686B4F /* NotoSansSiddham-Regular.ttf */,
+				51DCAABF2A7C299600686B4F /* NotoSansNKo-Regular.ttf */,
+				51DCAAC02A7C299600686B4F /* Kefa.ttc */,
+				51DCAAC12A7C299600686B4F /* Verdana Italic.ttf */,
+				51DCAAC22A7C299600686B4F /* NotoSansKayahLi-Regular.ttf */,
+				51DCAAC32A7C299600686B4F /* NotoSansOsage-Regular.ttf */,
+				51DCAAC42A7C299600686B4F /* Nadeem.ttc */,
+				51DCAAC52A7C299600686B4F /* NotoSansAdlam-Regular.ttf */,
+				51DCAAC62A7C299600686B4F /* KufiStandardGK.ttc */,
+				51DCAAC72A7C299600686B4F /* NotoSansPahawhHmong-Regular.ttf */,
+				51DCAAC82A7C299600686B4F /* Times New Roman Italic.ttf */,
+				51DCAAC92A7C299600686B4F /* NotoSansMro-Regular.ttf */,
+				51DCAACA2A7C299600686B4F /* NotoSansCanadianAboriginal-Regular.otf */,
+				51DCAACB2A7C299600686B4F /* NotoSansAvestan-Regular.ttf */,
+				51DCAACC2A7C299600686B4F /* Bradley Hand Bold.ttf */,
+				51DCAACD2A7C299600686B4F /* NotoSansMiao-Regular.ttf */,
+				51DCAACE2A7C299600686B4F /* Arial Narrow Italic.ttf */,
+				51DCAACF2A7C299600686B4F /* NotoSansBassaVah-Regular.ttf */,
+				51DCAAD02A7C299600686B4F /* STIXGeneralItalic.otf */,
+				51DCAAD12A7C299600686B4F /* NotoSansSyriac-Regular.ttf */,
+				51DCAAD22A7C299600686B4F /* NotoSansMendeKikakui-Regular.ttf */,
+				51DCAAD32A7C299600686B4F /* Kannada Sangam MN.ttc */,
+				51DCAAD42A7C299600686B4F /* Papyrus.ttc */,
+				51DCAAD52A7C299600686B4F /* Seravek.ttc */,
+				51DCAAD62A7C299600686B4F /* AppleGothic.ttf */,
+				51DCAAD72A7C299600686B4F /* Iowan Old Style.ttc */,
+				51DCAAD82A7C299600686B4F /* STIXTwoText-Italic.ttf */,
+				51DCAAD92A7C299600686B4F /* NotoSansLydian-Regular.ttf */,
+				51DCAADA2A7C299600686B4F /* DIN Condensed Bold.ttf */,
+				51DCAADB2A7C299600686B4F /* NotoSansChakma-Regular.ttf */,
+				51DCAADC2A7C299600686B4F /* NotoSansNabataean-Regular.ttf */,
+				51DCAADD2A7C299600686B4F /* Kailasa.ttc */,
+				51DCAADE2A7C299600686B4F /* Charter.ttc */,
+				51DCAADF2A7C299600686B4F /* NotoSerifNyiakengPuachueHmong-Regular.ttf */,
+				51DCAAE02A7C299600686B4F /* Farisi.ttf */,
+				51DCAAE12A7C299600686B4F /* Arial Bold.ttf */,
+				51DCAAE22A7C299600686B4F /* Trebuchet MS.ttf */,
+				51DCAAE32A7C299600686B4F /* Mishafi.ttf */,
+				51DCAAE42A7C299600686B4F /* NotoSansDuployan-Regular.ttf */,
+				51DCAAE52A7C299600686B4F /* Academy Engraved LET Fonts.ttf */,
+				51DCAAE62A7C299600686B4F /* NotoSansSoraSompeng-Regular.ttf */,
+				51DCAAE72A7C299600686B4F /* Marion.ttc */,
+				51DCAAE82A7C299600686B4F /* Trattatello.ttf */,
+				51DCAAE92A7C299600686B4F /* Sinhala MN.ttc */,
+				51DCAAEA2A7C299600686B4F /* NotoSansRejang-Regular.ttf */,
+				51DCAAEB2A7C299600686B4F /* NotoSansUgaritic-Regular.ttf */,
+				51DCAAEC2A7C299600686B4F /* Corsiva.ttc */,
+				51DCAAED2A7C299600686B4F /* NotoSansLycian-Regular.ttf */,
+				51DCAAEE2A7C299600686B4F /* BigCaslon.ttf */,
+				51DCAAEF2A7C299600686B4F /* NotoSansWarangCiti-Regular.ttf */,
+				51DCAAF02A7C299600686B4F /* Courier New Bold.ttf */,
+				51DCAAF12A7C299600686B4F /* NISC18030.ttf */,
+				51DCAAF22A7C299600686B4F /* NotoSansHanifiRohingya-Regular.ttf */,
+				51DCAAF32A7C299600686B4F /* NotoSansTirhuta-Regular.ttf */,
+				51DCAAF42A7C299600686B4F /* Al Nile.ttc */,
+				51DCAAF52A7C299600686B4F /* STIXIntUpSmReg.otf */,
+				51DCAAF62A7C299600686B4F /* SuperClarendon.ttc */,
+				51DCAAF72A7C299600686B4F /* Baghdad.ttc */,
+				51DCAAF82A7C299600686B4F /* STIXGeneral.otf */,
+				51DCAAF92A7C299600686B4F /* Athelas.ttc */,
+				51DCAAFA2A7C299600686B4F /* STIXIntUpDBol.otf */,
+				51DCAAFB2A7C299600686B4F /* AmericanTypewriter.ttc */,
+				51DCAAFC2A7C299600686B4F /* Lao Sangam MN.ttf */,
+				51DCAAFD2A7C299600686B4F /* NotoSansTaiLe-Regular.ttf */,
+				51DCAAFE2A7C299600686B4F /* NotoSansThaana-Regular.ttf */,
+				51DCAAFF2A7C299600686B4F /* Luminari.ttf */,
+				51DCAB002A7C299600686B4F /* STIXVar.otf */,
+				51DCAB012A7C299600686B4F /* Malayalam MN.ttc */,
+				51DCAB022A7C299600686B4F /* STIXSizOneSymBol.otf */,
+				51DCAB032A7C299600686B4F /* Muna.ttc */,
+				51DCAB042A7C299600686B4F /* Times New Roman.ttf */,
+				51DCAB052A7C299600686B4F /* Brush Script.ttf */,
+				51DCAB062A7C299600686B4F /* Bodoni 72 OS.ttc */,
+				51DCAB072A7C299600686B4F /* Myanmar MN.ttc */,
+				51DCAB082A7C299600686B4F /* NotoSansJavanese-Regular.otf */,
+				51DCAB092A7C299600686B4F /* Georgia Italic.ttf */,
+				51DCAB0A2A7C299600686B4F /* Courier New Italic.ttf */,
+				51DCAB0B2A7C299600686B4F /* Arial Unicode.ttf */,
+				51DCAB0C2A7C299600686B4F /* Telugu MN.ttc */,
+				51DCAB0D2A7C299600686B4F /* Myanmar Sangam MN.ttc */,
+				51DCAB0E2A7C299600686B4F /* Chalkduster.ttf */,
+				51DCAB0F2A7C299600686B4F /* STIXIntUpSmBol.otf */,
+				51DCAB102A7C299600686B4F /* STIXIntUpDReg.otf */,
+				51DCAB112A7C299600686B4F /* NotoSansSundanese-Regular.ttf */,
+				51DCAB122A7C299600686B4F /* Devanagari Sangam MN.ttc */,
+				51DCAB132A7C299600686B4F /* Phosphate.ttc */,
+				51DCAB142A7C299600686B4F /* Apple Chancery.ttf */,
+				51DCAB152A7C299600686B4F /* AppleMyungjo.ttf */,
+				51DCAB162A7C299600686B4F /* STIXSizOneSymReg.otf */,
+				51DCAB172A7C299600686B4F /* NotoSansOlChiki-Regular.ttf */,
+				51DCAB182A7C299600686B4F /* NotoSansGunjalaGondi-Regular.otf */,
+				51DCAB192A7C299600686B4F /* Futura.ttc */,
+				51DCAB1A2A7C299600686B4F /* NotoSansCarian-Regular.ttf */,
+				51DCAB1B2A7C299600686B4F /* Copperplate.ttc */,
+				51DCAB1C2A7C299600686B4F /* PTMono.ttc */,
+				51DCAB1D2A7C299600686B4F /* Thonburi.ttc */,
+				51DCAB1E2A7C299600686B4F /* Farah.ttc */,
+				51DCAB1F2A7C299600686B4F /* Arial Narrow Bold Italic.ttf */,
+				51DCAB202A7C299600686B4F /* Malayalam Sangam MN.ttc */,
+				51DCAB212A7C299600686B4F /* NotoSansModi-Regular.ttf */,
+				51DCAB222A7C299600686B4F /* ChalkboardSE.ttc */,
+				51DCAB232A7C299600686B4F /* ITFDevanagari.ttc */,
+				51DCAB242A7C299600686B4F /* NotoSansMeroitic-Regular.ttf */,
+				51DCAB252A7C299600686B4F /* Bangla MN.ttc */,
+				51DCAB262A7C299600686B4F /* STIXNonUniBol.otf */,
+				51DCAB272A7C299600686B4F /* NotoSansPalmyrene-Regular.ttf */,
+				51DCAB282A7C299600686B4F /* NotoSansPhagsPa-Regular.ttf */,
+				51DCAB292A7C299600686B4F /* Arial Narrow.ttf */,
+				51DCAB2A2A7C299600686B4F /* NotoSansYi-Regular.ttf */,
+				51DCAB2B2A7C299600686B4F /* Bangla Sangam MN.ttc */,
+				51DCAB2C2A7C299600686B4F /* NotoSansPsalterPahlavi-Regular.ttf */,
+				51DCAB2D2A7C299600686B4F /* Tamil MN.ttc */,
+				51DCAB2E2A7C299600686B4F /* NotoSansLimbu-Regular.ttf */,
+				51DCAB2F2A7C299600686B4F /* NotoSansCypriot-Regular.ttf */,
+				51DCAB302A7C299600686B4F /* Gurmukhi Sangam MN.ttc */,
+				51DCAB312A7C299600686B4F /* GujaratiMT.ttc */,
+				51DCAB322A7C299600686B4F /* Diwan Kufi.ttc */,
+				51DCAB332A7C299600686B4F /* NotoSansBamum-Regular.ttf */,
+				51DCAB342A7C299600686B4F /* NotoSansLisu-Regular.ttf */,
+				51DCAB352A7C299600686B4F /* Courier New.ttf */,
+				51DCAB362A7C299600686B4F /* Wingdings 3.ttf */,
+				51DCAB372A7C299600686B4F /* NotoSansMahajani-Regular.ttf */,
+				51DCAB382A7C299600686B4F /* Wingdings 2.ttf */,
+				51DCAB392A7C299600686B4F /* NotoSansGlagolitic-Regular.ttf */,
+				51DCAB3A2A7C299600686B4F /* Hoefler Text Ornaments.ttf */,
+				51DCAB3B2A7C299600686B4F /* Tamil Sangam MN.ttc */,
+				51DCAB3C2A7C299600686B4F /* NotoSerifAhom-Regular.ttf */,
+				51DCAB3D2A7C299600686B4F /* Bodoni Ornaments.ttf */,
+				51DCAB3E2A7C299600686B4F /* NotoSansVai-Regular.ttf */,
+				51DCAB3F2A7C299600686B4F /* NotoSansTagbanwa-Regular.ttf */,
+				51DCAB402A7C299600686B4F /* Cochin.ttc */,
+				51DCAB412A7C299600686B4F /* STIXTwoText.ttf */,
+				51DCAB422A7C299600686B4F /* Skia.ttf */,
+				51DCAB432A7C299600686B4F /* NotoSansPhoenician-Regular.ttf */,
+				51DCAB442A7C299600686B4F /* Trebuchet MS Bold Italic.ttf */,
+				51DCAB452A7C299600686B4F /* DevanagariMT.ttc */,
+				51DCAB462A7C299600686B4F /* Kannada MN.ttc */,
+				51DCAB472A7C299600686B4F /* STIXTwoMath.otf */,
+				51DCAB482A7C299600686B4F /* Beirut.ttc */,
+				51DCAB492A7C299600686B4F /* Impact.ttf */,
+				51DCAB4A2A7C299600686B4F /* NotoSansTifinagh-Regular.ttf */,
+				51DCAB4B2A7C299600686B4F /* Kokonor.ttf */,
+				51DCAB4C2A7C299600686B4F /* NotoSansKaithi-Regular.ttf */,
+				51DCAB4D2A7C299600686B4F /* NewPeninimMT.ttc */,
+				51DCAB4E2A7C299600686B4F /* STIXIntUpBol.otf */,
+				51DCAB4F2A7C299600686B4F /* NotoSerifBalinese-Regular.ttf */,
+				51DCAB502A7C299600686B4F /* NotoSansTakri-Regular.ttf */,
+				51DCAB512A7C299600686B4F /* NotoSansMasaramGondi-Regular.otf */,
+				51DCAB522A7C299600686B4F /* Gurmukhi MN.ttc */,
+				51DCAB532A7C299600686B4F /* STIXSizThreeSymBol.otf */,
+				51DCAB542A7C299600686B4F /* NotoSansEgyptianHieroglyphs-Regular.ttf */,
+				51DCAB552A7C299600686B4F /* NotoSansSamaritan-Regular.ttf */,
+				51DCAB562A7C299600686B4F /* NotoSansElbasan-Regular.ttf */,
+				51DCAB572A7C299600686B4F /* PartyLET-plain.ttf */,
+				51DCAB582A7C299600686B4F /* NotoSansKharoshthi-Regular.ttf */,
+				51DCAB592A7C299600686B4F /* Tahoma Bold.ttf */,
+				51DCAB5A2A7C299600686B4F /* Arial.ttf */,
+				51DCAB5B2A7C299600686B4F /* Diwan Thuluth.ttf */,
+				51DCAB5C2A7C299600686B4F /* NotoSansTagalog-Regular.ttf */,
+				51DCAB5D2A7C299600686B4F /* Ayuthaya.ttf */,
+				51DCAB5E2A7C299600686B4F /* STIXIntUpReg.otf */,
+				51DCAB5F2A7C299600686B4F /* Sinhala Sangam MN.ttc */,
+				51DCAB602A7C299600686B4F /* Khmer Sangam MN.ttf */,
+				51DCAB612A7C299600686B4F /* PTSerif.ttc */,
+				51DCAB622A7C299600686B4F /* STIXSizThreeSymReg.otf */,
+				51DCAB632A7C299600686B4F /* SnellRoundhand.ttc */,
+				51DCAB642A7C299600686B4F /* NotoSansSharada-Regular.ttf */,
+				51DCAB652A7C299600686B4F /* Chalkboard.ttc */,
+				51DCAB662A7C299600686B4F /* NotoSansKhojki-Regular.ttf */,
+				51DCAB672A7C299600686B4F /* Bodoni 72.ttc */,
+				51DCAB682A7C299600686B4F /* NotoSansNewTaiLue-Regular.ttf */,
+				51DCAB692A7C299600686B4F /* NotoSansInscriptionalParthian-Regular.ttf */,
+				51DCAB6A2A7C299600686B4F /* STIXNonUni.otf */,
+				51DCAB6B2A7C299600686B4F /* Mshtakan.ttc */,
+				51DCAB6C2A7C299600686B4F /* Trebuchet MS Bold.ttf */,
+				51DCAB6D2A7C299600686B4F /* NotoSansBuhid-Regular.ttf */,
+				51DCAB6E2A7C299600686B4F /* Lao MN.ttc */,
+				51DCAB6F2A7C299600686B4F /* Sana.ttc */,
+				51DCAB702A7C299600686B4F /* Arial Black.ttf */,
+				51DCAB712A7C299600686B4F /* Baskerville.ttc */,
+				51DCAB722A7C299600686B4F /* Courier New Bold Italic.ttf */,
+				51DCAB732A7C299600686B4F /* Comic Sans MS.ttf */,
+				51DCAB742A7C299600686B4F /* NotoSansKhudawadi-Regular.ttf */,
+				51DCAB752A7C299600686B4F /* InaiMathi-MN.ttc */,
+				51DCAB762A7C299600686B4F /* NotoSerifYezidi-Regular.otf */,
+				51DCAB772A7C299600686B4F /* NotoSansBuginese-Regular.ttf */,
+				51DCAB782A7C299600686B4F /* Telugu Sangam MN.ttc */,
+				51DCAB792A7C299600686B4F /* Hoefler Text.ttc */,
+				51DCAB7A2A7C299600686B4F /* NotoSansLinearB-Regular.ttf */,
+				51DCAB7B2A7C299600686B4F /* DIN Alternate Bold.ttf */,
+				51DCAB7C2A7C299600686B4F /* Wingdings.ttf */,
+				51DCAB7D2A7C299600686B4F /* NotoSansNewa-Regular.ttf */,
+				51DCAB7E2A7C299600686B4F /* Sathu.ttf */,
+				51DCAB7F2A7C299600686B4F /* Gujarati Sangam MN.ttc */,
+				51DCAB802A7C299600686B4F /* NotoSansSylotiNagri-Regular.ttf */,
+				51DCAB812A7C299600686B4F /* Arial Bold Italic.ttf */,
+				51DCAB822A7C299600686B4F /* STIXSizTwoSymBol.otf */,
+				51DCAB832A7C299600686B4F /* Galvji.ttc */,
+				51DCAB842A7C299600686B4F /* NotoSansOldPersian-Regular.ttf */,
+				51DCAB852A7C299600686B4F /* Tahoma.ttf */,
+				51DCAB862A7C299600686B4F /* EuphemiaCAS.ttc */,
+				51DCAB872A7C299600686B4F /* PlantagenetCherokee.ttf */,
+				51DCAB882A7C299600686B4F /* Didot.ttc */,
+				51DCAB892A7C299600686B4F /* Georgia Bold.ttf */,
+				51DCAB8A2A7C299600686B4F /* NotoSansLinearA-Regular.ttf */,
+				51DCAB8B2A7C299600686B4F /* STIXIntSmReg.otf */,
+				51DCAB8C2A7C299600686B4F /* STIXNonUniIta.otf */,
+				51DCAB8D2A7C299600686B4F /* STIXSizFourSymReg.otf */,
+				51DCAB8E2A7C299600686B4F /* Verdana Bold Italic.ttf */,
+				51DCAB8F2A7C299600686B4F /* Microsoft Sans Serif.ttf */,
+				51DCAB902A7C299600686B4F /* NotoSansCuneiform-Regular.ttf */,
+				51DCAB912A7C299600686B4F /* Georgia Bold Italic.ttf */,
+				51DCAB922A7C299600686B4F /* NotoSansBatak-Regular.ttf */,
+				51DCAB932A7C299600686B4F /* Arial Rounded Bold.ttf */,
+				51DCAB942A7C299600686B4F /* Times New Roman Bold.ttf */,
+				51DCAB952A7C299600686B4F /* STIXSizTwoSymReg.otf */,
+				51DCAB962A7C299600686B4F /* Khmer MN.ttc */,
+				51DCAB972A7C299600686B4F /* NotoSansWancho-Regular.ttf */,
+				51DCAB982A7C299600686B4F /* STIXGeneralBolIta.otf */,
+				51DCAB992A7C299600686B4F /* Krungthep.ttf */,
+				51DCAB9A2A7C299600686B4F /* NotoSansOldSouthArabian-Regular.ttf */,
+				51DCAB9B2A7C299600686B4F /* Oriya MN.ttc */,
+				51DCAB9C2A7C299600686B4F /* STIXSizFourSymBol.otf */,
+				51DCAB9D2A7C299600686B4F /* STIXIntSmBol.otf */,
+				51DCAB9E2A7C299600686B4F /* NotoSansPauCinHau-Regular.ttf */,
+				51DCAB9F2A7C299600686B4F /* NotoSansMarchen-Regular.ttf */,
+				51DCABA02A7C299600686B4F /* NotoSansOldItalic-Regular.ttf */,
+				51DCABA12A7C299600686B4F /* NotoSansGothic-Regular.ttf */,
+				51DCABA22A7C299600686B4F /* Gurmukhi.ttf */,
+				51DCABA32A7C299600686B4F /* Al Tarikh.ttc */,
+				51DCABA42A7C299600686B4F /* STIXNonUniBolIta.otf */,
+				51DCABA52A7C299600686B4F /* Raanana.ttc */,
+				51DCABA62A7C299600686B4F /* Andale Mono.ttf */,
+				51DCABA72A7C299600686B4F /* GillSans.ttc */,
+				51DCABA82A7C299600686B4F /* Mishafi Gold.ttf */,
+				51DCABA92A7C299600686B4F /* Herculanum.ttf */,
+				51DCABAA2A7C299600686B4F /* NotoSansTaiViet-Regular.ttf */,
+				51DCABAB2A7C299600686B4F /* Damascus.ttc */,
+				51DCABAC2A7C299600686B4F /* Waseem.ttc */,
+				51DCABAD2A7C299600686B4F /* NotoSansImperialAramaic-Regular.ttf */,
+				51DCABAE2A7C299600686B4F /* STIXIntDReg.otf */,
+				51DCABAF2A7C299600686B4F /* PTSerifCaption.ttc */,
+				51DCABB02A7C299600686B4F /* NotoSansBrahmi-Regular.ttf */,
+				51DCABB12A7C299600686B4F /* STIXVarBol.otf */,
+				51DCABB22A7C299600686B4F /* Comic Sans MS Bold.ttf */,
+				51DCABB32A7C299600686B4F /* NotoSansCoptic-Regular.ttf */,
+				51DCABB42A7C299600686B4F /* STIXSizFiveSymReg.otf */,
+				51DCABB52A7C299600686B4F /* Arial Italic.ttf */,
+				51DCABB62A7C299600686B4F /* NotoSansOldTurkic-Regular.ttf */,
+				51DCABB72A7C299600686B4F /* SignPainter.ttc */,
+				51DCABB82A7C299600686B4F /* Oriya Sangam MN.ttc */,
+				51DCABB92A7C299600686B4F /* STIXGeneralBol.otf */,
+				51DCABBA2A7C299600686B4F /* NotoSansMongolian-Regular.ttf */,
+				51DCABBB2A7C299600686B4F /* Verdana.ttf */,
+				51DCABBC2A7C299600686B4F /* Shree714.ttc */,
+				51DCABBD2A7C299600686B4F /* NotoSansOldPermic-Regular.ttf */,
+				51DCABBE2A7C299600686B4F /* STIXIntDBol.otf */,
+				51DCABBF2A7C299600686B4F /* Songti.ttc */,
+				51DCABC02A7C299600686B4F /* NotoSansTaiTham-Regular.ttf */,
+				51DCABC12A7C299600686B4F /* NotoSansMeeteiMayek-Regular.ttf */,
+				51DCABC22A7C299600686B4F /* NotoSansOldNorthArabian-Regular.ttf */,
+				51DCABC32A7C299600686B4F /* DecoTypeNaskh.ttc */,
+				51DCABC42A7C299600686B4F /* NotoSansOsmanya-Regular.ttf */,
+				51DCABC52A7C299600686B4F /* Arial Narrow Bold.ttf */,
+			);
+			path = Supplemental;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +1215,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				51DCAA812A7C299600686B4F /* Fonts */,
 				13B07FAE1A68108700A75B9A /* HudaApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* HudaAppTests */,
@@ -242,8 +1342,369 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DCAC0C2A7C299700686B4F /* NotoSansMyanmar.ttc in Resources */,
+				51DCAD0E2A7C299700686B4F /* Raanana.ttc in Resources */,
+				51DCAC632A7C299700686B4F /* STIXIntUpDBol.otf in Resources */,
+				51DCAD092A7C299700686B4F /* NotoSansOldItalic-Regular.ttf in Resources */,
+				51DCACF02A7C299700686B4F /* PlantagenetCherokee.ttf in Resources */,
+				51DCAC4F2A7C299700686B4F /* NotoSansSoraSompeng-Regular.ttf in Resources */,
+				51DCAC6B2A7C299700686B4F /* STIXSizOneSymBol.otf in Resources */,
+				51DCAD132A7C299700686B4F /* NotoSansTaiViet-Regular.ttf in Resources */,
+				51DCAC382A7C299700686B4F /* NotoSansBassaVah-Regular.ttf in Resources */,
+				51DCAD2B2A7C299700686B4F /* NotoSansOldNorthArabian-Regular.ttf in Resources */,
+				51DCAC372A7C299700686B4F /* Arial Narrow Italic.ttf in Resources */,
+				51DCAC262A7C299700686B4F /* NotoSansManichaean-Regular.ttf in Resources */,
+				51DCAC172A7C299700686B4F /* Georgia.ttf in Resources */,
+				51DCAC8B2A7C299700686B4F /* ChalkboardSE.ttc in Resources */,
+				51DCACE22A7C299700686B4F /* Hoefler Text.ttc in Resources */,
+				51DCACBF2A7C299700686B4F /* NotoSansElbasan-Regular.ttf in Resources */,
+				51DCACA32A7C299700686B4F /* Hoefler Text Ornaments.ttf in Resources */,
+				51DCAC2C2A7C299700686B4F /* NotoSansOsage-Regular.ttf in Resources */,
+				51DCABFB2A7C299700686B4F /* ThonburiUI.ttc in Resources */,
+				51DCAC3F2A7C299700686B4F /* AppleGothic.ttf in Resources */,
+				51DCACA22A7C299700686B4F /* NotoSansGlagolitic-Regular.ttf in Resources */,
+				51DCACDD2A7C299700686B4F /* NotoSansKhudawadi-Regular.ttf in Resources */,
+				51DCAD322A7C299700686B4F /* Palatino.ttc in Resources */,
+				51DCAC732A7C299700686B4F /* Courier New Italic.ttf in Resources */,
+				51DCAC312A7C299700686B4F /* Times New Roman Italic.ttf in Resources */,
+				51DCAC392A7C299700686B4F /* STIXGeneralItalic.otf in Resources */,
+				51DCAC082A7C299700686B4F /* SFNSMonoItalic.ttf in Resources */,
+				51DCAC8D2A7C299700686B4F /* NotoSansMeroitic-Regular.ttf in Resources */,
+				51DCAC9B2A7C299700686B4F /* Diwan Kufi.ttc in Resources */,
+				51DCACB92A7C299700686B4F /* NotoSansTakri-Regular.ttf in Resources */,
+				51DCAD422A7C299700686B4F /* SFArabic.ttf in Resources */,
+				51DCAC032A7C299700686B4F /* Apple Braille Outline 6 Dot.ttf in Resources */,
+				51DCAC2B2A7C299700686B4F /* NotoSansKayahLi-Regular.ttf in Resources */,
+				51DCAC652A7C299700686B4F /* Lao Sangam MN.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				51DCAC272A7C299700686B4F /* NotoSansSiddham-Regular.ttf in Resources */,
+				51DCAC922A7C299700686B4F /* Arial Narrow.ttf in Resources */,
+				51DCACCF2A7C299700686B4F /* NotoSansKhojki-Regular.ttf in Resources */,
+				51DCAC7C2A7C299700686B4F /* Phosphate.ttc in Resources */,
+				51DCAC462A7C299700686B4F /* Kailasa.ttc in Resources */,
+				51DCAC602A7C299700686B4F /* Baghdad.ttc in Resources */,
+				51DCACC42A7C299700686B4F /* Diwan Thuluth.ttf in Resources */,
+				51DCAC0B2A7C299700686B4F /* Kohinoor.ttc in Resources */,
+				51DCAC7F2A7C299700686B4F /* STIXSizOneSymReg.otf in Resources */,
+				51DCACDA2A7C299700686B4F /* Baskerville.ttc in Resources */,
+				51DCAD302A7C299700686B4F /* KohinoorGujarati.ttc in Resources */,
+				51DCACE32A7C299700686B4F /* NotoSansLinearB-Regular.ttf in Resources */,
+				51DCACE52A7C299700686B4F /* Wingdings.ttf in Resources */,
+				51DCAC472A7C299700686B4F /* Charter.ttc in Resources */,
+				51DCAC362A7C299700686B4F /* NotoSansMiao-Regular.ttf in Resources */,
+				51DCAD312A7C299700686B4F /* AquaKana.ttc in Resources */,
+				51DCACA12A7C299700686B4F /* Wingdings 2.ttf in Resources */,
+				51DCAC6A2A7C299700686B4F /* Malayalam MN.ttc in Resources */,
+				51DCACF72A7C299700686B4F /* Verdana Bold Italic.ttf in Resources */,
+				51DCAC5F2A7C299700686B4F /* SuperClarendon.ttc in Resources */,
+				51DCACDB2A7C299700686B4F /* Courier New Bold Italic.ttf in Resources */,
+				51DCAD442A7C299700686B4F /* ヒラギノ角ゴシック W5.ttc in Resources */,
+				51DCAD292A7C299700686B4F /* NotoSansTaiTham-Regular.ttf in Resources */,
+				51DCAD002A7C299700686B4F /* NotoSansWancho-Regular.ttf in Resources */,
+				51DCAC422A7C299700686B4F /* NotoSansLydian-Regular.ttf in Resources */,
+				51DCACEF2A7C299700686B4F /* EuphemiaCAS.ttc in Resources */,
+				51DCACD22A7C299700686B4F /* NotoSansInscriptionalParthian-Regular.ttf in Resources */,
+				51DCAD1D2A7C299700686B4F /* STIXSizFiveSymReg.otf in Resources */,
+				51DCABED2A7C299700686B4F /* Menlo.ttc in Resources */,
+				51DCAD262A7C299700686B4F /* NotoSansOldPermic-Regular.ttf in Resources */,
+				51DCACB62A7C299700686B4F /* NewPeninimMT.ttc in Resources */,
+				51DCAD182A7C299700686B4F /* PTSerifCaption.ttc in Resources */,
+				51DCABFF2A7C299700686B4F /* Avenir Next Condensed.ttc in Resources */,
+				51DCAC3B2A7C299700686B4F /* NotoSansMendeKikakui-Regular.ttf in Resources */,
+				51DCAC842A7C299700686B4F /* Copperplate.ttc in Resources */,
+				51DCACA82A7C299700686B4F /* NotoSansTagbanwa-Regular.ttf in Resources */,
+				51DCAC9F2A7C299700686B4F /* Wingdings 3.ttf in Resources */,
+				51DCAC6C2A7C299700686B4F /* Muna.ttc in Resources */,
+				51DCAC3C2A7C299700686B4F /* Kannada Sangam MN.ttc in Resources */,
+				51DCAC672A7C299700686B4F /* NotoSansThaana-Regular.ttf in Resources */,
+				51DCACFF2A7C299700686B4F /* Khmer MN.ttc in Resources */,
+				51DCAC932A7C299700686B4F /* NotoSansYi-Regular.ttf in Resources */,
+				51DCABEF2A7C299700686B4F /* Symbol.ttf in Resources */,
+				51DCAC5B2A7C299700686B4F /* NotoSansHanifiRohingya-Regular.ttf in Resources */,
+				51DCAC062A7C299700686B4F /* MuktaMahee.ttc in Resources */,
+				51DCACD52A7C299700686B4F /* Trebuchet MS Bold.ttf in Resources */,
+				51DCACEB2A7C299700686B4F /* STIXSizTwoSymBol.otf in Resources */,
+				51DCAD022A7C299700686B4F /* Krungthep.ttf in Resources */,
+				51DCACC52A7C299700686B4F /* NotoSansTagalog-Regular.ttf in Resources */,
+				51DCACDC2A7C299700686B4F /* Comic Sans MS.ttf in Resources */,
+				51DCAC282A7C299700686B4F /* NotoSansNKo-Regular.ttf in Resources */,
+				51DCACC92A7C299700686B4F /* Khmer Sangam MN.ttf in Resources */,
+				51DCACD02A7C299700686B4F /* Bodoni 72.ttc in Resources */,
+				51DCAD282A7C299700686B4F /* Songti.ttc in Resources */,
+				51DCAD4E2A7C299700686B4F /* ヒラギノ角ゴシック W2.ttc in Resources */,
+				51DCACE92A7C299700686B4F /* NotoSansSylotiNagri-Regular.ttf in Resources */,
+				51DCAD522A7C299700686B4F /* SFArabicRounded.ttf in Resources */,
+				51DCACA52A7C299700686B4F /* NotoSerifAhom-Regular.ttf in Resources */,
+				51DCACC72A7C299700686B4F /* STIXIntUpReg.otf in Resources */,
+				51DCAC012A7C299700686B4F /* Courier.ttc in Resources */,
+				51DCAC7A2A7C299700686B4F /* NotoSansSundanese-Regular.ttf in Resources */,
+				51DCAC3D2A7C299700686B4F /* Papyrus.ttc in Resources */,
+				51DCAC152A7C299700686B4F /* Trebuchet MS Italic.ttf in Resources */,
+				51DCAD272A7C299700686B4F /* STIXIntDBol.otf in Resources */,
+				51DCACB02A7C299700686B4F /* STIXTwoMath.otf in Resources */,
+				51DCABFA2A7C299700686B4F /* ヒラギノ角ゴシック W9.ttc in Resources */,
+				51DCAC6F2A7C299700686B4F /* Bodoni 72 OS.ttc in Resources */,
+				51DCAD1F2A7C299700686B4F /* NotoSansOldTurkic-Regular.ttf in Resources */,
+				51DCAD432A7C299700686B4F /* SFNSRounded.ttf in Resources */,
+				51DCACAB2A7C299700686B4F /* Skia.ttf in Resources */,
+				51DCAC772A7C299700686B4F /* Chalkduster.ttf in Resources */,
+				51DCACFA2A7C299700686B4F /* Georgia Bold Italic.ttf in Resources */,
+				51DCAC412A7C299700686B4F /* STIXTwoText-Italic.ttf in Resources */,
+				51DCACD32A7C299700686B4F /* STIXNonUni.otf in Resources */,
+				51DCAC642A7C299700686B4F /* AmericanTypewriter.ttc in Resources */,
+				51DCAC712A7C299700686B4F /* NotoSansJavanese-Regular.otf in Resources */,
+				51DCACC12A7C299700686B4F /* NotoSansKharoshthi-Regular.ttf in Resources */,
+				51DCACA72A7C299700686B4F /* NotoSansVai-Regular.ttf in Resources */,
+				51DCAC2F2A7C299700686B4F /* KufiStandardGK.ttc in Resources */,
+				51DCAD3A2A7C299700686B4F /* TimesLTMM in Resources */,
+				51DCAC682A7C299700686B4F /* Luminari.ttf in Resources */,
+				51DCAD362A7C299700686B4F /* STHeiti Light.ttc in Resources */,
+				51DCAC1A2A7C299700686B4F /* NotoSansSaurashtra-Regular.ttf in Resources */,
+				51DCAC3E2A7C299700686B4F /* Seravek.ttc in Resources */,
+				51DCAC0F2A7C299700686B4F /* AlBayan.ttc in Resources */,
+				51DCACA42A7C299700686B4F /* Tamil Sangam MN.ttc in Resources */,
+				51DCAC5A2A7C299700686B4F /* NISC18030.ttf in Resources */,
+				51DCAC202A7C299700686B4F /* NotoSansHanunoo-Regular.ttf in Resources */,
+				51DCAD3F2A7C299700686B4F /* ヒラギノ角ゴシック W6.ttc in Resources */,
+				51DCAD0C2A7C299700686B4F /* Al Tarikh.ttc in Resources */,
+				51DCAC7B2A7C299700686B4F /* Devanagari Sangam MN.ttc in Resources */,
+				51DCAC4A2A7C299700686B4F /* Arial Bold.ttf in Resources */,
+				51DCAC852A7C299700686B4F /* PTMono.ttc in Resources */,
+				51DCACF62A7C299700686B4F /* STIXSizFourSymReg.otf in Resources */,
+				51DCACE02A7C299700686B4F /* NotoSansBuginese-Regular.ttf in Resources */,
+				51DCAC522A7C299700686B4F /* Sinhala MN.ttc in Resources */,
+				51DCAC872A7C299700686B4F /* Farah.ttc in Resources */,
+				51DCAC1E2A7C299700686B4F /* Bodoni 72 Smallcaps Book.ttf in Resources */,
+				51DCAC582A7C299700686B4F /* NotoSansWarangCiti-Regular.ttf in Resources */,
+				51DCAD352A7C299700686B4F /* NotoNastaliq.ttc in Resources */,
+				51DCACED2A7C299700686B4F /* NotoSansOldPersian-Regular.ttf in Resources */,
+				51DCACCB2A7C299700686B4F /* STIXSizThreeSymReg.otf in Resources */,
+				51DCAC142A7C299700686B4F /* NotoSansCaucasianAlbanian-Regular.ttf in Resources */,
+				51DCAD342A7C299700686B4F /* Apple Symbols.ttf in Resources */,
+				51DCACA62A7C299700686B4F /* Bodoni Ornaments.ttf in Resources */,
+				51DCACB82A7C299700686B4F /* NotoSerifBalinese-Regular.ttf in Resources */,
+				51DCACBB2A7C299700686B4F /* Gurmukhi MN.ttc in Resources */,
+				51DCACFB2A7C299700686B4F /* NotoSansBatak-Regular.ttf in Resources */,
+				51DCABFD2A7C299700686B4F /* ZapfDingbats.ttf in Resources */,
+				51DCAC552A7C299700686B4F /* Corsiva.ttc in Resources */,
+				51DCAD112A7C299700686B4F /* Mishafi Gold.ttf in Resources */,
+				51DCAD052A7C299700686B4F /* STIXSizFourSymBol.otf in Resources */,
+				51DCAD3E2A7C299700686B4F /* ヒラギノ丸ゴ ProN W4.ttc in Resources */,
+				51DCAC1D2A7C299700686B4F /* Verdana Bold.ttf in Resources */,
+				51DCAC1F2A7C299700686B4F /* NotoSansInscriptionalPahlavi-Regular.ttf in Resources */,
+				51DCACD12A7C299700686B4F /* NotoSansNewTaiLue-Regular.ttf in Resources */,
+				51DCAD382A7C299700686B4F /* HelveLTMM in Resources */,
+				51DCAD482A7C299700686B4F /* ヒラギノ角ゴシック W1.ttc in Resources */,
+				51DCACF22A7C299700686B4F /* Georgia Bold.ttf in Resources */,
+				51DCABF92A7C299700686B4F /* NotoSansOriya.ttc in Resources */,
+				51DCACA02A7C299700686B4F /* NotoSansMahajani-Regular.ttf in Resources */,
+				51DCACD42A7C299700686B4F /* Mshtakan.ttc in Resources */,
+				51DCAD042A7C299700686B4F /* Oriya MN.ttc in Resources */,
+				51DCAC2A2A7C299700686B4F /* Verdana Italic.ttf in Resources */,
+				51DCAD0F2A7C299700686B4F /* Andale Mono.ttf in Resources */,
+				51DCACA92A7C299700686B4F /* Cochin.ttc in Resources */,
+				51DCAD4D2A7C299700686B4F /* Apple Color Emoji.ttc in Resources */,
+				51DCAD2A2A7C299700686B4F /* NotoSansMeeteiMayek-Regular.ttf in Resources */,
+				51DCAC0E2A7C299700686B4F /* NotoSansLepcha-Regular.ttf in Resources */,
+				51DCAC6E2A7C299700686B4F /* Brush Script.ttf in Resources */,
+				51DCACFC2A7C299700686B4F /* Arial Rounded Bold.ttf in Resources */,
+				51DCAC722A7C299700686B4F /* Georgia Italic.ttf in Resources */,
+				51DCAC112A7C299700686B4F /* NotoSansMandaic-Regular.ttf in Resources */,
+				51DCAC662A7C299700686B4F /* NotoSansTaiLe-Regular.ttf in Resources */,
+				51DCAC052A7C299700686B4F /* Apple Braille Pinpoint 6 Dot.ttf in Resources */,
+				51DCABEC2A7C299700686B4F /* AppleSDGothicNeo.ttc in Resources */,
+				51DCACCA2A7C299700686B4F /* PTSerif.ttc in Resources */,
+				51DCAC762A7C299700686B4F /* Myanmar Sangam MN.ttc in Resources */,
+				51DCABFC2A7C299700686B4F /* Optima.ttc in Resources */,
+				51DCAD3C2A7C299700686B4F /* ヒラギノ角ゴシック W7.ttc in Resources */,
+				51DCAD542A7C299700686B4F /* ヒラギノ角ゴシック W3.ttc in Resources */,
+				51DCAC822A7C299700686B4F /* Futura.ttc in Resources */,
+				51DCAC1C2A7C299700686B4F /* NotoSansHatran-Regular.ttf in Resources */,
+				51DCAC452A7C299700686B4F /* NotoSansNabataean-Regular.ttf in Resources */,
+				51DCACEE2A7C299700686B4F /* Tahoma.ttf in Resources */,
+				51DCAC252A7C299700686B4F /* NotoSansCham-Regular.ttf in Resources */,
+				51DCABF12A7C299700686B4F /* Hiragino Sans GB.ttc in Resources */,
+				51DCAD472A7C299700686B4F /* Keyboard.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				51DCAC882A7C299700686B4F /* Arial Narrow Bold Italic.ttf in Resources */,
+				51DCAD0A2A7C299700686B4F /* NotoSansGothic-Regular.ttf in Resources */,
+				51DCAD0B2A7C299700686B4F /* Gurmukhi.ttf in Resources */,
+				51DCAC972A7C299700686B4F /* NotoSansLimbu-Regular.ttf in Resources */,
+				51DCACFD2A7C299700686B4F /* Times New Roman Bold.ttf in Resources */,
+				51DCAC232A7C299700686B4F /* Silom.ttf in Resources */,
+				51DCAC132A7C299700686B4F /* Zapfino.ttf in Resources */,
+				51DCAC102A7C299700686B4F /* Webdings.ttf in Resources */,
+				51DCACE62A7C299700686B4F /* NotoSansNewa-Regular.ttf in Resources */,
+				51DCAD502A7C299700686B4F /* Helvetica.ttc in Resources */,
+				51DCAC002A7C299700686B4F /* LucidaGrande.ttc in Resources */,
+				51DCAC6D2A7C299700686B4F /* Times New Roman.ttf in Resources */,
+				51DCAC542A7C299700686B4F /* NotoSansUgaritic-Regular.ttf in Resources */,
+				51DCAD242A7C299700686B4F /* Verdana.ttf in Resources */,
+				51DCAC7E2A7C299700686B4F /* AppleMyungjo.ttf in Resources */,
+				51DCAC612A7C299700686B4F /* STIXGeneral.otf in Resources */,
+				51DCAC562A7C299700686B4F /* NotoSansLycian-Regular.ttf in Resources */,
+				51DCACBE2A7C299700686B4F /* NotoSansSamaritan-Regular.ttf in Resources */,
+				51DCACE12A7C299700686B4F /* Telugu Sangam MN.ttc in Resources */,
+				51DCAD4A2A7C299700686B4F /* ArialHB.ttc in Resources */,
+				51DCAC122A7C299700686B4F /* Rockwell.ttc in Resources */,
+				51DCACAF2A7C299700686B4F /* Kannada MN.ttc in Resources */,
+				51DCABF22A7C299700686B4F /* LastResort.otf in Resources */,
+				51DCAD072A7C299700686B4F /* NotoSansPauCinHau-Regular.ttf in Resources */,
+				51DCAC332A7C299700686B4F /* NotoSansCanadianAboriginal-Regular.otf in Resources */,
+				51DCAC8A2A7C299700686B4F /* NotoSansModi-Regular.ttf in Resources */,
+				51DCAC912A7C299700686B4F /* NotoSansPhagsPa-Regular.ttf in Resources */,
+				51DCAC182A7C299700686B4F /* Savoye LET.ttc in Resources */,
+				51DCAC2D2A7C299700686B4F /* Nadeem.ttc in Resources */,
+				51DCAD3D2A7C299700686B4F /* Times.ttc in Resources */,
+				51DCACD62A7C299700686B4F /* NotoSansBuhid-Regular.ttf in Resources */,
+				51DCACF82A7C299700686B4F /* Microsoft Sans Serif.ttf in Resources */,
+				51DCACCC2A7C299700686B4F /* SnellRoundhand.ttc in Resources */,
+				51DCAD372A7C299700686B4F /* NewYorkItalic.ttf in Resources */,
+				51DCAC162A7C299700686B4F /* NotoSansOldHungarian-Regular.ttf in Resources */,
+				51DCAD172A7C299700686B4F /* STIXIntDReg.otf in Resources */,
+				51DCAC942A7C299700686B4F /* Bangla Sangam MN.ttc in Resources */,
+				51DCAC072A7C299700686B4F /* NewYork.ttf in Resources */,
+				51DCAD532A7C299700686B4F /* NotoSansArmenian.ttc in Resources */,
+				51DCAC442A7C299700686B4F /* NotoSansChakma-Regular.ttf in Resources */,
+				51DCAC342A7C299700686B4F /* NotoSansAvestan-Regular.ttf in Resources */,
+				51DCABF62A7C299700686B4F /* ヒラギノ角ゴシック W8.ttc in Resources */,
+				51DCAC4E2A7C299700686B4F /* Academy Engraved LET Fonts.ttf in Resources */,
+				51DCAC492A7C299700686B4F /* Farisi.ttf in Resources */,
+				51DCAC242A7C299700686B4F /* NotoSansBhaiksuki-Regular.ttf in Resources */,
+				51DCAD122A7C299700686B4F /* Herculanum.ttf in Resources */,
+				51DCAC8E2A7C299700686B4F /* Bangla MN.ttc in Resources */,
+				51DCAC5C2A7C299700686B4F /* NotoSansTirhuta-Regular.ttf in Resources */,
+				51DCACE42A7C299700686B4F /* DIN Alternate Bold.ttf in Resources */,
+				51DCAC432A7C299700686B4F /* DIN Condensed Bold.ttf in Resources */,
+				51DCAC502A7C299700686B4F /* Marion.ttc in Resources */,
+				51DCAD412A7C299700686B4F /* NotoSansKannada.ttc in Resources */,
+				51DCAC892A7C299700686B4F /* Malayalam Sangam MN.ttc in Resources */,
+				51DCACBD2A7C299700686B4F /* NotoSansEgyptianHieroglyphs-Regular.ttf in Resources */,
+				51DCAC512A7C299700686B4F /* Trattatello.ttf in Resources */,
+				51DCABF82A7C299700686B4F /* Noteworthy.ttc in Resources */,
+				51DCAD102A7C299700686B4F /* GillSans.ttc in Resources */,
+				51DCACBA2A7C299700686B4F /* NotoSansMasaramGondi-Regular.otf in Resources */,
+				51DCAD3B2A7C299700686B4F /* SFCompactItalic.ttf in Resources */,
+				51DCACE82A7C299700686B4F /* Gujarati Sangam MN.ttc in Resources */,
+				51DCACF12A7C299700686B4F /* Didot.ttc in Resources */,
+				51DCABF52A7C299700686B4F /* SFNSMono.ttf in Resources */,
+				51DCACE72A7C299700686B4F /* Sathu.ttf in Resources */,
+				51DCACC02A7C299700686B4F /* PartyLET-plain.ttf in Resources */,
+				51DCAC222A7C299700686B4F /* SukhumvitSet.ttc in Resources */,
+				51DCAD012A7C299700686B4F /* STIXGeneralBolIta.otf in Resources */,
+				51DCACB12A7C299700686B4F /* Beirut.ttc in Resources */,
+				51DCACF52A7C299700686B4F /* STIXNonUniIta.otf in Resources */,
+				51DCAC952A7C299700686B4F /* NotoSansPsalterPahlavi-Regular.ttf in Resources */,
+				51DCACC32A7C299700686B4F /* Arial.ttf in Resources */,
+				51DCAD2C2A7C299700686B4F /* DecoTypeNaskh.ttc in Resources */,
+				51DCACFE2A7C299700686B4F /* STIXSizTwoSymReg.otf in Resources */,
+				51DCAC592A7C299700686B4F /* Courier New Bold.ttf in Resources */,
+				51DCACAE2A7C299700686B4F /* DevanagariMT.ttc in Resources */,
+				51DCAD192A7C299700686B4F /* NotoSansBrahmi-Regular.ttf in Resources */,
+				51DCACBC2A7C299700686B4F /* STIXSizThreeSymBol.otf in Resources */,
+				51DCAC9A2A7C299700686B4F /* GujaratiMT.ttc in Resources */,
+				51DCAC042A7C299700686B4F /* KohinoorTelugu.ttc in Resources */,
+				51DCAD1A2A7C299700686B4F /* STIXVarBol.otf in Resources */,
+				51DCAD4B2A7C299700686B4F /* Apple Braille Outline 8 Dot.ttf in Resources */,
+				51DCACCD2A7C299700686B4F /* NotoSansSharada-Regular.ttf in Resources */,
+				51DCAC9C2A7C299700686B4F /* NotoSansBamum-Regular.ttf in Resources */,
+				51DCAC622A7C299700686B4F /* Athelas.ttc in Resources */,
+				51DCACF32A7C299700686B4F /* NotoSansLinearA-Regular.ttf in Resources */,
+				51DCACEC2A7C299700686B4F /* Galvji.ttc in Resources */,
+				51DCAD0D2A7C299700686B4F /* STIXNonUniBolIta.otf in Resources */,
+				51DCAD332A7C299700686B4F /* Monaco.ttf in Resources */,
+				51DCAC5E2A7C299700686B4F /* STIXIntUpSmReg.otf in Resources */,
+				51DCAC982A7C299700686B4F /* NotoSansCypriot-Regular.ttf in Resources */,
+				51DCAC812A7C299700686B4F /* NotoSansGunjalaGondi-Regular.otf in Resources */,
+				51DCACAA2A7C299700686B4F /* STIXTwoText.ttf in Resources */,
+				51DCAD082A7C299700686B4F /* NotoSansMarchen-Regular.ttf in Resources */,
+				51DCAC862A7C299700686B4F /* Thonburi.ttc in Resources */,
+				51DCAC4D2A7C299700686B4F /* NotoSansDuployan-Regular.ttf in Resources */,
+				51DCAD462A7C299700686B4F /* Apple Braille Pinpoint 8 Dot.ttf in Resources */,
+				51DCAD452A7C299700686B4F /* MarkerFelt.ttc in Resources */,
+				51DCACDF2A7C299700686B4F /* NotoSerifYezidi-Regular.otf in Resources */,
+				51DCACD72A7C299700686B4F /* Lao MN.ttc in Resources */,
+				51DCAC702A7C299700686B4F /* Myanmar MN.ttc in Resources */,
+				51DCAD142A7C299700686B4F /* Damascus.ttc in Resources */,
+				51DCAC2E2A7C299700686B4F /* NotoSansAdlam-Regular.ttf in Resources */,
+				51DCAC3A2A7C299700686B4F /* NotoSansSyriac-Regular.ttf in Resources */,
+				51DCAC212A7C299700686B4F /* Times New Roman Bold Italic.ttf in Resources */,
+				51DCABF72A7C299700686B4F /* PingFang.ttc in Resources */,
+				51DCAC992A7C299700686B4F /* Gurmukhi Sangam MN.ttc in Resources */,
+				51DCAC482A7C299700686B4F /* NotoSerifNyiakengPuachueHmong-Regular.ttf in Resources */,
+				51DCAD032A7C299700686B4F /* NotoSansOldSouthArabian-Regular.ttf in Resources */,
+				51DCAC302A7C299700686B4F /* NotoSansPahawhHmong-Regular.ttf in Resources */,
+				51DCABF42A7C299700686B4F /* HelveticaNeue.ttc in Resources */,
+				51DCACC22A7C299700686B4F /* Tahoma Bold.ttf in Resources */,
+				51DCACAD2A7C299700686B4F /* Trebuchet MS Bold Italic.ttf in Resources */,
+				51DCABFE2A7C299700686B4F /* Apple Braille.ttf in Resources */,
+				51DCAD392A7C299700686B4F /* GeezaPro.ttc in Resources */,
+				51DCAD492A7C299700686B4F /* SFCompactRounded.ttf in Resources */,
+				51DCAC832A7C299700686B4F /* NotoSansCarian-Regular.ttf in Resources */,
+				51DCACEA2A7C299700686B4F /* Arial Bold Italic.ttf in Resources */,
+				51DCAD2D2A7C299700686B4F /* NotoSansOsmanya-Regular.ttf in Resources */,
+				51DCAC752A7C299700686B4F /* Telugu MN.ttc in Resources */,
+				51DCAD1C2A7C299700686B4F /* NotoSansCoptic-Regular.ttf in Resources */,
+				51DCABF32A7C299700686B4F /* NotoSerifMyanmar.ttc in Resources */,
+				51DCAD4C2A7C299700686B4F /* ヒラギノ角ゴシック W0.ttc in Resources */,
+				51DCACF92A7C299700686B4F /* NotoSansCuneiform-Regular.ttf in Resources */,
+				51DCAC4C2A7C299700686B4F /* Mishafi.ttf in Resources */,
+				51DCACC82A7C299700686B4F /* Sinhala Sangam MN.ttc in Resources */,
+				51DCABF02A7C299700686B4F /* Geneva.ttf in Resources */,
+				51DCAD162A7C299700686B4F /* NotoSansImperialAramaic-Regular.ttf in Resources */,
+				51DCACCE2A7C299700686B4F /* Chalkboard.ttc in Resources */,
+				51DCAC5D2A7C299700686B4F /* Al Nile.ttc in Resources */,
+				51DCAC322A7C299700686B4F /* NotoSansMro-Regular.ttf in Resources */,
+				51DCAC8C2A7C299700686B4F /* ITFDevanagari.ttc in Resources */,
+				51DCACC62A7C299700686B4F /* Ayuthaya.ttf in Resources */,
+				51DCAC9D2A7C299700686B4F /* NotoSansLisu-Regular.ttf in Resources */,
+				51DCACD92A7C299700686B4F /* Arial Black.ttf in Resources */,
+				51DCAD212A7C299700686B4F /* Oriya Sangam MN.ttc in Resources */,
+				51DCACB52A7C299700686B4F /* NotoSansKaithi-Regular.ttf in Resources */,
+				51DCAC292A7C299700686B4F /* Kefa.ttc in Resources */,
+				51DCAC692A7C299700686B4F /* STIXVar.otf in Resources */,
+				51DCAC8F2A7C299700686B4F /* STIXNonUniBol.otf in Resources */,
+				51DCAD232A7C299700686B4F /* NotoSansMongolian-Regular.ttf in Resources */,
+				51DCACB42A7C299700686B4F /* Kokonor.ttf in Resources */,
+				51DCAD512A7C299700686B4F /* KohinoorBangla.ttc in Resources */,
+				51DCAD222A7C299700686B4F /* STIXGeneralBol.otf in Resources */,
+				51DCAD202A7C299700686B4F /* SignPainter.ttc in Resources */,
+				51DCAC742A7C299700686B4F /* Arial Unicode.ttf in Resources */,
+				51DCAC792A7C299700686B4F /* STIXIntUpDReg.otf in Resources */,
+				51DCAD4F2A7C299700686B4F /* SFNSItalic.ttf in Resources */,
+				51DCAC0A2A7C299700686B4F /* Avenir.ttc in Resources */,
+				51DCAC782A7C299700686B4F /* STIXIntUpSmBol.otf in Resources */,
+				51DCABEE2A7C299700686B4F /* STHeiti Medium.ttc in Resources */,
+				51DCAC7D2A7C299700686B4F /* Apple Chancery.ttf in Resources */,
+				51DCAC402A7C299700686B4F /* Iowan Old Style.ttc in Resources */,
+				51DCAC192A7C299700686B4F /* PTSans.ttc in Resources */,
+				51DCAC532A7C299700686B4F /* NotoSansRejang-Regular.ttf in Resources */,
+				51DCACD82A7C299700686B4F /* Sana.ttc in Resources */,
+				51DCAD152A7C299700686B4F /* Waseem.ttc in Resources */,
+				51DCACB32A7C299700686B4F /* NotoSansTifinagh-Regular.ttf in Resources */,
+				51DCAD252A7C299700686B4F /* Shree714.ttc in Resources */,
+				51DCAC4B2A7C299700686B4F /* Trebuchet MS.ttf in Resources */,
+				51DCAD2E2A7C299700686B4F /* Arial Narrow Bold.ttf in Resources */,
+				51DCACDE2A7C299700686B4F /* InaiMathi-MN.ttc in Resources */,
+				51DCAC092A7C299700686B4F /* SFNS.ttf in Resources */,
+				51DCACAC2A7C299700686B4F /* NotoSansPhoenician-Regular.ttf in Resources */,
+				51DCAD062A7C299700686B4F /* STIXIntSmBol.otf in Resources */,
+				51DCAC962A7C299700686B4F /* Tamil MN.ttc in Resources */,
+				51DCAC572A7C299700686B4F /* BigCaslon.ttf in Resources */,
+				51DCAC802A7C299700686B4F /* NotoSansOlChiki-Regular.ttf in Resources */,
+				51DCAC352A7C299700686B4F /* Bradley Hand Bold.ttf in Resources */,
+				51DCACB22A7C299700686B4F /* Impact.ttf in Resources */,
+				51DCAC0D2A7C299700686B4F /* ヒラギノ明朝 ProN.ttc in Resources */,
+				51DCAC9E2A7C299700686B4F /* Courier New.ttf in Resources */,
+				51DCAD1E2A7C299700686B4F /* Arial Italic.ttf in Resources */,
+				51DCAD402A7C299700686B4F /* ヒラギノ角ゴシック W4.ttc in Resources */,
+				51DCAC902A7C299700686B4F /* NotoSansPalmyrene-Regular.ttf in Resources */,
+				51DCAC022A7C299700686B4F /* SFCompact.ttf in Resources */,
+				51DCACB72A7C299700686B4F /* STIXIntUpBol.otf in Resources */,
+				51DCAD2F2A7C299700686B4F /* Avenir Next.ttc in Resources */,
+				51DCAD1B2A7C299700686B4F /* Comic Sans MS Bold.ttf in Resources */,
+				51DCAC1B2A7C299700686B4F /* NotoSansMultani-Regular.ttf in Resources */,
+				51DCACF42A7C299700686B4F /* STIXIntSmReg.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

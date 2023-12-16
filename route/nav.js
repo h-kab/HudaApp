@@ -3,10 +3,16 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Screen1 from "../src/screens/Screen1";
-import Screen2 from "../src/screens/Screen2";
+import Open from "../src/screens/Open";
 import { Text, View } from "react-native";
-import Screen3 from "../src/screens/Screen3";
+import Login from "../src/screens/Login";
+import ScreenNames from "./screenNames";
+// import SignUp from "../src/screens/signUp";
+import SplashScreen from "../src/screens/Splash";
+import signUp from "../src/screens/signUp";
+import Products from "../src/screens/Products";
+import Register from "../src/screens/Register";
+import CZ from "../src/screens/CZ";
 
 const MainNavigation = () => {
 
@@ -14,13 +20,24 @@ const MainNavigation = () => {
 
     return (
         <NavigationContainer>
-            <Stack.Navigator>
-                <Stack.Screen name='Home' component={Screen1}/>
-                <Stack.Screen name='screen2' component={Screen2}  />
-                <Stack.Screen name='screen3' component={Screen3}  />
+            <Stack.Navigator initialRouteName="Code Zone">
+                <Stack.Screen name='Splash' component={SplashScreen} options={{ headerShown: false }}
+                />
+                <Stack.Screen name={ScreenNames.HomePage} component={Open} options={{ headerShown: false }}
+                />
+                <Stack.Screen name='register' component={Register} /> 
+                <Stack.Screen name="signUp" component={signUp}/>
+                {/* <Stack.Screen name={ScreenNames.signUp} component={SignUp} /> */}
+                <Stack.Screen name={ScreenNames.Login} component={Login}   />
+                <Stack.Screen name='Products' component={Products}    />
+                <Stack.Screen name='Code Zone' component={CZ}    />
+
+
             </Stack.Navigator>
         </NavigationContainer>
+
     )
 }
 
 export default MainNavigation;
+// options={{headerShown:false}} 

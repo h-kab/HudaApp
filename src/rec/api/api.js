@@ -15,9 +15,24 @@ export const loginUser = async (email, password) => {
 
     return await appFetch(route, "POST", body)
 
+};
+export const getAllProducts = async ()=>{
+    const route = '/getAllProducts'
+    return await appFetch(route)
 }
 
 
+// export const GetProduct =async(email,firstName,lastName,password,gender)
+// const route='/GetProduct'
+
+// console.log("Mobile Number/Email",email)
+// const body = {
+//     email: email,
+//     firstName:firstName,
+//     lastName:lastName,
+//     password: password,
+
+// }
 const appFetch = async (route, method, body, headers) => {
     const url = domain + route;
     console.log("body", body);

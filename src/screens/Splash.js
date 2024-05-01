@@ -21,7 +21,7 @@ const SplashScreen = (props) => {
 
 
     return (
-        <View >
+        <View  >
             <Image source={{ uri: 'https://i.pinimg.com/564x/63/67/75/63677538a34f51de14830aa774a40091.jpg' }} style={styles.image} />
         </View>
     );
@@ -29,11 +29,9 @@ const SplashScreen = (props) => {
 };
 
 const styles = StyleSheet.create({
-    // container: {
+    // cont: {
     //     flex: 1,
-    //     justifyContent: 'center',
-    //     alignItems: 'center',
-    //     backgroundColor: '#ffff'
+    //    backgroundColor:"black"
     // },
     image: {
         width: '100%',
@@ -41,6 +39,7 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
 backgroundColor: 'black',
         alignItems: 'center',
+    
     },
   
 

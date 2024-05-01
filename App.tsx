@@ -1,9 +1,13 @@
 import React from 'react';
-import { StyleSheet, View } from "react-native";
+import { ScrollView, StyleSheet, View } from "react-native";
 import MainNavigation from "./route/nav";
 import HudaAppProvider from './store/hudaAppProvider';
 import { useEffect, useState } from "react";
 import { getAllUsers } from './src/rec/api/api';
+import { productData } from './src/rec/dat';
+import ProdctDetails from './src/screens/ProductDetails';
+import Category from './src/components/Category';
+import ShoppingCart from './src/screens/ShoppingCart';
 
 
 const App = () => {
@@ -34,12 +38,17 @@ const App = () => {
 
 
 
+
   return (
     <View style={styles.container} >
+
+{/* <ShoppingCart/> */}
       <HudaAppProvider>
         <MainNavigation />
       </HudaAppProvider>
+
     </View>
+
   );
 }
 

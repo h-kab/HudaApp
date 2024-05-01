@@ -1,7 +1,9 @@
 import React, { useContext } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image, ImageBackground, Button, StatusBar } from 'react-native'
 import HudaAppContext from '../../store/hudaAppContext'
+import { Platform } from 'react-native';
 
+const fontFamily = Platform.OS === 'android' ? 'Roboto-Bold' : 'AvenirNext-Bold';
 const Open = (props) => {
     const { Open_c, setOpen_c, scree2_c } = useContext(HudaAppContext)
     const imguri = 'https://i.pinimg.com/564x/89/09/41/890941844ffb3e56fb9456f0caa3b18a.jpg'
@@ -21,8 +23,6 @@ const Open = (props) => {
                 style={styles.img}>
                 <View style={{ marginTop: 100, }} >
 
-                    <Text style={styles.txt}> Free shipping</Text>
-                    <Text style={styles.txt}> members-only products</Text>
                     <Text style={styles.txt} >best of Nike, personalized for you.</Text>
                 </View>
                 <TouchableOpacity style={styles.btn} onPress={navigateToregister} >
@@ -52,12 +52,13 @@ const styles = StyleSheet.create({
     },
     txt: {
 
-        fontSize: 40,
+        fontSize: 48,
         color: 'white',
-        fontFamily: 'AvenirNext-Bold',
         justifyContent: 'center',
         alignSelf: 'flex-start',
         marginLeft: 20,
+        fontFamily: 'AvenirNext-Bold',
+
 
     },
     tb: {

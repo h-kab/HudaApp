@@ -1,204 +1,196 @@
-import { FlatList, SafeAreaView, StyleSheet, Text, TextInput, TouchableOpacity, View, Image, } from 'react-native'
-import React, { useState } from 'react'
+
+
+import React, { useContext, useState } from 'react';
+import { View, Text, TextInput, FlatList, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { productData } from '../rec/dat';
-import { Menu } from 'native-base';
+import Images from '../assets/Images/images';
+import ScreenNames from '../../route/screenNames';
+import { useNavigation } from '@react-navigation/native';
+import Category from '../components/Category';
+import HudaAppContext from '../../store/hudaAppContext';
 
-// import { SideMenuView } from "react-native-navigation-drawer-extension";
-// <SideMenuView style={{ flex: 1 }}
-//   drawerName={'CustomDrawer'}
-//   direction={'right'}
-//   passProps={{
-//     animationOpenTime: 300,
-//     animationCloseTime: 300,
-//     dismissWhenTouchOutside: true,
-//     fadeOpacity: 0.6,
-//     drawerScreenWidth: '75%',
-//     drawerScreenHeight: '100%',
-//     parentComponentId: props.componentId,
-//     style: {
-//       backgroundColor: 'white', 
-//     },
-//   }} 
-//   options={{
-//     layout: {
-//       componentBackgroundColor: 'transparent',
-//     }}}  
-//   >
-// </SideMenuView>
-
-
-
-
-
-
+const Categories = ['All', "Men's", "Women's", "Kid's"]; 
 const numColumns = 2;
 
 const Products = () => {
-    console.log("Products");
+  const context = useContext(HudaAppContext);
+  const navigation = useNavigation();
 
-    const [searchQuery, setSearchQuery] = useState("");
+  const [SelectedCategory, SetSelectedCategory] = useState('All'); 
+  const [searchQuery, setSearchQuery] = useState('');
 
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+  };
 
-    const handelSearch = (query) => {
-        setSearchQuery(query);
+  const navigateToProductDetails = (product) => {
+    navigation.navigate('ProductDetails', { product: product });
+  };
 
-    }
+  const navigateToCart = () => {
+    navigation.navigate('Cart');
+  };
 
-    const PordactCard = ({ name, price, img }) => {
-        return (
-            <View style={styles.card}>
-                <Text> {name}</Text>
-                <Text> {price}</Text>
-                <Text> {img}</Text>
-            </View>
-        )
-    }
-
-
-
-    const RenderProducts = () => {
-        return (
-            <View >
-                {/* <ScrollView showsVerticalScrollIndicator={false}>
-                </ScrollView> */}
-                {productData.map((product, i) => {
-                    return <PordactCard name={product.name} price={product.price} img={product.img} key={i} />
-
-                })}
-            </View>
-        );
-    }
-
-
+  const ProductCard = ({ item }) => {
     return (
-
-        <View style={{ flex: 1, backgroundColor: 'white' }}>
-            <View style={styles.Sbar}>
-                <TextInput placeholder='Search '
-                    clearButtonMode='always'
-                    autoCapitalize='none' // this is for if we want the iinput upperCase automaticly
-                    autoCorrect={false}
-                    value={searchQuery}
-                    onChangeText={(query) => handelSearch(query)}
-                    style={styles.clearB} />
-            </View>
-
-            {/* <PordactCard name={"mosa"} price={10}/> */}
-            {/* <RenderProducts/>  */}
-            {/* <View>
-                <Products productData={productData} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-            </View> */}
-
-            <FlatList
-
-                numColumns={numColumns}
-
-                data={productData}
-                renderItem={({ item }) => {
-                    if (searchQuery === "") {
-                        return (
-                            <View  >
-                               
-                                    <TouchableOpacity  >
-                                        <Text style={styles.bb} />
-                                        <Image style={styles.img} source={{ uri: item.img }} />
-                                    </TouchableOpacity>
-                               
-                                <PordactCard name={item.name} price={item.price} />
-
-
-
-                            </View>
-                        )
-                    }
-
-                    if (item.name.toLowerCase().includes(searchQuery.toLowerCase()))
-                        return (
-                            <View style={styles.Sbartext}>
-                                <TouchableOpacity>
-                                    <Text > {item.name}   </Text>
-                                </TouchableOpacity>
-                                <Text />
-
-                            </View>
-
-                        )
-
-                }}
-            // numColumns={numColumns}
-            />
-
-
-
+      <TouchableOpacity onPress={() => navigateToProductDetails(item)}>
+        <View style={styles.card}>
+          <Image style={styles.img} source={{ uri: item.img }} />
+          <Text style={styles.text}>{item.name}</Text>
+          <Text style={styles.priceText}>{item.Category}</Text>
+          <Text style={styles.text}>₪{item.price}</Text>
         </View>
+      </TouchableOpacity>
+    );
+  };
 
-    )
+  const renderItem = ({ item }) => <ProductCard item={item} />;
 
+  const filteredProducts = productData.filter(
+    (item) =>
+      (SelectedCategory === 'All' || item.Category === SelectedCategory) && 
+      (searchQuery === '' || item.name.toLowerCase().includes(searchQuery.toLowerCase()))
+  );
 
+  return (
+    <View style={{ flex: 1, backgroundColor: 'white' }}>
+      <View>
+        <TouchableOpacity style={styles.themebtn} onPress={() => navigateToCart()}>
+          <Image source={Images.Bcart()} />
+          <View style={styles.gg}>
+            <Text style={styles.gt}> {context.Cart.length}</Text>
+          </View>
+        </TouchableOpacity>
+      </View>
 
+      <View style={styles.Sbar}>
+        <Image source={Images.search()} style={styles.search} />
+        <TextInput
+          placeholder="Search"
+          clearButtonMode="always"
+          autoCapitalize="none"
+          autoCorrect={false}
+          value={searchQuery}
+          onChangeText={(query) => handleSearch(query)}
+          style={styles.clearB}
+        />
+      </View>
 
+      <View>
+        <FlatList
+          data={Categories}
+          renderItem={({ item }) => (
+            <Category
+              item={item}
+              SelectedCategory={SelectedCategory}
+              SetSelectedCategory={SetSelectedCategory}
+            />
+          )}
+          keyExtractor={(item) => item}
+          horizontal={true}
+          showsHorizontalScrollIndicator={false}
+        />
+      </View>
+      <FlatList
+        numColumns={numColumns}
+        data={filteredProducts}
+        renderItem={renderItem}
+        keyExtractor={(item) => item.id.toString()}
+      />
+    </View>
+  );
+};
 
-
-
-
-
-
-
-
-}
-
-export default Products
+export default Products;
 
 const styles = StyleSheet.create({
-
+ 
     card: {
-        // borderColor: "black",
-        width: '50%',
-        aspectRatio: 1,
-        padding: 10,
-        marginTop: 5,
-        marginLeft: 25,
-    },
-    Sbar: {
-        marginHorizontal: 20,
-        marginLeft: 20,
-        marginTop: 20,
-        backgroundColor: `#d3d3d3`,
-        borderRadius: 8,
-    },
-    clearB: {
-        paddingHorizontal: 20,
-        paddingVertical: 10,
-        borderColor: '#ccc',
-        borderWidth: 1,
-        borderRadius: 8,
-    },
-    Sbartext: {
-        marginVertical: 10,
-        marginTop: 10,
-        marginLeft: 30,
-    },
-    text: {
-        fontSize: 3,
-        marginLeft: 10,
-    },
+    // borderColor: "black",
+    width: 200,
+    aspectRatio: 1,
+    padding: 5,
+    marginTop: 5,
+    backgroundColor: "whitex",
+    marginLeft: 10,
+    marginBottom: 15,
 
-    img: {
-        width: '50%',
-        aspectRatio: 1,
-        marginTop: 10,
-        margin:20,
+  },
+  Sbar: {
+    marginHorizontal: 20,
+    marginLeft: 20,
+    marginTop: 8,
+    backgroundColor: `#d3d3d3`,
+    borderRadius: 8,
+    flexDirection: "row",
+  },
+  clearB: {
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderColor: '#ccc',
+    borderRadius: 8,
+    height: 40,
+    width: 300,
 
-    },
+  },
+  Sbartext: {
+    marginVertical: 10,
+    marginTop: 10,
+    marginLeft: 30,
+  },
+  text: {
+    color:"black",
+    marginTop: -2,
+    fontSize: 15,
+    marginLeft: 10,
+    fontWeight: "500",
+  },
+  Ctext: {
+    marginTop: 5,
+    fontSize: 15,
+    marginLeft: 10,
+    fontWeight: "500"
+  },
+  priceText: {
+    color: "#5c5c5c",// dark gray 
+    marginTop: 5,
+    fontSize: 15,
+    marginLeft: 10,
+    fontWeight: "400",
 
+  },
 
+  img: {
+    width: '80%',
+    aspectRatio: 1,
+    marginTop: 10,
+    borderRadius: 8,
 
-
-
-
-
-})
-
-{/* {productData.filter(productData) } */ }
-{/* style={styles.nnp} */ }
-{/* <RenderProducts /> */ }
+  },
+  themebtn: {
+    alignSelf: 'flex-end',
+    fontSize: 18,
+    marginTop: 1,
+    // borderWidth:1 , 
+    padding: 10
+  },
+  search: {
+    height: 25,
+    width: 30,
+    marginTop: 7,
+    marginLeft: 5
+  },
+  gg:{
+    borderRadius: 10, 
+    backgroundColor: 'red', 
+    height: 15, width: 15, 
+    marginLeft: 19,
+     marginTop: -35,
+  },
+  gt:{
+    color: 'white', 
+    marginLeft: 2,
+     marginTop: 1, 
+     fontSize: 10,
+  },
+});

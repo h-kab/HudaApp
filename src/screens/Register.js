@@ -1,217 +1,175 @@
-import { StyleSheet, Text, TouchableOpacity, View, Image, TextInput, ScrollView, Platform, Alert } from 'react-native'
-import React, { useContext, useState } from 'react'
-import HudaAppContext from '../../store/hudaAppContext'
-import ScreenNames from '../../route/screenNames'
-import { StatusBar } from 'react-native'
-import Images from '../assets/Images/images'
-import { loginUser } from '../rec/api/api'
+import { StyleSheet, Text, TouchableOpacity, View, Image, TextInput, ScrollView, Platform, Alert, Animated } from 'react-native';
+import React, { useState, useEffect, useContext } from 'react';
+import { loginUser } from '../rec/api/api';
+import ReactNativeBiometrics from 'react-native-biometrics';
+import ScreenNames from '../../route/screenNames';
+import Images from '../assets/Images/images';
+import HudaAppContext from '../../store/hudaAppContext';
+import { StatusBar } from 'react-native';
 
 const Register = (props) => {
-    const { scree1_c, setOpen_c, scree2_c } = useContext(HudaAppContext)
+    const { setOpen_c } = useContext(HudaAppContext);
 
-    const [email, setEmail] = useState(null)
-    const [password, setPassword] = useState(null)
+    const [email, setEmail] = useState(null);
+    const [password, setPassword] = useState(null);
+    const [firstName, setFirstName] = useState(null);
+    const [bgColor, setBgColor] = useState('black');
+    const [shakeAnimation] = useState(new Animated.Value(0));
+    const [isIncorrect, setIsIncorrect] = useState(false);
 
-    const [bgColor, setBgColor] = useState('black')
+    useEffect(() => {
+        if (isIncorrect) {
+
+            Animated.sequence([
+                Animated.timing(shakeAnimation, { toValue: 10, duration: 50, useNativeDriver: true }),
+                Animated.timing(shakeAnimation, { toValue: -10, duration: 50, useNativeDriver: true }),
+                Animated.timing(shakeAnimation, { toValue: 10, duration: 50, useNativeDriver: true }),
+                Animated.timing(shakeAnimation, { toValue: 0, duration: 50, useNativeDriver: true })
+            ]).start();
+        }
+    }, [isIncorrect, shakeAnimation]);
+
+    const navigateToLogin = async () => {
+        loginUser(email, password).then((res) => {
+            if (res?.message === "welcome :)") {
+                props.navigation.navigate('Login', {
+                    email: email,
+                });
+            } else {
+                setIsIncorrect(true);
+            }
+        });
+    };
 
     const navigateTosignUp = () => {
-        props.navigation.navigate(ScreenNames.signUp)
-    }
-    const navigateToCZ=() => {
-        props.navigation.navigate(ScreenNames.CZ)
-    }
-   
-    const navigateToLogin = async () => {
-        console.log("email", email, "start");
-        loginUser(email, password).then((res) => {
-            console.log("res: " , res);
-            if(res?.message == "welcome :)") {
-                props.navigation.navigate('Login')
-            }else {
-                // Alert.alert(res?.message)
-            }
-            console.log("res ->", res);
-        })
-        // props.navigation.navigate('Login')
-
-    }
-
-    const bsh = () => {
-        toggleBGColor()
-    }
-
-    // console.log(email);
-
-    //  theme changing :
-    // const toggleBGColor = () => {
-
-    //     const bg = bgColor === 'white' ? 'black' : 'white'
-    //     setBgColor(bg);
-    // }
-
-    // const textColor = bgColor === 'white' ? 'black' : 'white'
-
-
-
-
+        props.navigation.navigate(ScreenNames.SignUp)
+    };
 
     const toggleBGColor = () => {
-
-        const bg = bgColor === 'white' ? 'black' : 'white'
+        const bg = bgColor === 'white' ? 'black' : 'white';
         setBgColor(bg);
-    }
-
-    const textColor = bgColor === 'white' ? 'black' : 'white'
-
-    const imageUri = 'https://i.pinimg.com/564x/63/67/75/63677538a34f51de14830aa774a40091.jpg'
+    };
 
 
-    const isIOS = () => Platform.OS === 'ios';
+    // const onBioPress = async () => {
+    //     const rnBiometrics = new ReactNativeBiometrics();
 
+    //     rnBiometrics.simplePrompt({
+    //         promptMessage: 'fingerPrint'
+    //     }).then(res => {
+    //         if (res?.success) {
+    //             navigateToLogin();
+    //         }
+    //     });
+    // };
+    // useEffect(() => {
+    //     onBioPress();
+    //   }, []);
+
+
+    const handleEmailChange = (text) => {
+        setIsIncorrect(false);
+        setEmail(text);
+    };
+
+
+    const handlePasswordChange = (text) => {
+        setIsIncorrect(false);
+        setPassword(text);
+    };
 
     return (
-
         <ScrollView>
-
             <View style={[styles.safeA(bgColor)]}>
-
-            <StatusBar barStyle={'default'} />     
-
-           {/* {bgColor == 'white' ?
-                       <StatusBar barStyle={'dark-content'} />     
-                            :
-                            <StatusBar barStyle={'light-content'} />     
-    } */}
-               
-                {/* <View >
-                    <TouchableOpacity onPress={toggleBGColor}>
-                        < Image source={Images.theme()} style={styles.themwicon} />
-
-                    </TouchableOpacity>
-                </View> */}
-
+                <StatusBar barStyle={'default'} />
                 <TouchableOpacity style={styles.themebtn} onPress={toggleBGColor}>
-                    {
-                        bgColor == 'white' ?
-                            < Image source={Images.moon()} />
-                            :
-                            < Image source={Images.sun4()} />}
+                    {bgColor == 'white' ?
+                        <Image source={Images.moon()} />
+                        :
+                        <Image source={Images.sun4()} />}
                 </TouchableOpacity>
-
-                <View >
-                    {/* < Image source={{ uri: imageUri }} style={styles.png} /> */}
-                    {
-                        bgColor == 'white' ?
-                            < Image source={Images.nikeD()} style={styles.nike} />
-                            :
-                            < Image source={Images.nike()} style={styles.nike} />}
-
+                <View>
+                    {bgColor == 'white' ?
+                        <Image source={Images.nikeD()} style={styles.nike} />
+                        :
+                        <Image source={Images.nike()} style={styles.nike} />}
                 </View>
-
-                <Text style={[styles.txt, { color: textColor }]}> Login Account </Text>
-
+                <Text style={[styles.txt, { color: bgColor === 'white' ? 'black' : 'white' }]}> Login Account </Text>
                 <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 11 }}>
-                    < Image source={Images.userN()} />
+                    <Image source={Images.userN()} />
                     <TextInput
-                        style={[styles.borderS, { color: textColor, borderColor: textColor }]}
-                        placeholder='Email'
-                        placeholderTextColor={textColor}
+                        style={[styles.borderS, { color: bgColor === 'white' ? 'black' : 'white', borderColor: bgColor === 'white' ? 'black' : 'white' }]}
+                        placeholder='User Name \ Email'
+                        autoCapitalize='none'
+                        placeholderTextColor={bgColor === 'white' ? 'black' : 'white'}
                         maxLength={30}
                         value={email}
-                        onChangeText={setEmail}
-                     />
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 12 }} >
-                    < Image source={Images.lock()} />
-                    <TextInput style={[styles.borderS, { color: textColor, borderColor: textColor }]}
-                        placeholder='Password'
-                        secureTextEntry={true}
-                        placeholderTextColor={textColor}
-                        maxLength={10}
-                        value={password}
-                        onChangeText={setPassword}
+                        onChangeText={handleEmailChange}
                     />
                 </View>
-
-                <View style={{}}>
-                    {/* <TouchableOpacity style={styles.themebtn} onPress={toggleBGColor} >
-                            <Text> Theme </Text>
-                        </TouchableOpacity> */}
-
-                    <TouchableOpacity style={styles.loginB} onPress={navigateToLogin} >
-                        <Text> Login </Text>
-                    </TouchableOpacity>
-
-
-                    <Text style={{ margin: 20, color: textColor, }}> Dont have an account?</Text>
-
-
-
-
-                    <TouchableOpacity style={styles.signupB} onPress={navigateTosignUp} >
-                        <Text> signUp </Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={styles.signupB}  onPress={navigateToCZ}>
-                        <Text>CZ</Text>
-                    </TouchableOpacity>
-
-
+                <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 12 }} >
+                    <Image source={Images.lock()} />
+                    <TextInput style={[styles.borderS, { color: bgColor === 'white' ? 'black' : 'white', borderColor: bgColor === 'white' ? 'black' : 'white' }]}
+                        placeholder='Password'
+                        secureTextEntry={true}
+                        placeholderTextColor={bgColor === 'white' ? 'black' : 'white'}
+                        maxLength={10}
+                        value={password}
+                        onChangeText={handlePasswordChange}
+                    />
                 </View>
-
-
-
+                <View >
+                    <TouchableOpacity style={[styles.loginB, isIncorrect && styles.incorrectButton]} onPress={navigateToLogin}>
+                        <Animated.Text style={[styles.buttonText, isIncorrect && styles.incorrectButtonText, { transform: [{ translateX: shakeAnimation }] }]}>
+                            Login
+                        </Animated.Text>
+                    </TouchableOpacity>
+                    <Text style={{ margin: 20, color: bgColor === 'white' ? 'black' : 'white' }}> Don't have an account?</Text>
+                    <TouchableOpacity style={styles.signupB} onPress={navigateTosignUp}>
+                        <Text style={{ marginLeft: 15, alignItems: "center", alignSelf: "center", alignContent: "center", fontSize: 15, color: "black" }}>Sign Up </Text>
+                    </TouchableOpacity>
+                </View>
             </View>
         </ScrollView>
-    )
-}
+    );
+};
 
-export default Register
+export default Register;
 
 const styles = StyleSheet.create({
-    png: {
-        marginLeft: 50,
-        flexDirection: 'row',
-        height: 300,
-        width: 300,
-        justifyContent: 'center',
-        alignContent: 'center',
-        paddingHorizontal: 25,
-
-
-    },
     txt: {
-
         fontSize: 35,
         paddingHorizontal: 0,
         margin: 30,
-        fontWeight: 500,
-
+        fontWeight: '500',
     },
     borderS: {
-
         borderBottomWidth: 3,
         paddingHorizontal: 0,
         margin: 30,
         marginBottom: 30,
         paddingBottom: 5,
         flexDirection: 'row',
-        //  backgroundColor: '#4545',
         width: "80%",
-
     },
     signupB: {
+        height: 30,
+        width: 90,
         flexDirection: 'row',
         color: 'blue',
         paddingHorizontal: 0,
         margin: 1,
-        fontWeight: 600,
+        fontWeight: '600',
         alignSelf: 'center',
         color: 'white',
         backgroundColor: 'white',
-        marginBottom: 25
-
+        marginBottom: 150,
+        borderRadius: 10,
+        borderWidth: 1,
     },
     loginB: {
+        height: 30,
+        width: 90,
         paddingHorizontal: 66,
         margin: 20,
         alignSelf: 'center',
@@ -219,93 +177,46 @@ const styles = StyleSheet.create({
         fontSize: 18,
         paddingHorizontal: 25,
         margin: 30,
-        marginTop: 1,
+        marginTop: 25,
         backgroundColor: 'white',
-
-
+        borderColor: "black",
+        borderRadius: 8,
+        borderWidth: 1,
     },
-
     themebtn: {
         alignSelf: 'flex-end',
         fontSize: 18,
         marginTop: 1,
-        // borderWidth:1 , 
         padding: 10
     },
-
-
-    themwicon: {
-        height: 50,
-        width: 50,
-        marginTop: 20,
-        margin: 1,
-        alignSelf: 'flex-end',
-        alignItems: 'center',
-        paddingHorizontal: 25,
-        margin: 8,
-    },
-    // lockIcon: {
-    //     height: 20,
-    //     width: 20,
-    //     marginTop: 20,
-    //     margin: 10,
-    //     paddingHorizontal: 25,
-    //     margin: 8,
-    //     paddingLeft: 10,
-    // },
     nike: {
-        // height: '60%',
         width: '60%',
         alignSelf: 'center',
         alignItems: 'center',
         marginLeft: 20,
-
     },
-    // nikeD: {
-    //     hight: '60%',
-    //     width: '60%',
-    //     alignSelf: 'center',
-    //     alignItems: 'center',
-    //     marginLeft: 20,
-
-    // },
-
-    imageStyle: {
-        flexDirection: 'row',
-        justifyContent: 'center',
-        padding: 5,
-        margin: 2,
-        height: 15,
-        width: 15,
-        resizeMode: 'stretch',
-        marginBottom: 8,
-        marginTop: 8,
-        alignItems: 'center',
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     safeA: (bgColor) => ({
         flex: 1,
         backgroundColor: bgColor,
-
     }),
+
     bc: (borderC) => ({
         borderColor: borderC,
     }),
 
+    incorrectButton: {
+        backgroundColor: 'white',
+    },
+    incorrectButtonText: {
+        color: 'red',
+    },
+    buttonText: {
+        color: 'black',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        marginTop: 4
+    },
+});
 
 
-})
+

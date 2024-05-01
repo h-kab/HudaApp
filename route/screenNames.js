@@ -1,12 +1,11 @@
-import CZ from "../src/screens/CZ";
 
 const ScreenNames = {
-    HomePage:'HomePage' , 
-    Login:'Login' , 
-    signUp:'signUp',
-    CZ:'Code Zone',
-    
-
+    HomePage: 'HomePage',
+    Login: 'Login',
+    SignUp: 'SignUp',
+    Cart: 'Cart',
+    ProductDetails:'ProductDetails',
+    HiNewUser:"HiNewUser",
 }
 
-export default ScreenNames ; 
+export default ScreenNames; 

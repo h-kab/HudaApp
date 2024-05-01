@@ -2,43 +2,36 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { useRoute } from '@react-navigation/native';
 
-
-
-
-
-const Login = (props) => {
-    const route = useRoute();
+const HiNewUser = (props) => {
+       const route =useRoute();
     console.log("Login Success");
-
+   
     const navigateToProducts = () => {
         props.navigation.navigate('Products')
         console.log("start nav");
     }
-    return (
-
-        <View style={styles.vs} >
-
-
-            <Text style={styles.smth}> Hi {route.params.email} ,Welcom Back! </Text>
-            <TouchableOpacity style={styles.btn} onPress={navigateToProducts} >
-                <Text style={styles.tb}>  Go To Shop </Text>
-            </TouchableOpacity>
+  return (
+    <View style={styles.vs} >
+    <Text style={styles.smth}> Hi {route.params.firstName} ,Welcome To Nike Family! </Text>
+    <TouchableOpacity style={styles.btn} onPress={navigateToProducts} >
+        <Text style={styles.tb}>  Go To Shop </Text>
+    </TouchableOpacity>
 
 
-        </View>
-
-    )
+</View>
+  )
 }
 
-export default Login
+export default HiNewUser
 
 const styles = StyleSheet.create({
     smth: {
-        fontSize: 40,
+        fontSize: 35,
         color: 'white',
-        marginLeft: 50,
+        marginLeft: 30,
         marginTop: 90,
         fontFamily: 'AvenirNext-Bold',
+
     },
     vs: {
         flex: 1,
@@ -74,5 +67,3 @@ const styles = StyleSheet.create({
     },
 
 })
-
-

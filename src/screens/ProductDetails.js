@@ -1,129 +1,4 @@
 
-// import React, { useContext, useState } from 'react';
-// import { View, Text, Image, TouchableOpacity, StyleSheet, ScrollView, FlatList, useWindowDimensions, VirtualizedList } from 'react-native'
-// import Images from '../assets/Images/images';
-// import HudaAppContext from '../../store/hudaAppContext';
-// import ShoeItem from '../components/ShoeItem';
-// import { useNavigation } from '@react-navigation/native';
-
-
-// const ProductDetails = ({ route }) => {
-//   const { width } = useWindowDimensions();
-// const navigation = useNavigation();
-//   const { product } = route.params;
-//   const [isFaved, setIsFaved] = useState(false);
-// const context =useContext(HudaAppContext);
-// const [Number,SetNumber]=useState(1)
-//   const handleAddToCart = () => {
-//     // Call the AddToCart function
-//     AddToCart(name, id, price, img, category);
-//   };
-
-// //   const handleAddToCart =(product)=>{
-// // AddToCart(product);
-// // navigation.navigate("Cart")
-// //   }
-
-//   const toggleFav = () => {
-//     setIsFaved(!isFaved);
-//     const message = isFaved ? "removed from favorites" : "added to favorites";
-//     console.warn(message);
-//   };
-
-//   return (
-//     <View style={{ flex: 1 }}>
-//       <ScrollView    
-//       scrollEnabled={false} 
-//       >
-  
-
-//         {/* Image Gallery */}
-  
-//         <FlatList
-//           data={product.images}
-//           renderItem={({ item }) => (
-//             <Image
-//               source={{ uri: item }}
-//               style={{ width: width, aspectRatio: 1 }}
-//             />
-//           )}
-//           horizontal
-//           showsHorizontalScrollIndicator={false}
-//           pagingEnabled
-          
-//         />
-     
-
-//         {/* Product Details */}
-//         <View style={styles.detailsContainer}>
-//           <Text style={styles.name}>{product.name}</Text>
-
-//           <TouchableOpacity onPress={toggleFav} style={styles.favIcon}>
-//             <Image source={isFaved ? Images.redFav() : Images.mtFav()} />
-//           </TouchableOpacity>
-
-//           <Text style={styles.price}>₪{product.price}</Text>
-//           <Text style={styles.description}>{product.dis}</Text>
-
-//           {/* Add to Cart Button */}
-//           <TouchableOpacity
-//            onPress= {()=>{
-//             handleAddToCart(product);
-//           }}
-//           style={styles.button}>
-//             <Text style={styles.buttonTxt}>Add To Cart</Text>
-//           </TouchableOpacity>
-//         </View>
-//       </ScrollView>
-//     </View>
-//   );
-// };
-
-// export default ProductDetails;
-
-// const styles = StyleSheet.create({
-//   detailsContainer: {
-//     paddingHorizontal: 20,
-//     paddingBottom: 20,
-//   },
-//   name: {
-//     fontSize: 34,
-//     fontWeight: '500',
-//     marginVertical: 20,
-//     color:"black",
-//   },
-//   price: {
-//     fontSize: 18,
-//     fontWeight: '700',
-//     marginBottom: 10,
-//     color:"black",
-
-//   },
-//   description: {
-//     fontSize: 16,
-//     lineHeight: 24,
-//     marginBottom: 20,
-//     color: "gray"
-//   },
-//   button: {
-//     backgroundColor: "black",
-//     borderRadius: 10,
-//     padding: 15,
-//     alignItems: "center",
-//     marginTop: 20,
-//   },
-//   buttonTxt: {
-//     color: "white",
-//     fontSize: 18,
-//     fontWeight: '500',
-//   },
-//   favIcon: {
-//     position: 'absolute',
-//     top: 20,
-//     right: 20,
-//   },
-// });
-/////////////////////////////////////////vwfvefvefv/////////////////////////////////////////////////////////////////
 import React, { useContext, useState } from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet, ScrollView, useWindowDimensions, FlatList } from 'react-native';
 import HudaAppContext from '../../store/hudaAppContext';
@@ -173,8 +48,7 @@ const ProductDetails = ({ route }) => {
   return (
     <View style={styles.container}>
       <ScrollView>
-        {/* Main Product Image */}
-        {/* <Image source={{ uri: product.images[0] }}  style={{ width: width, aspectRatio: 1 }} /> */}
+
 
 
 
@@ -226,7 +100,6 @@ const ProductDetails = ({ route }) => {
           </View>
           <Text style={styles.price}>Total Price : ₪{total}</Text>
 
-          {/* Add to Cart Button */}
           <TouchableOpacity onPress={handleAddToCart} style={styles.button}>
             <Text style={styles.buttonTxt}>Add To Cart</Text>
           </TouchableOpacity>

@@ -1,3 +1,4 @@
+//this page isnt ready :D
 import { Image, StyleSheet, Text, TextInput, View } from 'react-native'
 import CreditCard from 'react-native-credit-card';
 import React, { useState } from 'react'

@@ -183,6 +183,7 @@ const ProductDetails = ({ route }) => {
           renderItem={({ item }) => (
             <Image
               source={{ uri: item }}
+              
               style={{ width: width, aspectRatio: 1 }}
             />
           )}

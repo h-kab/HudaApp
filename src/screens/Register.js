@@ -25,6 +25,7 @@ const Register = (props) => {
                 Animated.timing(shakeAnimation, { toValue: -10, duration: 50, useNativeDriver: true }),
                 Animated.timing(shakeAnimation, { toValue: 10, duration: 50, useNativeDriver: true }),
                 Animated.timing(shakeAnimation, { toValue: 0, duration: 50, useNativeDriver: true })
+                
             ]).start();
         }
     }, [isIncorrect, shakeAnimation]);
@@ -71,6 +72,7 @@ const Register = (props) => {
         setIsIncorrect(false);
         setEmail(text);
     };
+
 
 
     const handlePasswordChange = (text) => {

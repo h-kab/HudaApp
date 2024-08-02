@@ -1,7 +1,4 @@
 const Images = {
-    back: () => require('./back.png'),
-    // lightMode: () => require('./lightMode.png'),
-    // darkMode:()=> require('./darkMode.png'),
 
     theme: () => require('./theme.png'),
     lock: () => require('./lock.png'),
@@ -20,6 +17,12 @@ const Images = {
     search: () => require("./search.png"),
     fingerP:()=> require("./fingerP.png"),
     broom:()=> require("./broom.png"),
+    garbage:()=>require("./garbage.png"),
+    cBack:()=>require("./cBack.png"),
+    cFront:()=>require("./cFront.png")
+
+
+    
 }
 
 export default Images; 

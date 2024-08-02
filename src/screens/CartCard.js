@@ -1,10 +1,11 @@
 
 import React, { useState } from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { productData } from '../rec/dat';
 import Products from './Products';
 import Images from '../assets/Images/images';
+import ScreenNames from '../../route/screenNames';
 
 const CartCard = (props) => {
   const id = props.id
@@ -13,12 +14,16 @@ const CartCard = (props) => {
   const Category = props.Category
   const img = props.img
   const Quantity = props.Quantity
-  const onDelete = props.onDelete
+const onDelete=props.onDelete
 
 
   const total = price * quantity;
 
 
+
+const handleDelete = () => {
+  onDelete(id);
+};
   const { width } = useWindowDimensions();
 
   const [quantity, setQuantity] = useState(1);
@@ -33,32 +38,40 @@ const CartCard = (props) => {
   //   }
   // };
   const navigation = useNavigation();
+  
 
-  const navigateToProductDetails = () => {
-    navigation.navigate('ProductDetails');
+  const navigateToProductDetails = (product) => {
+    navigation.navigate('ProductDetails',{ product:product});
   };
 
   return (
 
     <View>
-      {/* <View>
-        <TouchableOpacity onPress={() => onDelete(id)}>
-          <Image source={Images.broom()} />
-        </TouchableOpacity>
-      </View> */}
 
-      <View>
+      <View style={styles.scroolW}>
+        <ScrollView   horizontal={true}  pagingEnable>
+   
+   
 
-        <TouchableOpacity onPress={navigateToProductDetails}>
+        <TouchableOpacity>
           <View style={styles.container}>
             <Image source={{ uri: img }} style={styles.image} />
             <View style={styles.content}>
 
               <Text style={styles.name}>{name}</Text>
               <Text style={styles.price}>₪{price}</Text>
+              <TouchableOpacity onPress={handleDelete}>
+  <Image style={styles.garbage}  source={Images.garbage()} />
+</ TouchableOpacity> 
             </View>
           </View>
         </TouchableOpacity>
+        
+
+    
+
+       
+        </ScrollView>
       </View>
     </View>
   );
@@ -69,6 +82,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignproducts: 'center',
     marginBottom: 20,
+   
   },
   image: {
     width: 100,
@@ -106,6 +120,17 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
+  scroolW:{
+    flexDirection:"row"
+    
+  },
+  garbage:{
+    marginTop:5,
+    height:20,
+    width:20,
+
+
+  }
 });
 
 export default CartCard;

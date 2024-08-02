@@ -13,6 +13,7 @@ import SignUp from "../src/screens/SignUp";
 import ProdctDetails from "../src/screens/ProductDetails";
 import HiNewUser from "../src/screens/HiNewUser";
 import SplashScreen from "../src/screens/Splash";
+import CheckOut from "../src/screens/CheckOut";
 
 const MainNavigation = () => {
 
@@ -33,6 +34,11 @@ const MainNavigation = () => {
                 <Stack.Screen name={ScreenNames.Cart} component={Cart} />
                 <Stack.Screen name='ProductDetails' component={ProdctDetails} />
                 <Stack.Screen name={ScreenNames.HiNewUser} component={HiNewUser} />
+                <Stack.Screen name="CheckOut" component={CheckOut} />
+
+
+                {/* <Stack.Screen name={ScreenNames.HiNewUser} component={HiNewUser} /> */}
+
 
 
             </Stack.Navigator>

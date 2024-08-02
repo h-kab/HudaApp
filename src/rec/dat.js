@@ -15,7 +15,6 @@ export const productData = [
             "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/12fcdb06-f747-41e0-83dd-14ba71506c7c/impact-4-basketball-shoes-5gf3h2.png",//back
 
         ],
-        // size:[38+", "+41+", "+43],
         dis:"Elevate your game and your hops. Charged with Max Air cushioning in the heel, this lightweight, secure shoe helps you get off the ground confidently and land comfortably. Plus, rubber wraps up the sides for added durability and stability.",
 Category:"Men's",
     },
@@ -185,28 +184,6 @@ Category:"Women's",
  },
 
 
-    //  {
-    //     id:"11",
-    //     name: 'Nike Invincible 3 By You',
-    //     price: '₪869.90',
-    //     img: 'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/48289e46-9ac7-4620-8823-dbd499afae86/nike-invincible-run-3-by-you-custom-shoes.png'
-    // }, 
-    // {
-    //     id:"12",
-    //     name: 'Nike Free Metcon 5',
-    //     price: '₪499.90',
-    //     img: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fa755d1b-d0ce-431b-a385-95a74c0c0c8c/free-metcon-5-workout-shoes-zFpHkr.png'
-    // }, 
-    // {
-    //     id:"13",
-    //     name: 'Air Jordan 1 High OG Mauve',
-    //     price: '₪509.90',
-    //     img: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/44f0a5e0-c814-4aa5-98bb-22bb7fca7a1d/air-jordan-1-high-og-mauve-shoes-BFqZfb.png'
-    // },
-    // {
-    //     id:"14",
-    //     name: 'Nike Jr. Mercurial ',
-    //     price: '₪169.90',
-    //     img: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8e481430-cdcc-405e-bdd2-4afe8ec82135/jr-mercurial-vapor-15-club-younger-low-top-football-shoes-Qf78BN.png'
-    // },
+      
+   
 ]

@@ -258,6 +258,7 @@ const styles = StyleSheet.create({
         fontSize: 15,
         marginLeft: 20,
         color: "black",
+        marginTop:10,
     },
 
 

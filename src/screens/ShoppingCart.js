@@ -1,5 +1,5 @@
 
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { FlatList, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import HudaAppContext from '../../store/hudaAppContext';
 import CartCard from './CartCard';
@@ -8,24 +8,32 @@ import Images from '../assets/Images/images';
 
 const ShoppingCart = (props) => {
   const id = props.id
-
-  const onDelete = props.onDelete
+  const [products, setProducts] = useState([])
+  const { Cart, SetCart } = useContext(HudaAppContext);
 
   const context = useContext(HudaAppContext);
-
-  const deleteItems = (id) => {
-    const updatedCart = context.Cart.filter((item) => {
-      console.log("item ", item)
-      console.log("id", id)
-      return item.id !== id
-    })
-    context.SetCart(updatedCart);
-
+  useEffect(() => {
+    setProducts(Cart);
+  }, [Cart]);
+  const toCheckOut= () => {
+    props.navigation.navigate('CheckOut')
+}
+  const handleDelete = (index) => {
+    console.log('Product index found:', index);
+    if (index > -1) {
+      const updatedProducts = [...products];
+      updatedProducts.splice(index, 1);
+      console.log('Updated products after deletion:', updatedProducts);
+      setProducts(updatedProducts);
+      context.SetCart(updatedProducts); 
+    } else {
+      console.warn('Product not found in the list:', index);
+    }
   };
 
   const renderCart = () => {
 
-    return context.Cart.map(product => {
+    return context.Cart.map((product,index) => {
 
       return (
         <CartCard
@@ -37,8 +45,7 @@ const ShoppingCart = (props) => {
           Category={product.Category}
           Quantity={product.Quantity}
           total={product.total}
-          onDelete={() => deleteItems(product.id)}
-
+          onDelete={()=>handleDelete(index)}
         />
 
 
@@ -57,7 +64,7 @@ const ShoppingCart = (props) => {
         <View>
 
           <View>
-            <TouchableOpacity style={styles.CheckoutB}>
+            <TouchableOpacity style={styles.CheckoutB} onPress={toCheckOut}>
               <Text style={styles.buttonTxt}>Checkout</Text>
             </TouchableOpacity>
           </View>
@@ -76,7 +83,7 @@ const styles = StyleSheet.create({
     color: "black",
     fontSize: 30,
     fontWeight: "600",
-    marginTop: -10,
+    marginTop: 10,
     alignSelf: "flex-end",
     marginRight: 150,
 

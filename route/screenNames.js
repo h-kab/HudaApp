@@ -4,7 +4,7 @@ const ScreenNames = {
     Login: 'Login',
     SignUp: 'SignUp',
     Cart: 'Cart',
-    ProductDetails:'ProductDetails',
+    ProductDetails:'productDetails',
     HiNewUser:"HiNewUser",
 }
 

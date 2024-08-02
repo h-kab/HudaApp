@@ -19,7 +19,7 @@ const Login = (props) => {
         <View style={styles.vs} >
 
 
-            <Text style={styles.smth}> Hi {route.params.email} ,Welcom Back! </Text>
+            <Text style={styles.smth}> Hi {route.params.email} ,Welcome Back! </Text>
             <TouchableOpacity style={styles.btn} onPress={navigateToProducts} >
                 <Text style={styles.tb}>  Go To Shop </Text>
             </TouchableOpacity>
